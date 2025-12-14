@@ -1,0 +1,15 @@
+<div
+  class="notice{% if include.type %} notice--{{ include.type }}{% endif %}"
+  {%
+  if
+  include.title
+  %}
+  aria-labelledby="notice-{{ include.title | slugify }}"
+  {%
+  endif
+  %}
+>
+  {% if include.title %}
+  <h4 id="notice-{{ include.title | slugify }}">{{ include.title }}</h4>
+  {% endif %} {{ include.message | markdownify }}
+</div>
