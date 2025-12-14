@@ -13,7 +13,7 @@ sidebar:
 
 Ce programme est construit avec vous et évolue selon vos contributions. Chaque proposition est discutée, documentée et tracée dans notre dépôt GitHub.
 
-> **Comment contribuer ?** Consultez la page [Contribuer](/contribuer/) pour proposer vos idées, commenter les propositions existantes ou participer aux discussions thématiques.
+> **Comment contribuer ?** Consultez la page [Contribuer]({{ "/contribuer/" | relative_url }}) pour proposer vos idées, commenter les propositions existantes ou participer aux discussions thématiques.
 
 ---
 

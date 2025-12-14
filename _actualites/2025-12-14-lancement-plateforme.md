@@ -37,15 +37,15 @@ Nous croyons que :
 ## Comment participer dès maintenant ?
 
 ### 1. Explorez le site
-- Consultez le [programme évolutif](/programme/)
-- Découvrez [notre démarche](/a-propos/)
+- Consultez le [programme évolutif]({{ "/programme/" | relative_url }})
+- Découvrez [notre démarche]({{ "/a-propos/" | relative_url }})
 
 ### 2. Contribuez selon votre préférence
 - **Formulaires participatifs** (en cours de mise en place) : la méthode la plus simple
 - **[Discussions GitHub](https://github.com/audierne2026/participons/discussions)** : pour échanger sur les thématiques
 - **Pull Requests** : pour les contributeurs techniques
 
-Consultez le [guide de contribution](/contribuer/) pour tous les détails.
+Consultez le [guide de contribution]({{ "/contribuer/" | relative_url }}) pour tous les détails.
 
 ### 3. Partagez autour de vous
 Parlez de cette initiative à vos proches, voisins, collègues. Plus nous serons nombreux à contribuer, plus le programme sera représentatif.

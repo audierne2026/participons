@@ -33,7 +33,7 @@ Pour les échanges techniques, discussions sur le programme, contributions :
 - **[Issues](https://github.com/audierne2026/participons/issues)** : Signaler un problème, proposer une amélioration
 - **[Pull Requests](https://github.com/audierne2026/participons/pulls)** : Proposer des modifications au programme
 
-Consultez notre [guide de contribution](/contribuer/) si c'est votre première fois sur GitHub.
+Consultez notre [guide de contribution]({{ "/contribuer/" | relative_url }}) si c'est votre première fois sur GitHub.
 
 ---
 
@@ -45,7 +45,7 @@ Des permanences physiques seront organisées à partir de janvier 2026 pour :
 - Apprendre à contribuer sur la plateforme
 - Échanger autour d'un café
 
-**Dates et lieux** : À définir et à annoncer dans les [Actualités](/actualites/)
+**Dates et lieux** : À définir et à annoncer dans les [Actualités]({{ "/actualites/" | relative_url }})
 
 ---
 
@@ -62,7 +62,7 @@ Pour contribuer directement au programme par thématique :
 - Environnement
 - Économie locale
 
-*Disponibles sous peu - suivez les [actualités](/actualites/) pour être informé*
+*Disponibles sous peu - suivez les [actualités]({{ "/actualites/" | relative_url }}) pour être informé*
 </div>
 
 ---

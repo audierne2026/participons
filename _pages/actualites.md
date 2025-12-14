@@ -21,8 +21,8 @@ Cette section contiendra :
 - Les jalons de la campagne
 
 En attendant, vous pouvez :
-- [Consulter le programme](/programme/)
-- [Contribuer dès maintenant](/contribuer/)
-- [Nous contacter](/contact/)
+- [Consulter le programme]({{ "/programme/" | relative_url }})
+- [Contribuer dès maintenant]({{ "/contribuer/" | relative_url }})
+- [Nous contacter]({{ "/contact/" | relative_url }})
 </div>
 {% endif %}

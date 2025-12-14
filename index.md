@@ -7,9 +7,9 @@ header:
   overlay_image: /images/Blason_fr_Audierne.svg.png
   actions:
     - label: "Contribuer au programme"
-      url: "/contribuer/"
+      url: /contribuer/
     - label: "Voir le programme"
-      url: "/programme/"
+      url: /programme/
 excerpt: "Écoutons, co-construisons notre territoire ensemble.<br/>Campagne municipale 2026 en transparence totale."
 intro:
   - excerpt: 'Cette plateforme incarne notre engagement pour une démocratie participative. Nous construisons ensemble le programme, en toute transparence. Le code source est public, votre voix compte.'
@@ -18,7 +18,7 @@ feature_row:
     alt: "Programme participatif"
     title: "Programme évolutif"
     excerpt: "Un programme construit avec vous, qui évolue selon vos retours sur le logement, les associations, l'école, l'environnement et l'économie locale."
-    url: "/programme/"
+    url: /programme/
     btn_label: "Découvrir"
     btn_class: "btn--primary"
   - image_path: /images/Blason_fr_Audierne.svg.png
@@ -32,7 +32,7 @@ feature_row:
     alt: "Votre voix compte"
     title: "Contribuez maintenant"
     excerpt: "Proposez vos idées sur les thèmes qui vous tiennent à cœur. Formulaires participatifs, discussions ouvertes, pull requests bienvenues."
-    url: "/contribuer/"
+    url: /contribuer/
     btn_label: "Participer"
     btn_class: "btn--primary"
 ---
@@ -58,4 +58,4 @@ Cette campagne municipale pour Audierne-Esquibien 2026 rompt avec les pratiques 
 
 ---
 
-**Rejoignez le mouvement** : [Contribuer](/contribuer/) • [Contact](/contact/) • [GitHub](https://github.com/audierne2026/participons)
+**Rejoignez le mouvement** : [Contribuer]({{ "/contribuer/" | relative_url }}) • [Contact]({{ "/contact/" | relative_url }}) • [GitHub](https://github.com/audierne2026/participons)

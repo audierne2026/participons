@@ -100,7 +100,7 @@ Oui. Chaque contribution est étudiée, et la décision (acceptation, adaptation
 
 ### Et si quelqu'un propose n'importe quoi ?
 
-Les propositions sont modérées. Notre [charte de contribution](/contribuer/#charte-de-contribution) définit ce qui est acceptable. Les propos inappropriés ne seront pas publiés.
+Les propositions sont modérées. Notre [charte de contribution]({{ "/contribuer/#charte-de-contribution" | relative_url }}) définit ce qui est acceptable. Les propos inappropriés ne seront pas publiés.
 
 ### Cette transparence n'est-elle pas un risque ?
 
