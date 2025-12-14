@@ -1,0 +1,11 @@
+title: "Participons — Audierne-Esquibien 2026"
+description: "Site de présentation et d'outils participatifs pour Audierne-Esquibien"
+baseurl: "/participons" # change to "" if you publish as org root or custom domain
+url: "https://audierne2026.github.io"
+theme: minima
+
+# Exclude files/folders from the published site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
