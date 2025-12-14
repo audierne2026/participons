@@ -10,6 +10,10 @@ Ici, tout est transparent :
 
 Rendez-vous sur le site : https://audierne2026.github.io/participons
 
-#documentation
-[plan technique de déploiement de l'information](./docs/README.md)]
+## documentation
+
+[plan technique de déploiement de l'information](./docs/README.md)
+
+## Contribuer
+
 Rejoignez-nous pour une Audierne apaisée et participative !
