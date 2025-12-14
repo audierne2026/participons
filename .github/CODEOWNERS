@@ -1,0 +1,6 @@
+# Require review from the maintainers team or listed users for site and docs
+# Replace `@audierne2026/maintainers` with the actual team or username(s)
+/docs/ @audierne2026/maintainers
+/_layouts/ @audierne2026/maintainers
+/_config.yml @audierne2026/maintainers
+* @audierne2026/maintainers
