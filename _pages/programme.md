@@ -34,9 +34,8 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Équilibre entre développement et préservation de l'identité locale
    - Concertation systématique sur les projets d'aménagement
 
-{% include notice icon="comment" %}
 **Vos idées :** Utilisez [le formulaire logement](#) pour partager vos priorités et propositions.
-{% include /notice %}
+{: .notice--info}
 
 ---
 
@@ -57,9 +56,8 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Espace partagé pour favoriser les synergies
    - Support logistique mutualisé
 
-{% include notice icon="comment" %}
 **Vos idées :** Utilisez [le formulaire associations](#) pour partager vos besoins.
-{% include /notice %}
+{: .notice--info}
 
 ---
 
@@ -79,9 +77,8 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Développement de l'offre périscolaire et de loisirs
    - Espaces dédiés aux adolescents
 
-{% include notice icon="comment" %}
 **Vos idées :** Utilisez [le formulaire école/jeunesse](#) pour partager vos priorités.
-{% include /notice %}
+{: .notice--info}
 
 ---
 
@@ -103,9 +100,8 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Promotion du compostage et de l'économie circulaire
    - Préservation de la ressource en eau
 
-{% include notice icon="comment" %}
 **Vos idées :** Utilisez [le formulaire environnement](#) pour partager vos propositions.
-{% include /notice %}
+{: .notice--info}
 
 ---
 
@@ -127,9 +123,8 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Valorisation du patrimoine maritime et culturel
    - Équilibre entre activité touristique et vie locale
 
-{% include notice icon="comment" %}
 **Vos idées :** Utilisez [le formulaire économie](#) pour partager vos visions.
-{% include /notice %}
+{: .notice--info}
 
 ---
 

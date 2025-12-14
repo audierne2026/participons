@@ -1,5 +1,5 @@
 <div
-  class="notice{% if include.type %} notice--{{ include.type }}{% endif %}"
+  class="notice notice--info{% if include.icon %} has-icon{% endif %}"
   {%
   if
   include.title
@@ -9,7 +9,9 @@
   endif
   %}
 >
-  {% if include.title %}
+  {% if include.icon %}
+  <i class="fas fa-fw fa-{{ include.icon }}" aria-hidden="true"></i>
+  {% endif %} {% if include.title %}
   <h4 id="notice-{{ include.title | slugify }}">{{ include.title }}</h4>
-  {% endif %} {{ include.message | markdownify }}
+  {% endif %} {{ content | markdownify }}
 </div>

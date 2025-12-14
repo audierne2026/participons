@@ -1,31 +1,32 @@
 source "https://rubygems.org"
 
-# Jekyll core
-gem "jekyll", "~> 4.3"
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
 
-# Web server for local development
-gem "webrick", "~> 1.8"
+gem "github-pages", group: :jekyll_plugins
 
-# Theme and dependencies
-gem "jekyll-remote-theme"
-gem "jekyll-include-cache"
+# To upgrade, run `bundle update`.
 
-# Plugins for Minimal Mistakes
-gem "jekyll-paginate"
-gem "jekyll-sitemap"
-gem "jekyll-gist"
-gem "jekyll-feed"
-gem "jekyll-seo-tag"
-gem "jemoji"
-
-# Optional but useful plugins
-gem "jekyll-archives"
-gem "jekyll-redirect-from"
-
-# Development tools
-gem "jekyll-compose", group: :jekyll_plugins
-
-# Required dependencies
+# gem "jekyll"
+gem "minimal-mistakes-jekyll"
+gem "openssl", "~> 3.3.1" # To fix GitHub Pages build error
 gem "faraday-retry"
-gem "kramdown-parser-gfm"
-gem "sass-embedded", "~> 1.77"
+
+# The following plugins are automatically loaded by the theme-gem:
+#   gem "jekyll-paginate"
+#   gem "jekyll-sitemap"
+#   gem "jekyll-gist"
+#   gem "jekyll-feed"
+#   gem "jekyll-include-cache"
+#
+# If you have any other plugins, put them here!
+# Cf. https://jekyllrb.com/docs/plugins/installation/
+group :jekyll_plugins do
+end
+

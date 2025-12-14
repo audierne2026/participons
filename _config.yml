@@ -118,7 +118,10 @@ plugins:
   - jekyll-sitemap
   - jekyll-gist
   - jekyll-feed
+  - jekyll-seo-tag
   - jemoji
+  - jekyll-archives
+  - jekyll-redirect-from
 
 # Archives
 category_archive:
