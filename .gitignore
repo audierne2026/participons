@@ -1,7 +1,30 @@
+# Jekyll
 _site/
-vendor/
 .sass-cache/
 .jekyll-cache/
-node_modules/
-REVIEWER_INSTRUCTIONS.md
+.jekyll-metadata
 
+# Ruby/Bundler
+.bundle/
+vendor/
+Gemfile.lock
+
+# OS files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Local reviewer instructions
+REVIEWER_INSTRUCTIONS.md
+SETUP_COMPLETE.md

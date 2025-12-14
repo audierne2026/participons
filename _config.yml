@@ -1,11 +1,141 @@
+# Site Settings
 title: "Participons — Audierne-Esquibien 2026"
-description: "Site de présentation et d'outils participatifs pour Audierne-Esquibien"
-baseurl: "/participons" # change to "" if you publish as org root or custom domain
+title_separator: "|"
+subtitle: "Ensemble, écoutons et co-construisons"
+name: "Liste citoyenne Audierne-Esquibien"
+description: "Plateforme participative pour la campagne municipale Audierne-Esquibien 2026. Transparence, écoute citoyenne, co-construction du programme."
 url: "https://audierne2026.github.io"
-theme: minima
+baseurl: "/participons" # Project page, not organization root
+repository: "audierne2026/participons"
+logo: "/images/Blason_fr_Audierne.svg.png"
 
-# Exclude files/folders from the published site
+# Theme
+remote_theme: mmistakes/minimal-mistakes@4.27.3
+minimal_mistakes_skin: "air" # Options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise, sunset, wheat
+
+# Locale
+locale: "fr-FR"
+timezone: "Europe/Paris"
+
+# Site Author / Organization
+author:
+  name: "Liste citoyenne Audierne-Esquibien"
+  bio: "Audierne-Esquibien ensemble : écoutons, co-construisons"
+  location: "Audierne-Esquibien, Finistère"
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/audierne2026/participons"
+    - label: "Email"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:contact@audierne2026.fr"
+
+# SEO & Social
+social:
+  type: "Organization"
+  name: "Liste citoyenne Audierne-Esquibien 2026"
+  links:
+    - "https://github.com/audierne2026/participons"
+
+# Analytics (optional - add when ready)
+# analytics:
+#   provider: "google-gtag"
+#   google:
+#     tracking_id: "G-XXXXXXXXXX"
+
+# Site Footer
+footer:
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/audierne2026/participons"
+    - label: "Contact"
+      icon: "fas fa-fw fa-envelope"
+      url: "mailto:contact@audierne2026.fr"
+
+# Reading Files
+include:
+  - _pages
+  - .htaccess
+
 exclude:
   - Gemfile
   - Gemfile.lock
   - node_modules
+  - vendor/bundle
+  - .bundle
+  - scripts
+  - docs/REVIEWER_INSTRUCTIONS_TEMPLATE.md
+  - REVIEWER_INSTRUCTIONS.md
+
+# Collections
+collections:
+  actualites:
+    output: true
+    permalink: /:collection/:path/
+
+# Defaults
+defaults:
+  # _pages
+  - scope:
+      path: "_pages"
+      type: pages
+    values:
+      layout: single
+      author_profile: false
+      sidebar:
+        nav: "main"
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      comments: false
+      share: true
+      related: true
+      sidebar:
+        nav: "main"
+  # _actualites
+  - scope:
+      path: "_actualites"
+      type: actualites
+    values:
+      layout: single
+      author_profile: false
+      read_time: true
+      share: true
+      sidebar:
+        nav: "main"
+
+# Plugins
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+
+# Archives
+category_archive:
+  type: liquid
+  path: /categories/
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Pagination
+paginate: 5
+paginate_path: /actualites/page:num/
+
+# Markdown
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  syntax_highlighter: rouge

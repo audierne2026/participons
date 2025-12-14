@@ -1,19 +1,106 @@
-# Participons à Audierne-Esquibien 2026
+# Participons — Audierne-Esquibien 2026
 
-Bienvenue ! Ce projet ouvert vise à co-construire ensemble un programme municipal pour les élections de mars 2026.
+[![Jekyll](https://img.shields.io/badge/Jekyll-4.x-red.svg)](https://jekyllrb.com/)
+[![GitHub Pages](https://img.shields.io/badge/Hosted%20on-GitHub%20Pages-blue.svg)](https://pages.github.com/)
+[![License](https://img.shields.io/badge/License-Open-green.svg)](LICENSE)
 
-Ici, tout est transparent :
+Bienvenue sur la plateforme participative pour la campagne municipale Audierne-Esquibien 2026.
 
-- Le programme évolue publiquement avec vos contributions.
-- Utilisez les Discussions pour débattre.
-- Proposez des idées via Issues ou Pull Requests.
+**Site web** : https://audierne2026.github.io/participons
 
-Rendez-vous sur le site : https://audierne2026.github.io/participons
+## À propos
 
-## documentation
+Ce projet ouvert vise à co-construire ensemble un programme municipal pour les élections de mars 2026, dans une démarche de transparence radicale et de démocratie participative.
 
-[plan technique de déploiement de l'information](./docs/README.md)
+### Principes
+- **Transparence totale** : Code source public, modifications traçables
+- **Participation citoyenne** : Tous les habitants peuvent contribuer
+- **Open source** : Utilisation d'outils libres et gratuits
+- **Co-construction** : Le programme évolue avec vos contributions
 
-## Contribuer
+## Comment contribuer
 
-Rejoignez-nous pour une Audierne apaisée et participative !
+Plusieurs façons de participer :
+
+### 1. Formulaires participatifs (pour tous)
+Partagez vos idées via les formulaires thématiques (en cours de mise en place)
+
+### 2. Discussions GitHub
+Participez aux [discussions](https://github.com/audierne2026/participons/discussions) sur les différents sujets
+
+### 3. Issues
+Signalez des problèmes ou proposez des améliorations via les [issues](https://github.com/audierne2026/participons/issues)
+
+### 4. Pull Requests
+Proposez directement des modifications au programme (pour contributeurs techniques)
+
+**Guide complet** : Consultez la page [Contribuer](https://audierne2026.github.io/participons/contribuer/) sur le site
+
+## Structure du projet
+
+```
+.
+├── _config.yml              # Configuration Jekyll
+├── _data/
+│   └── navigation.yml       # Menus de navigation
+├── _pages/                  # Pages principales
+│   ├── programme.md         # Programme participatif
+│   ├── contribuer.md        # Guide de contribution
+│   ├── a-propos.md          # À propos de la démarche
+│   ├── contact.md           # Contact
+│   └── actualites.md        # Page des actualités
+├── _actualites/             # Articles d'actualités
+├── images/                  # Images et assets
+├── docs/                    # Documentation technique
+└── scripts/                 # Scripts utilitaires
+```
+
+## Installation locale
+
+Pour tester le site en local :
+
+```bash
+# Cloner le dépôt
+git clone https://github.com/audierne2026/participons.git
+cd participons
+
+# Installer les dépendances
+bundle config set --local path vendor/bundle
+bundle install
+
+# Lancer le serveur local
+bundle exec jekyll serve --livereload
+
+# Ou utiliser le script fourni
+./scripts/serve.sh
+```
+
+Le site sera accessible sur http://127.0.0.1:4000/participons
+
+## Stack technique
+
+- **Générateur** : Jekyll 3.x (compatible GitHub Pages)
+- **Thème** : [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) (remote theme)
+- **Hébergement** : GitHub Pages (gratuit)
+- **Formulaires** : Framaforms (à venir)
+- **Coût** : 0€ (hébergement) + ~10€/an (domaine custom optionnel)
+
+## Documentation
+
+- [Plan technique de déploiement](./docs/README.md)
+- [Transparence et processus](./docs/TRANSPARENCY.md)
+- [Instructions pour reviewers](./docs/REVIEWER_INSTRUCTIONS_TEMPLATE.md)
+
+## Licence
+
+Ce projet est sous licence libre. Le contenu est destiné au bien commun et à la participation citoyenne.
+
+## Contact
+
+- **Email** : contact@audierne2026.fr
+- **Issues** : [Signaler un problème](https://github.com/audierne2026/participons/issues)
+- **Discussions** : [Participer aux échanges](https://github.com/audierne2026/participons/discussions)
+
+---
+
+**Rejoignez-nous pour construire ensemble l'avenir d'Audierne-Esquibien.**

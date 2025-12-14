@@ -1,0 +1,29 @@
+# Main navigation links
+main:
+  - title: "Accueil"
+    url: /
+  - title: "Programme"
+    url: /programme/
+  - title: "Actualités"
+    url: /actualites/
+  - title: "Contribuer"
+    url: /contribuer/
+  - title: "À propos"
+    url: /a-propos/
+  - title: "Contact"
+    url: /contact/
+
+# Sidebar navigation for program pages
+programme:
+  - title: "Programme"
+    children:
+      - title: "Logement & Urbanisme"
+        url: /programme/#logement
+      - title: "Associations & Vie locale"
+        url: /programme/#associations
+      - title: "École & Jeunesse"
+        url: /programme/#ecole
+      - title: "Environnement"
+        url: /programme/#environnement
+      - title: "Économie locale"
+        url: /programme/#economie

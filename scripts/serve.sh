@@ -9,6 +9,12 @@ if ! command -v bundle >/dev/null 2>&1; then
   exit 2
 fi
 
+# Fix SSL certificate verification on macOS
+if [[ -f "$(brew --prefix)/etc/ca-certificates/cert.pem" ]]; then
+  export SSL_CERT_FILE="$(brew --prefix)/etc/ca-certificates/cert.pem"
+  echo "✓ SSL certificates configured"
+fi
+
 echo "Installing dependencies (may be skipped if already done)..."
 bundle config set --local path vendor/bundle
 bundle install --jobs 4 --retry 3
