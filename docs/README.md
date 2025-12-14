@@ -30,3 +30,7 @@ Priorité : **GitHub Pages statique** (gratuit, simple, transparent) pour démar
 - Différenciation : Montrez que vous êtes prêt à gouverner avec outils modernes, contrairement aux clashes perçus ailleurs.
 
 Lancez dès janvier : un site live renforcera votre crédibilité et attirera les habitants lassés des divisions. Si besoin d’un thème Jekyll spécifique ou d’aide pour le setup, précisez ! Bonne route pour la campagne.
+
+# Responsable du deployement numérique:
+
+Jean-Noël Schilling - jn@stratej.fr
