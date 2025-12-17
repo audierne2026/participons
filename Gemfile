@@ -9,6 +9,21 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 
+#local unable to make it work fully yet
+# gem "jekyll", "~> 4.3"
+# gem "jekyll-remote-theme" 
+# gem "jekyll-include-cache"
+# gem "jekyll-remote-theme"
+# gem "jekyll-paginate"
+# gem "jekyll-sitemap"
+# gem "jekyll-gist"
+# gem "jekyll-feed"
+# gem "jekyll-seo-tag"
+# gem "jemoji"
+# gem "jekyll-archives"
+# gem "jekyll-redirect-from"
+
+# online (for safety on github pages)
 gem "github-pages", group: :jekyll_plugins
 
 # To upgrade, run `bundle update`.
@@ -17,6 +32,7 @@ gem "github-pages", group: :jekyll_plugins
 gem "minimal-mistakes-jekyll"
 gem "openssl", "~> 3.3.1" # To fix GitHub Pages build error
 gem "faraday-retry"
+gem "html-proofer"
 
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"

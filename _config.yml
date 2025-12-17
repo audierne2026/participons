@@ -68,8 +68,10 @@ exclude:
   - vendor/bundle
   - .bundle
   - scripts
-  - docs/REVIEWER_INSTRUCTIONS_TEMPLATE.md
-  - REVIEWER_INSTRUCTIONS.md
+  - docs
+  - "*.log"
+  - .gitignore
+  - .github
 
 # Collections
 collections:
@@ -113,8 +115,9 @@ defaults:
       author_profile: false
       read_time: true
       share: true
-      sidebar:
-        nav: "main"
+      classes: wide
+      # sidebar:
+      #   nav: "main"
   # _forms (_forms directory)
   - scope:
       path: "_forms"
@@ -136,7 +139,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jemoji
-  - jekyll-archives
+  #- jekyll-archives
   - jekyll-redirect-from
 
 # Archives

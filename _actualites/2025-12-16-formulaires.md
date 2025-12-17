@@ -22,12 +22,12 @@ Nous croyons que :
 
 les formulaires sont :
 
-- Formulaire associations : [Participer](/formulaires/associations/)
-- Formulaire logement : [Participer](/formulaires/logement/)
-- Formulaire École et Jeunesse : [Participer](/formulaires/ecole_jeunesse/)
-- Formulaire économie locale : [Participer](/formulaires/economie/)
-- Formulaire environnement : [Participer](/formulaires/environnement/)
-- Formulaire culture et patrimoine: [Participer](/formulaires/culture/)
+- **Logement & Urbanisme** [Participer]({{ "/formulaires/associations/" | relative_url }})
+- **Culture & Patrimoine** [Participer]({{ "/formulaires/culture/" | relative_url }})
+- **Associations & Vie locale** [Participer]({{ "/formulaires/associations/" | relative_url }})
+- **École & Jeunesse** [Participer]({{ "/formulaires/jeunesse/" | relative_url }})
+- **Environnement** [Participer]({{ "/formulaires/environnement/" | relative_url }})
+- **Économie locale** [Participer]({{ "/formulaires/economie/" | relative_url }})
 
 Vous pouvez avoir des avis sur tout, mais concentrez vous sur ce que vous savez le mieux.
 On essaie d'éviter les spams dont c'est limité à 2 envois par IP.

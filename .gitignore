@@ -9,6 +9,7 @@ _site/
 .bundle/
 vendor/
 Gemfile.lock
+private
 
 # OS files
 .DS_Store
@@ -27,6 +28,6 @@ Thumbs.db
 .idea/
 
 # Local reviewer instructions
-REVIEWER_INSTRUCTIONS.md
-SETUP_COMPLETE.md
-DEPLOYMENT_READY.md
+docs/REVIEWER_INSTRUCTIONS.md
+docs/SETUP_COMPLETE.md
+docs/DEPLOYMENT_READY.md
