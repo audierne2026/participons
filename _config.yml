@@ -4,8 +4,8 @@ title_separator: "|"
 subtitle: "Ensemble, écoutons et co-construisons"
 name: "Liste citoyenne Audierne-Esquibien"
 description: "Plateforme participative pour la campagne municipale Audierne-Esquibien 2026. Transparence, écoute citoyenne, co-construction du programme."
-url: "https://audierne2026.github.io"
-baseurl: "/participons" # Project page, not organization root
+url: "https://audierne2026.fr" # ← CHANGEMENT PRINCIPAL : votre domaine final
+baseurl: "" # ← CHANGEMENT : plus de sous-dossier /participons
 repository: "audierne2026/participons"
 logo: "/assets/images/Blason_fr_Audierne.svg.png"
 email: "audierne2026@gmail.com"
