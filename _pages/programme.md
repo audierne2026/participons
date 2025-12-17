@@ -87,7 +87,7 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Développement de l'offre périscolaire et de loisirs
    - Espaces dédiés aux adolescents
 
-**Vos idées :** Utilisez [le formulaire école/jeunesse]({{ "/formulaires/ecole-jeunesse/" | relative_url }}) pour partager vos priorités.
+**Vos idées :** Utilisez [le formulaire école/jeunesse]({{ "/formulaires/jeunesse/" | relative_url }}) pour partager vos priorités.
 {: .notice--info}
 
 ---

@@ -7,20 +7,25 @@
   window.addEventListener("load", function () {
     window.cookieconsent.initialise({
       palette: {
-        popup: { background: "#f4f4f4" },
-        button: { background: "#56b3b4" },
+        popup: { background: "#f4f4f4", text: "#000000" },
+        button: { background: "#56b3b4", text: "#ffffff" },
       },
-      theme: "classic",
+      theme: "block", // ← Changez ici : montre les 2 boutons + croix = accepter
       position: "bottom-left",
       content: {
         message:
-          "Ce site utilise Google Analytics pour analyser le trafic et améliorer l'expérience. \n Acceptez-vous les cookies ? \n fermer ce message accepte les conditions.",
+          "Ce site utilise Google Analytics pour analyser le trafic et améliorer l'expérience.<br>Acceptez-vous les cookies ?<br><strong>Fermer ce message accepte les conditions.</strong>",
         dismiss: "Refuser",
         allow: "Accepter",
         link: "En savoir plus",
-        href: "/participons/privacy/",
+        href: "{{ site.baseurl }}/privacy/",
       },
       onStatusChange: function (status) {
+        if (this.hasConsented()) {
+          gtag("consent", "update", { analytics_storage: "granted" });
+        }
+      },
+      onInitialise: function (status) {
         if (this.hasConsented()) {
           gtag("consent", "update", { analytics_storage: "granted" });
         }

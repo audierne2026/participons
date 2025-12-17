@@ -51,10 +51,10 @@ footer:
       url: "https://github.com/audierne2026/participons"
     - label: "Contact"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:{{ site.email }}"
+      url: "https://audierne2026.github.io/participons/contact/"
     - label: "Traitement des données"
       icon: "fas fa-fw fa-gavel"
-      url: "/privacy/"
+      url: "https://audierne2026.github.io/participons/privacy/"
 
 # Reading Files
 include:

@@ -23,14 +23,14 @@ La manière la plus simple de contribuer. Partagez vos idées, priorités et pro
 #### Formulaires disponibles
 
 ** mise en place via Framaforms** (gratuit, sans tracking, respectueux de vos données)
+({{ "/formulaires/economie/" | relative_url }})
 
-- **Logement & Urbanisme** [Participer](/formulaires/associations/): Vos besoins et idées pour l'habitat
-- **Culture & Patrimoine** [Participer](/formulaires/culture/): Votre avis est précieux pour préserver et faire vivre le riche patrimoine d'Audierne-Esquibien.
-
-- **Associations & Vie locale** [Participer](/formulaires/logement/): Comment mieux soutenir le tissu associatif
-- **École & Jeunesse** [Participer](/formulaires/jeunesse/): Priorités éducatives et activités pour les jeunes
-- **Environnement** [Participer](/formulaires/environnement/): Actions concrètes pour la transition écologique
-- **Économie locale** [Participer](/formulaires/economie/): Dynamiser le commerce et le tourisme durable
+- **Logement & Urbanisme** [Participer]({{ "/formulaires/associations/" | relative_url }}): Vos besoins et idées pour l'habitat
+- **Culture & Patrimoine** [Participer]({{ "/formulaires/culture/" | relative_url }}): Votre avis est précieux pour préserver et faire vivre le riche patrimoine d'Audierne-Esquibien.
+- **Associations & Vie locale** [Participer]({{ "/formulaires/associations/" | relative_url }}): Comment mieux soutenir le tissu associatif
+- **École & Jeunesse** [Participer]({{ "/formulaires/jeunesse/" | relative_url }}): Priorités éducatives et activités pour les jeunes
+- **Environnement** [Participer]({{ "/formulaires/environnement/" | relative_url }}): Actions concrètes pour la transition écologique
+- **Économie locale** [Participer]({{ "/formulaires/economie/" | relative_url }}): Dynamiser le commerce et le tourisme durable
 
 </div>
 
