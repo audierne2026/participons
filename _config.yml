@@ -139,7 +139,7 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jemoji
-  #- jekyll-archives
+  - jekyll-archives
   - jekyll-redirect-from
 
 # Archives
