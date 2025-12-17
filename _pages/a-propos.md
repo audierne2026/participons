@@ -117,3 +117,4 @@ Au contraire. La transparence est une force :
 - **GitHub** : [audierne2026/participons](https://github.com/audierne2026/participons)
 
 **Cette aventure démocratique ne fait que commencer. Rejoignez le mouvement citoyen.**
+{% include cookie-consent.html %}

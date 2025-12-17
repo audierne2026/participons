@@ -1,0 +1,30 @@
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"
+/>
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script>
+  window.addEventListener("load", function () {
+    window.cookieconsent.initialise({
+      palette: {
+        popup: { background: "#f4f4f4" },
+        button: { background: "#56b3b4" },
+      },
+      theme: "classic",
+      position: "bottom-left",
+      content: {
+        message:
+          "Ce site utilise Google Analytics pour analyser le trafic et améliorer l'expérience. Acceptez-vous les cookies ?",
+        dismiss: "Refuser",
+        allow: "Accepter",
+        link: "En savoir plus",
+        href: "/privacy/", // Créez une page privacy si besoin
+      },
+      onStatusChange: function (status) {
+        if (this.hasConsented()) {
+          gtag("consent", "update", { analytics_storage: "granted" });
+        }
+      },
+    });
+  });
+</script>

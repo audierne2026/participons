@@ -1,0 +1,25 @@
+{% if site.analytics.provider == "google-gtag" %}
+<!-- Google tag (gtag.js) with Consent Mode v2 -->
+<script
+  async
+  src="https://www.googletagmanager.com/gtag/js?id={{ site.analytics.google.tracking_id }}"
+></script>
+<script>
+  // Default deny consent (updated when user accepts)
+  window.dataLayer = window.dataLayer || [];
+  function gtag() {
+    dataLayer.push(arguments);
+  }
+  gtag("consent", "default", {
+    analytics_storage: "denied",
+    ad_storage: "denied",
+    ad_user_data: "denied",
+    ad_personalization: "denied",
+  });
+
+  gtag("js", new Date());
+  gtag("config", "{{ site.analytics.google.tracking_id }}", {
+    anonymize_ip: true,
+  });
+</script>
+{% endif %}

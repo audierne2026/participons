@@ -27,6 +27,7 @@ les formulaires sont :
 - Formulaire École et Jeunesse : [Participer](/formulaires/ecole_jeunesse/)
 - Formulaire économie locale : [Participer](/formulaires/economie/)
 - Formulaire environnement : [Participer](/formulaires/environnement/)
+- Formulaire culture et patrimoine: [Participer](/formulaires/culture/)
 
 Vous pouvez avoir des avis sur tout, mais concentrez vous sur ce que vous savez le mieux.
 On essaie d'éviter les spams dont c'est limité à 2 envois par IP.

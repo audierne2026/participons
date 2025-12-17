@@ -181,7 +181,7 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Financement public-privé pour numériser les collections et créer des expositions interactives
    - Intégration du musée dans un circuit patrimonial maritime (lien avec port, phares, chapelles)
 
-**Vos idées :** Utilisez [le formulaire culture & patrimoine]({{ "/formulaires/culture-patrimoine/" | relative_url }}) pour partager vos priorités et propositions.
+**Vos idées :** Utilisez [le formulaire culture & patrimoine]({{ "/formulaires/culture/" | relative_url }}) pour partager vos priorités et propositions.
 {: .notice--info}
 
 ---
