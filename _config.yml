@@ -75,9 +75,9 @@ exclude:
 
 # Collections
 collections:
-  actualites:
-    output: true
-    permalink: /:collection/:path/
+  # actualites:
+  #   output: true
+  #   permalink: /:collection/:path/
   forms:
     output: true
     permalink: /formulaires/:path/
@@ -109,7 +109,7 @@ defaults:
   # _actualites
   - scope:
       path: "_actualites"
-      type: actualites
+      type: posts
     values:
       layout: single
       author_profile: false
@@ -144,11 +144,23 @@ plugins:
 
 # Archives
 category_archive:
-  type: liquid
+  type: jekyll-archives
   path: /categories/
 tag_archive:
-  type: liquid
+  type: jekyll-archives
   path: /tags/
+
+# Jekyll Archives configuration
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layouts:
+    category: archive-taxonomy
+    tag: archive-taxonomy
+  permalinks:
+    category: /categories/:name/
+    tag: /tags/:name/
 
 # Pagination
 # paginate: 5

@@ -34,6 +34,11 @@ gem "openssl", "~> 3.3.1" # To fix GitHub Pages build error
 gem "faraday-retry"
 gem "html-proofer"
 
+# Additional plugins for local development
+group :jekyll_plugins do
+  gem "jekyll-archives" # For tags and categories archive pages
+end
+
 # The following plugins are automatically loaded by the theme-gem:
 #   gem "jekyll-paginate"
 #   gem "jekyll-sitemap"

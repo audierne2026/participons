@@ -1,17 +1,15 @@
 ---
-layout: collection
+layout: posts
 title: "Actualités"
 permalink: /actualites/
-collection: actualites
+# collection: actualites
 entries_layout: grid
 classes: wide
 sort_by: date
 sort_order: reverse
 ---
 
-Suivez l'évolution de la campagne, les nouvelles contributions au programme, et les événements à venir.
-
-{% if site.actualites.size == 0 %}
+{% if site.posts.size == 0 %}
 
 <div class="notice--info" markdown="1">
 **Première actualité à venir prochainement**

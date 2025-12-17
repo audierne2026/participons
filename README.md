@@ -80,14 +80,14 @@ bundle exec jekyll serve --livereload
 ./scripts/serve.sh
 ```
 
-Le site sera accessible sur http://127.0.0.1:4000/participons
+En local, le site sera accessible sur http://127.0.0.1:4000/participons
 
 ## Stack technique
 
 - **Générateur** : Jekyll 3.x (compatible GitHub Pages)
 - **Thème** : [Minimal Mistakes](https://mmistakes.github.io/minimal-mistakes/) (remote theme)
 - **Hébergement** : GitHub Pages (gratuit)
-- **Formulaires** : Framaforms (à venir)
+- **Formulaires** : Framaforms
 - **Coût** : 0€ (hébergement) + ~10€/an (domaine custom optionnel)
 
 ## Documentation
