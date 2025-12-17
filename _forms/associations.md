@@ -5,7 +5,7 @@ title: "A vos claviers !"
 classes: wide
 sidebar:
   - title: "Partagez vos besoins et idées pour la vie associative"
-    image: images/small_assoc.jpg
+    image: assets/images/small_assoc.jpg
     image_alt: "image_assoc"
     text: "
       Vous êtes membre d'une association ou acteur de la vie locale ?\n\n

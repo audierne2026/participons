@@ -7,7 +7,7 @@ description: "Plateforme participative pour la campagne municipale Audierne-Esqu
 url: "https://audierne2026.github.io"
 baseurl: "/participons" # Project page, not organization root
 repository: "audierne2026/participons"
-logo: "/images/Blason_fr_Audierne.svg.png"
+logo: "/assets/images/Blason_fr_Audierne.svg.png"
 email: "audierne2026@gmail.com"
 # Theme
 remote_theme: mmistakes/minimal-mistakes@4.27.3

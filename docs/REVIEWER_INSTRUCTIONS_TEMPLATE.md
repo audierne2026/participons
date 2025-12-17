@@ -3,7 +3,9 @@
 Copiez ce fichier localement en tant que `REVIEWER_INSTRUCTIONS.md` (ce fichier est dans `.gitignore` et ne doit **pas** être commité). Ce fichier est un template public ; vous pouvez y ajouter des notes privées locales.
 
 ## Objectif
+
 Donner aux relecteurs un guide pas-à-pas pour :
+
 - tester le site Jekyll localement
 - vérifier la build GitHub Actions et la publication sur `gh-pages`
 - la checklist de revue (contenu, liens, accessibilité, transparence)
@@ -66,7 +68,7 @@ bundle exec jekyll serve --livereload
 - [ ] Liens internes (Programme, Actualités, Contact) fonctionnent
 - [ ] `TRANSPARENCY.md` présent et lien vers `wip-history` ok
 - [ ] Pas d'informations personnelles ou sensibles exposées
-- [ ] Images optimisées et accessible (alt tags)
+- [ ] assets/images optimisées et accessible (alt tags)
 - [ ] Test mobile rapide (responsive)
 - [ ] Vérifier si `baseurl` est correct (/_config.yml_)
 

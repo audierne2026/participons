@@ -9,7 +9,7 @@ tags:
   - participation
 excerpt: "Aujourd'hui marque le début de l'accès aux contributions via formulaires."
 header:
-  teaser: /images/contributions.jpg
+  teaser: /assets/images/contributions.jpg
 ---
 
 ## Pourquoi ces formulaires par domaine ?

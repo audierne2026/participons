@@ -5,7 +5,7 @@ title: "A vos claviers !"
 classes: wide
 sidebar:
   - title: "Partagez vos propositions pour la transition écologique"
-    image: images/small_env.jpg
+    image: assets/images/small_env.jpg
     image_alt: "image_env"
     text: "
       Face à l'urgence climatique et pour préserver notre patrimoine naturel exceptionnel, vos idées et priorités en matière d'environnement sont essentielles.

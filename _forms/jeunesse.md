@@ -5,7 +5,7 @@ title: "A vos claviers !"
 classes: wide
 sidebar:
   - title: "Partagez vos priorités pour l'école et la jeunesse"
-    image: images/small_jeun.jpg
+    image: assets/images/small_jeun.jpg
     image_alt: "image"
     text: "
       Parents, enseignants, jeunes ou simplement citoyens concernés par l'éducation et la jeunesse ?\n\n

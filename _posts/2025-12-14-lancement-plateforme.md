@@ -9,7 +9,7 @@ tags:
   - participation
 excerpt: "Aujourd'hui marque le début d'une expérience démocratique inédite pour Audierne-Esquibien. La plateforme participative est en ligne."
 header:
-  teaser: /images/Blason_fr_Audierne.svg.png
+  teaser: /assets/images/Blason_fr_Audierne.svg.png
 ---
 
 ## Une première pour Audierne-Esquibien

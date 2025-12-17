@@ -55,7 +55,7 @@ Proposez directement des modifications au programme (pour contributeurs techniqu
 │   ├── contact.md           # Contact
 │   └── actualites.md        # Page des actualités
 ├── _actualites/             # Articles d'actualités
-├── images/                  # Images et assets
+├── assets/images/                  # assets/images et assets
 ├── docs/                    # Documentation technique
 └── scripts/                 # Scripts utilitaires
 ```

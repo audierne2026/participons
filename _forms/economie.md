@@ -5,7 +5,7 @@ title: "A vos claviers !"
 classes: wide
 sidebar:
   - title: "Partagez vos visions pour l'économie locale"
-    image: images/small_eco.jpg
+    image: assets/images/small_eco.jpg
     image_alt: "image_eco"
     text: "
       Commerce de proximité, tourisme, pêche artisanale : l'économie locale est au cœur de la vitalité d'Audierne.\n\n

@@ -5,7 +5,7 @@ title: "A vos claviers !"
 classes: wide
 sidebar:
   - title: "Partagez vos idées sur le logement et l'urbanisme"
-    image: images/small_log.jpg
+    image: assets/images/small_log.jpg
     image_alt: "image_log"
     text: "
       Vous avez des préoccupations ou des propositions concernant le logement et l'urbanisme à Audierne ?\n\n

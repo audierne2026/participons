@@ -4,7 +4,7 @@ title: "Formulaire — Culture & Patrimoine"
 classes: wide
 sidebar:
   - title: "Partagez vos idées pour la culture et le patrimoine"
-    image: /images/small_culture.jpg
+    image: /assets/images/small_culture.jpg
     image_alt: "Patrimoine culturel audiernais"
     text: |
       Passionné de patrimoine, amateur d'histoire locale, organisateur d'événements culturels ou simple habitant attaché à notre identité ?
