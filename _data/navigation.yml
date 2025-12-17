@@ -19,10 +19,12 @@ programme:
     children:
       - title: "Logement & Urbanisme"
         url: /programme/#logement
+      - title: "Culture & Patrimoine"
+        url: /programme/#culture
       - title: "Associations & Vie locale"
         url: /programme/#associations
       - title: "École & Jeunesse"
-        url: /programme/#ecole
+        url: /programme/#jeunesse
       - title: "Environnement"
         url: /programme/#environnement
       - title: "Économie locale"

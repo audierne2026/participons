@@ -2,11 +2,12 @@
 layout: single
 title: "Notre Programme"
 permalink: /programme/
+class: wide
 toc: true
 toc_label: "Thématiques"
 toc_icon: "list"
-sidebar:
-  nav: "programme"
+# sidebar:
+#   nav: "programme"
 ---
 
 ## Programme évolutif et participatif
@@ -37,7 +38,7 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Équilibre entre développement et préservation de l'identité locale
    - Concertation systématique sur les projets d'aménagement
 
-**Vos idées :** Utilisez [le formulaire logement](#) pour partager vos priorités et propositions.
+**Vos idées :** Utilisez [le formulaire logement]({{ "/formulaires/logement/" | relative_url }}) pour partager vos priorités et propositions.
 {: .notice--info}
 
 ---
@@ -62,12 +63,12 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Espace partagé pour favoriser les synergies
    - Support logistique mutualisé
 
-**Vos idées :** Utilisez [le formulaire associations](#) pour partager vos besoins.
+**Vos idées :** Utilisez [le formulaire associations]({{ "/formulaires/associations/" | relative_url }}) pour partager vos besoins.
 {: .notice--info}
 
 ---
 
-## <a name="ecole"></a>École & Jeunesse
+## <a name="jeunesse"></a>École & Jeunesse
 
 ### Nos constats
 
@@ -86,7 +87,7 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Développement de l'offre périscolaire et de loisirs
    - Espaces dédiés aux adolescents
 
-**Vos idées :** Utilisez [le formulaire école/jeunesse](#) pour partager vos priorités.
+**Vos idées :** Utilisez [le formulaire école/jeunesse]({{ "/formulaires/ecole-jeunesse/" | relative_url }}) pour partager vos priorités.
 {: .notice--info}
 
 ---
@@ -112,7 +113,7 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Promotion du compostage et de l'économie circulaire
    - Préservation de la ressource en eau
 
-**Vos idées :** Utilisez [le formulaire environnement](#) pour partager vos propositions.
+**Vos idées :** Utilisez [le formulaire environnement]({{ "/formulaires/environnement/" | relative_url }}) pour partager vos propositions.
 {: .notice--info}
 
 ---
@@ -144,7 +145,43 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Valorisation des produits locaux
    - Création d'un réseau d'acteurs dans le domaine en relation avec la restauration et l'alimentation
 
-**Vos idées :** Utilisez [le formulaire économie](#) pour partager vos visions.
+**Vos idées :** Utilisez [le formulaire économie]({{ "/formulaires/economie/" | relative_url }}) pour partager vos visions.
+{: .notice--info}
+
+---
+
+## <a name="culture"></a>Culture & Patrimoine
+
+### Nos constats
+
+- Richesse exceptionnelle du patrimoine religieux : plusieurs chapelles classées (Sainte-Brigitte datée 1654, Sainte-Edwett 1723) et églises historiques (Saint-Raymond, Saint-Onneau, Saint-Joseph)
+- La sauvegarde et la modernisation du Musée Maritime du Cap-Sizun
+- Héritage préhistorique et maritime unique : menhirs, dolmens à Sainte-Evette, port historique au cœur de l'identité audiernaise
+- Dynamisme associatif culturel : l'association Audierne Esquibien Culture organise régulièrement expositions, conférences et animations (Fête de la Science, cinéma Le Goyen)
+- Événements culturels appréciés mais perfectibles : Fête de la Musique, illuminations "Goyen en lumières", festivals estivaux attirent habitants et visiteurs
+- Besoin de valoriser et transmettre ce patrimoine aux jeunes générations et nouveaux arrivants
+
+### Propositions en cours
+
+1. **Renforcer la valorisation du patrimoine**
+
+   - Création de circuits patrimoniaux guidés (chapelles, fontaines, port historique) avec signalétique moderne et QR codes
+   - Partenariat renforcé avec Audierne Esquibien Culture pour un programme annuel d'expositions et conférences
+   - Mise en lumière nocturne de sites emblématiques (église Saint-Raymond, chapelles)
+
+2. **Développer l'offre culturelle tout public**
+
+   - Soutien accru aux associations culturelles locales (bibliothèques associatives, théâtre, musique)
+   - Programmation régulière de concerts, spectacles jeune public et festivals (extension de la Fête de la Musique, création d'un festival maritime)
+   - Ateliers intergénérationnels autour du patrimoine breton (conte, danse, langue)
+
+3. **Sauvegarder et moderniser le Musée Maritime du Cap-Sizun**
+
+   - Soutien actif à l'association pour trouver des locaux adaptés et durables (rénovation ou nouveau site face à la mer)
+   - Financement public-privé pour numériser les collections et créer des expositions interactives
+   - Intégration du musée dans un circuit patrimonial maritime (lien avec port, phares, chapelles)
+
+**Vos idées :** Utilisez [le formulaire culture & patrimoine]({{ "/formulaires/culture-patrimoine/" | relative_url }}) pour partager vos priorités et propositions.
 {: .notice--info}
 
 ---

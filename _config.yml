@@ -8,7 +8,7 @@ url: "https://audierne2026.github.io"
 baseurl: "/participons" # Project page, not organization root
 repository: "audierne2026/participons"
 logo: "/images/Blason_fr_Audierne.svg.png"
-
+email: "audierne2026@gmail.com"
 # Theme
 remote_theme: mmistakes/minimal-mistakes@4.27.3
 minimal_mistakes_skin: "air" # Options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise, sunset, wheat
@@ -28,7 +28,7 @@ author:
       url: "https://github.com/audierne2026/participons"
     - label: "Email"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:contact@audierne2026.fr"
+      url: "mailto:{{ site.email }}"
 
 # SEO & Social
 social:
@@ -51,7 +51,7 @@ footer:
       url: "https://github.com/audierne2026/participons"
     - label: "Contact"
       icon: "fas fa-fw fa-envelope"
-      url: "mailto:contact@audierne2026.fr"
+      url: "mailto:{{ site.email }}"
 
 # Reading Files
 include:
@@ -73,6 +73,9 @@ collections:
   actualites:
     output: true
     permalink: /:collection/:path/
+  forms:
+    output: true
+    permalink: /formulaires/:path/
 
 # Defaults
 defaults:
@@ -83,8 +86,8 @@ defaults:
     values:
       layout: single
       author_profile: false
-      sidebar:
-        nav: "main"
+      # sidebar:
+      #   nav: "main"
   # _posts
   - scope:
       path: "_posts"
@@ -109,6 +112,16 @@ defaults:
       share: true
       sidebar:
         nav: "main"
+  # _forms (_forms directory)
+  - scope:
+      path: "_forms"
+      type: pages
+    values:
+      layout: single
+      classes: wide
+      author_profile: false
+      read_time: false
+      share: false
 
 # Plugins
 plugins:
@@ -132,8 +145,8 @@ tag_archive:
   path: /tags/
 
 # Pagination
-paginate: 5
-paginate_path: /actualites/page:num/
+# paginate: 5
+# paginate_path: /actualites/page:num/
 
 # Markdown
 markdown: kramdown

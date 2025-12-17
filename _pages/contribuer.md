@@ -22,15 +22,16 @@ La manière la plus simple de contribuer. Partagez vos idées, priorités et pro
 <div class="notice--info" markdown="1">
 #### Formulaires disponibles
 
-**En cours de mise en place via Framaforms** (gratuit, sans tracking, respectueux de vos données)
+** mise en place via Framaforms** (gratuit, sans tracking, respectueux de vos données)
 
-- **Logement & Urbanisme** : Vos besoins et idées pour l'habitat
-- **Associations & Vie locale** : Comment mieux soutenir le tissu associatif
-- **École & Jeunesse** : Priorités éducatives et activités pour les jeunes
-- **Environnement** : Actions concrètes pour la transition écologique
-- **Économie locale** : Dynamiser le commerce et le tourisme durable
+- **Logement & Urbanisme** [Participer](/formulaires/associations/): Vos besoins et idées pour l'habitat
+- **Culture & Patrimoine** [Participer](/formulaires/culture/): Votre avis est précieux pour préserver et faire vivre le riche patrimoine d'Audierne-Esquibien.
 
-*Formulaires en cours de création - disponibles sous peu*
+- **Associations & Vie locale** [Participer](/formulaires/logement/): Comment mieux soutenir le tissu associatif
+- **École & Jeunesse** [Participer](/formulaires/jeunesse/): Priorités éducatives et activités pour les jeunes
+- **Environnement** [Participer](/formulaires/environnement/): Actions concrètes pour la transition écologique
+- **Économie locale** [Participer](/formulaires/economie/): Dynamiser le commerce et le tourisme durable
+
 </div>
 
 ### 2. Discussions publiques (pour tous)
@@ -42,6 +43,7 @@ Participez aux discussions sur les différents sujets :
 - Pas besoin d'être développeur, juste un compte GitHub gratuit
 
 **Tutoriel pour débutants :**
+
 1. Créez un compte sur [github.com](https://github.com)
 2. Rendez-vous sur [nos discussions](https://github.com/audierne2026/participons/discussions)
 3. Cliquez sur "New discussion" pour commencer une conversation
@@ -68,6 +70,7 @@ git push origin amelioration-programme-logement
 ```
 
 **Toutes les PR sont bienvenues** :
+
 - Corrections de fautes
 - Ajout de propositions argumentées
 - Amélioration de la clarté
@@ -80,6 +83,7 @@ git push origin amelioration-programme-logement
 Pour que nos échanges restent constructifs :
 
 ### ✅ Encouragé
+
 - Propositions concrètes et argumentées
 - Critiques constructives
 - Questions et demandes de clarification
@@ -87,6 +91,7 @@ Pour que nos échanges restent constructifs :
 - Suggestions d'amélioration
 
 ### ❌ Non accepté
+
 - Attaques personnelles ou propos discriminatoires
 - Spam ou publicité
 - Propositions sans rapport avec Audierne-Esquibien
@@ -107,6 +112,7 @@ Pour que nos échanges restent constructifs :
 **Transparence totale** : Vous pouvez suivre le traitement de chaque contribution via GitHub.
 
 ### Délais indicatifs
+
 - Première réponse : sous 7 jours
 - Discussion et itération : selon la complexité
 - Intégration finale : avant fin janvier 2026
@@ -116,16 +122,19 @@ Pour que nos échanges restent constructifs :
 ## Exemples de contributions possibles
 
 ### Niveau débutant
+
 - Signaler une erreur ou une faute
 - Répondre à un formulaire thématique
 - Poser une question dans les discussions
 
 ### Niveau intermédiaire
+
 - Proposer une idée détaillée via une issue GitHub
 - Participer aux débats sur les propositions existantes
 - Suggérer des ressources ou références
 
 ### Niveau avancé
+
 - Soumettre des Pull Requests avec des propositions rédigées
 - Améliorer la structure du site
 - Contribuer à la documentation technique
@@ -137,10 +146,11 @@ Pour que nos échanges restent constructifs :
 **Vous ne savez pas par où commencer ?**
 
 - Consultez le [guide GitHub pour débutants](https://docs.github.com/fr/get-started)
-- Contactez-nous : [contact@audierne2026.fr](mailto:contact@audierne2026.fr)
-- Venez nous rencontrer lors de nos permanences (dates à venir)
+- Contactez-nous : [{{ site.email }}](mailto:{{ site.email }})
+- Venez nous rencontrer lors des rendez-vous (dates à venir)
 
 **Problème technique ?**
+
 - Créez une [issue](https://github.com/audierne2026/participons/issues/new) avec le label "aide"
 
 ---

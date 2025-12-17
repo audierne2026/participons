@@ -45,6 +45,7 @@ Cette plateforme utilise GitHub, l'outil de référence pour la collaboration su
 ### Inspiration
 
 Notre démarche s'inspire de :
+
 - **Open Source Politics** : Méthodes de démocratie participative digitale
 - **Decidim** : Plateforme de participation citoyenne (Barcelone)
 - **Civic tech** : Utilisation de la technologie pour renforcer la démocratie
@@ -56,9 +57,7 @@ Notre démarche s'inspire de :
 
 Cette section évoluera pour présenter les membres de la liste citoyenne au fur et à mesure de sa constitution.
 
-**Vous voulez rejoindre l'équipe ?** Contactez-nous via [contact@audierne2026.fr](mailto:contact@audierne2026.fr)
-
----
+**Vous voulez rejoindre l'équipe ?** Contactez-nous via [{{ site.email }}](mailto:{{ site.email }})
 
 ## Financement et moyens
 
@@ -66,19 +65,18 @@ Cette section évoluera pour présenter les membres de la liste citoyenne au fur
 
 Dans un souci de transparence totale, voici notre budget prévisionnel :
 
-| Poste | Coût estimé |
-|-------|-------------|
-| Nom de domaine (votreliste-audierne.fr) | 10-15€/an |
-| Hébergement | 0€ (GitHub Pages gratuit) |
-| Outils participatifs | 0€ (Framaforms gratuit) |
-| Impression supports papier | À définir |
-| Location salle réunions publiques | À définir |
+| Poste                             | Coût estimé               |
+| --------------------------------- | ------------------------- |
+| Nom de domaine (audierne2026.fr). | 10-15€/an                 |
+| Hébergement                       | 0€ (GitHub Pages gratuit) |
+| Outils participatifs              | 0€ (Framaforms gratuit)   |
 
 **Principe** : Nous privilégions les outils gratuits et open source pour minimiser les coûts et garantir l'indépendance.
 
 ### Pas de financement privé
 
 Cette campagne refuse tout financement d'intérêts privés. Les frais sont assumés par :
+
 - Contributions des membres de la liste
 - Dons de particuliers (si nécessaire, avec transparence totale)
 
@@ -105,6 +103,7 @@ Les propositions sont modérées. Notre [charte de contribution]({{ "/contribuer
 ### Cette transparence n'est-elle pas un risque ?
 
 Au contraire. La transparence est une force :
+
 - Elle construit la confiance
 - Elle limite les dérives
 - Elle permet le contrôle citoyen
@@ -114,8 +113,7 @@ Au contraire. La transparence est une force :
 
 ## Contact
 
-- **Email** : [contact@audierne2026.fr](mailto:contact@audierne2026.fr)
+- **Email** : [{{ site.email }}](mailto:{{ site.email }})
 - **GitHub** : [audierne2026/participons](https://github.com/audierne2026/participons)
-- **Permanences** : Dates à venir
 
-**Cette aventure démocratique ne fait que commencer. Rejoignez-nous.**
+**Cette aventure démocratique ne fait que commencer. Rejoignez le mouvement citoyen.**

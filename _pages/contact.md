@@ -12,21 +12,23 @@ Vous avez une question, une suggestion, ou vous souhaitez vous impliquer ? Plusi
 
 ## Email
 
-**contact@audierne2026.fr**
+[{{ site.email }}](mailto:{{ site.email }})
 
 Pour :
+
 - Questions générales sur la campagne
 - Demandes de participation à l'équipe
 - Suggestions ou remarques
 - Demandes de rencontre
 
-*Nous nous engageons à répondre sous 7 jours maximum.*
+_Nous nous engageons à répondre sous 7 jours maximum._
 
 ---
 
 ## Réseaux et plateformes
 
 ### GitHub
+
 Pour les échanges techniques, discussions sur le programme, contributions :
 
 - **[Discussions](https://github.com/audierne2026/participons/discussions)** : Forums thématiques ouverts
@@ -37,10 +39,10 @@ Consultez notre [guide de contribution]({{ "/contribuer/" | relative_url }}) si 
 
 ---
 
-## Permanences (à venir)
+## Rencontres
 
-Des permanences physiques seront organisées à partir de janvier 2026 pour :
-- Rencontrer l'équipe
+Des rencontres physiques seront organisées à partir de janvier 2026 pour :
+
 - Discuter du programme
 - Apprendre à contribuer sur la plateforme
 - Échanger autour d'un café
@@ -57,12 +59,14 @@ Pour contribuer directement au programme par thématique :
 **Formulaires en cours de création** (via Framaforms)
 
 - Logement & Urbanisme
+- Culture & Patrimoine
 - Associations & Vie locale
 - École & Jeunesse
 - Environnement
 - Économie locale
 
-*Disponibles sous peu - suivez les [actualités]({{ "/actualites/" | relative_url }}) pour être informé*
+- suivez les [actualités]({{ "/actualites/" | relative_url }}) pour resté informé\_
+
 </div>
 
 ---
@@ -71,7 +75,8 @@ Pour contribuer directement au programme par thématique :
 
 Si vous souhaitez participer activement à la construction de la liste citoyenne et de la campagne :
 
-1. **Envoyez-nous un email** à contact@audierne2026.fr avec :
+1. **Envoyez-nous un email** à [{{ site.email }}](mailto:{{ site.email }}) avec :
+
    - Votre présentation
    - Vos motivations
    - Vos domaines d'intérêt ou d'expertise
@@ -80,6 +85,7 @@ Si vous souhaitez participer activement à la construction de la liste citoyenne
 2. **Ou contribuez d'abord** via la plateforme pour mieux nous connaître
 
 Nous recherchons des personnes motivées par :
+
 - La démocratie participative
 - La transparence politique
 - Le bien commun
@@ -89,11 +95,7 @@ Nous recherchons des personnes motivées par :
 
 ## Presse et médias
 
-Pour les demandes presse :
-- Email : contact@audierne2026.fr
-- Objet : [PRESSE] Votre demande
-
-Nous sommes ouverts aux interviews et reportages pour présenter cette expérimentation démocratique.
+Pas de contact presse pour le moment
 
 ---
 

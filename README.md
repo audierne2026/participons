@@ -13,6 +13,7 @@ Bienvenue sur la plateforme participative pour la campagne municipale Audierne-E
 Ce projet ouvert vise à co-construire ensemble un programme municipal pour les élections de mars 2026, dans une démarche de transparence radicale et de démocratie participative.
 
 ### Principes
+
 - **Transparence totale** : Code source public, modifications traçables
 - **Participation citoyenne** : Tous les habitants peuvent contribuer
 - **Open source** : Utilisation d'outils libres et gratuits
@@ -23,15 +24,19 @@ Ce projet ouvert vise à co-construire ensemble un programme municipal pour les 
 Plusieurs façons de participer :
 
 ### 1. Formulaires participatifs (pour tous)
+
 Partagez vos idées via les formulaires thématiques (en cours de mise en place)
 
 ### 2. Discussions GitHub
+
 Participez aux [discussions](https://github.com/audierne2026/participons/discussions) sur les différents sujets
 
 ### 3. Issues
+
 Signalez des problèmes ou proposez des améliorations via les [issues](https://github.com/audierne2026/participons/issues)
 
 ### 4. Pull Requests
+
 Proposez directement des modifications au programme (pour contributeurs techniques)
 
 **Guide complet** : Consultez la page [Contribuer](https://audierne2026.github.io/participons/contribuer/) sur le site
@@ -97,7 +102,7 @@ Ce projet est sous licence libre. Le contenu est destiné au bien commun et à l
 
 ## Contact
 
-- **Email** : contact@audierne2026.fr
+- **Email** : audierne2026@gmail.com
 - **Issues** : [Signaler un problème](https://github.com/audierne2026/participons/issues)
 - **Discussions** : [Participer aux échanges](https://github.com/audierne2026/participons/discussions)
 
