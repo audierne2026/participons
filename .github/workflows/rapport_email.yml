@@ -25,4 +25,4 @@ jobs:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           GITHUB_REPO: audierne2026/participons
-        run: python poll_email.py
+        run: python scripts/poll_email.py

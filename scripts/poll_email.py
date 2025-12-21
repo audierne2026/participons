@@ -15,7 +15,7 @@ EMAIL_PASS = os.getenv("EMAIL_PASS")  # App password recommandé
 GITHUB_REPO = os.getenv("GITHUB_REPO")  # ex: "audierne2026/participons"
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 
-STATE_FILE = "processed_emails.json"  # Stocké dans le repo (commité automatiquement si checkout avec write)
+STATE_FILE = "scripts/processed_emails.json"  # Stocké dans le repo (commité automatiquement si checkout avec write)
 
 # Mapping catégories (normalisé)
 CATEGORY_MAPPING = {
