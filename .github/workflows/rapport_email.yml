@@ -1,0 +1,28 @@
+name: Rapport quotidien Framaforms
+
+on:
+  schedule:
+    - cron: "0 8 * * *" # Tous les jours à 8h UTC (9h France)
+  workflow_dispatch:
+
+jobs:
+  report:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install imap-tools requests
+
+      - name: Run poll_email
+        env:
+          IMAP_SERVER: imap.gmail.com # ou votre provider
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+          GITHUB_REPO: audierne2026/participons
+        run: python poll_email.py

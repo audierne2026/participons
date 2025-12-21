@@ -1,0 +1,29 @@
+name: Poll Email Inbox
+# workflow to poll an email inbox at regular intervals
+on:
+  schedule:
+    - cron: "*/30 * * * *" # Toutes les 30 minutes (minimum fiable ~15-30 min)
+  workflow_dispatch: # Manual trigger
+
+jobs:
+  check-emails:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install imap-tools
+
+      - name: Poll emails
+        env:
+          IMAP_SERVER: imap.gmail.com
+          EMAIL_USER: ${{ secrets.EMAIL_USER }}
+          EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
+        run: |
+          python poll_email.py

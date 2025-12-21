@@ -5,6 +5,12 @@ _site/
 .jekyll-metadata
 .ruby-version
 
+# testing python virtual environments
+.venv/
+
+#node internal linting
+node_modules/
+
 # Ruby/Bundler
 .bundle/
 vendor/
@@ -27,7 +33,12 @@ Thumbs.db
 .vscode/
 .idea/
 
+# own .env variable
+.env.private
+.env.local
+
 # Local reviewer instructions
 docs/REVIEWER_INSTRUCTIONS.md
 docs/SETUP_COMPLETE.md
 docs/DEPLOYMENT_READY.md
+docs/FORMS.md
