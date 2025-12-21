@@ -8,6 +8,9 @@ on:
 jobs:
   report:
     runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
     steps:
       - uses: actions/checkout@v4
 
@@ -21,8 +24,9 @@ jobs:
 
       - name: Run poll_email
         env:
-          IMAP_SERVER: imap.gmail.com # ou votre provider
+          IMAP_SERVER: imap.gmail.com
           EMAIL_USER: ${{ secrets.EMAIL_USER }}
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           GITHUB_REPO: audierne2026/participons
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/poll_email.py

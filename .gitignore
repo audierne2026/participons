@@ -36,9 +36,11 @@ Thumbs.db
 # own .env variable
 .env.private
 .env.local
+.env
 
 # Local reviewer instructions
 docs/REVIEWER_INSTRUCTIONS.md
 docs/SETUP_COMPLETE.md
 docs/DEPLOYMENT_READY.md
 docs/FORMS.md
+

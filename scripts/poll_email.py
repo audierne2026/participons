@@ -5,7 +5,14 @@ from collections import Counter
 from imap_tools import MailBox, AND
 import requests
 
+# Load .env file for local development (optional)
+try:
+    from dotenv import load_dotenv
+    load_dotenv()
+except ImportError:
+    pass  # dotenv not installed (e.g., in GitHub Actions)
 # ====================== CONFIGURATION ======================
+print(f"Chargement des variables d'environnement...in {os.getcwd()}")
 IMAP_SERVER = os.getenv("IMAP_SERVER", "imap.gmail.com")  # Par défaut Gmail
 EMAIL_USER = os.getenv("EMAIL_USER")
 EMAIL_PASS = os.getenv("EMAIL_PASS")
@@ -110,16 +117,29 @@ processed_uids = set()
 
 print("Connexion à la boîte mail...")
 with MailBox(IMAP_SERVER).login(EMAIL_USER, EMAIL_PASS, "INBOX") as mailbox:
-    # Récupère tous les emails non lus contenant Framaforms ou "Submitted on"
+    # Récupère tous les emails non lus
+    print("\n🔍 Recherche des emails Framaforms non lus...")
     messages = mailbox.fetch(
-        AND(seen=False, subject=["Framaforms", "Submitted on", "Soumission"]),
+        AND(seen=False),
         mark_seen=False,
     )
 
     for msg in messages:
+        # Filtre: ne traiter que les emails Framaforms
+        subject_lower = (msg.subject or "").lower()
+        if not any(keyword in subject_lower for keyword in ["framaforms", "submitted on", "soumission"]):
+            continue  # Ignore les emails qui ne sont pas des Framaforms
+
+        print(f"\n{'='*60}")
+        print(f"📧 Email trouvé:")
+        print(f"  Sujet: {msg.subject}")
+        print(f"  Date réception: {msg.date}")
+
         body = msg.text or msg.html or ""
         category = extract_category(body or msg.subject or "")
         submission_date = extract_submission_date(body)
+
+        print(f"  Date soumission extraite: {submission_date}")
 
         # Si pas de date dans le corps, utiliser la date de réception de l'email
         if submission_date is None:
@@ -128,6 +148,7 @@ with MailBox(IMAP_SERVER).login(EMAIL_USER, EMAIL_PASS, "INBOX") as mailbox:
                 if msg.date
                 else datetime.now(timezone.utc)
             )
+            print(f"  → Utilisation date réception: {submission_date}")
 
         # Définit la période "hier" (du 00:00 au 23:59 UTC)
         yesterday_start = datetime.now(timezone.utc).date() - timedelta(days=1)
@@ -136,8 +157,15 @@ with MailBox(IMAP_SERVER).login(EMAIL_USER, EMAIL_PASS, "INBOX") as mailbox:
         )
         yesterday_end = yesterday_start + timedelta(days=1)
 
+        print(f"  Catégorie: {category}")
+        print(f"  Période recherchée: {yesterday_start.strftime('%Y-%m-%d %H:%M')} à {yesterday_end.strftime('%Y-%m-%d %H:%M')}")
+        print(f"  Email dans la période? {yesterday_start <= submission_date < yesterday_end}")
+
         if yesterday_start <= submission_date < yesterday_end:
             counts[category] += 1
+            print(f"  ✅ Compté dans la catégorie '{category}'")
+        else:
+            print(f"  ❌ Email hors période (ignoré)")
 
         processed_uids.add(msg.uid)
 
@@ -168,23 +196,33 @@ if sum(counts.values()) > 0:
 
     body_issue = "\n".join(report_lines)
 
-    headers = {
-        "Authorization": f"Bearer {GITHUB_TOKEN}",
-        "Accept": "application/vnd.github.v3+json",
-    }
-    data = {
-        "title": f"Rapport quotidien Framaforms – {yesterday_str} ({total} contributions)",
-        "body": body_issue,
-        "labels": ["rapport", "framaforms", "automatisé"],
-    }
+    print(f"\n{'='*60}")
+    print("📊 RAPPORT GÉNÉRÉ:")
+    print(body_issue)
+    print(f"{'='*60}\n")
 
-    url = f"https://api.github.com/repos/{GITHUB_REPO}/issues"
-    response = requests.post(url, json=data, headers=headers)
+    # Création de l'issue GitHub
+    if GITHUB_TOKEN and GITHUB_REPO:
+        headers = {
+            "Authorization": f"Bearer {GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json",
+        }
+        data = {
+            "title": f"Rapport quotidien Framaforms – {yesterday_str} ({total} contributions)",
+            "body": body_issue,
+            "labels": ["rapport", "framaforms", "automatisé"],
+        }
 
-    if response.status_code == 201:
-        print("Issue de rapport créée avec succès !")
+        url = f"https://api.github.com/repos/{GITHUB_REPO}/issues"
+        response = requests.post(url, json=data, headers=headers)
+
+        if response.status_code == 201:
+            print("✅ Issue de rapport créée avec succès !")
+            print(f"   URL: {response.json().get('html_url', '')}")
+        else:
+            print(f"❌ Erreur lors de la création de l'issue : {response.status_code}")
+            print(response.text)
     else:
-        print(f"Erreur lors de la création de l'issue : {response.status_code}")
-        print(response.text)
+        print("⚠️  Mode test local: GITHUB_TOKEN ou GITHUB_REPO non défini, issue non créée.")
 else:
     print("Aucune nouvelle contribution hier – pas d'issue créée.")
