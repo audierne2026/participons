@@ -1,23 +1,21 @@
 import os
 import re
-import json
 from datetime import datetime, timedelta, timezone
-from email.message import EmailMessage
 from collections import Counter
 from imap_tools import MailBox, AND
-import requests  # Pour GitHub API
+import requests
 
 # ====================== CONFIGURATION ======================
-IMAP_SERVER = os.getenv("IMAP_SERVER")  # ex: imap.gmail.com
+IMAP_SERVER = os.getenv("IMAP_SERVER", "imap.gmail.com")  # Par défaut Gmail
 EMAIL_USER = os.getenv("EMAIL_USER")
-EMAIL_PASS = os.getenv("EMAIL_PASS")  # App password recommandé
+EMAIL_PASS = os.getenv("EMAIL_PASS")
 
-GITHUB_REPO = os.getenv("GITHUB_REPO")  # ex: "audierne2026/participons"
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_REPO = os.getenv(
+    "GITHUB_REPO", os.getenv("GITHUB_REPOSITORY")
+)  # Automatique dans Actions
+GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Token automatique fourni par GitHub Actions
 
-STATE_FILE = "scripts/processed_emails.json"  # Stocké dans le repo (commité automatiquement si checkout avec write)
-
-# Mapping catégories (normalisé)
+# Mapping des catégories
 CATEGORY_MAPPING = {
     "economie": "economie",
     "économies": "economie",
@@ -26,6 +24,7 @@ CATEGORY_MAPPING = {
     "environnement": "ecologie",
     "jeunesse": "jeunesse",
     "ecole": "jeunesse",
+    "école-jeunesse": "jeunesse",
     "associations": "associations",
     "logement": "logement",
 }
@@ -56,31 +55,13 @@ FRENCH_MONTHS = {
 # =========================================================
 
 
-def load_processed_uids():
-    if os.path.exists(STATE_FILE):
-        with open(STATE_FILE, "r") as f:
-            return set(json.load(f))
-    return set()
-
-
-def save_processed_uids(uids):
-    with open(STATE_FILE, "w") as f:
-        json.dump(list(uids), f)
-    # Commit et push si dans GitHub Actions (optionnel, mais utile pour persistance)
-    os.system('git config user.name "GitHub Action"')
-    os.system('git config user.email "action@github.com"')
-    os.system("git add " + STATE_FILE)
-    os.system('git commit -m "Update processed emails state" || echo "No changes"')
-    os.system('git push || echo "Push failed or no changes"')
-
-
 def extract_category(body: str) -> str:
     body_lower = body.lower()
-    # Priorité au titre du formulaire
+    # Priorité au titre du formulaire dans le sujet ou corps
     for keyword, cat in TITLE_TO_CATEGORY.items():
         if keyword in body_lower:
             return cat
-    # Sinon champ category/categorie
+    # Sinon recherche du champ category/categorie
     match = re.search(r"category:\s*(\w+)|categorie:\s*(\w+)", body, re.IGNORECASE)
     if match:
         value = (match.group(1) or match.group(2)).lower()
@@ -89,108 +70,106 @@ def extract_category(body: str) -> str:
 
 
 def extract_submission_date(body: str) -> datetime | None:
-    # Format 1 : "Vendredi, décembre 19, 2025 - 19:14"
+    # Format Framaforms français : "Vendredi, décembre 19, 2025 - 19:14"
     match1 = re.search(
         r"Submitted on\s+[A-Za-zçéû]+,\s*([A-Za-zçéû]+)\s*(\d{1,2}),\s*(\d{4})\s*-\s*(\d{2}:\d{2})",
         body,
     )
     if match1:
-        month_name, day, year, time = match1.groups()
+        month_name, day, year, time_str = match1.groups()
         month = FRENCH_MONTHS.get(month_name.lower())
         if month:
+            hour, minute = map(int, time_str.split(":"))
             return datetime(
-                int(year),
-                month,
-                int(day),
-                int(time[:2]),
-                int(time[3:]),
-                tzinfo=timezone.utc,
+                int(year), month, int(day), hour, minute, tzinfo=timezone.utc
             )
 
-    # Format 2 : "20 décembre 2025 à 15:30"
+    # Format alternatif possible (ex. notification Framaforms)
     match2 = re.search(
-        r"Soumise le\s*:\s*(\d{1,2})\s*([A-Za-zçéû]+)\s*(\d{4})\s*à\s*(\d{2}:\d{2})",
-        body,
+        r"(\d{1,2})\s+([A-Za-zçéû]+)\s+(\d{4})\s+à\s+(\d{2}:\d{2})", body
     )
     if match2:
-        day, month_name, year, time = match2.groups()
+        day, month_name, year, time_str = match2.groups()
         month = FRENCH_MONTHS.get(month_name.lower())
         if month:
+            hour, minute = map(int, time_str.split(":"))
             return datetime(
-                int(year),
-                month,
-                int(day),
-                int(time[:2]),
-                int(time[3:]),
-                tzinfo=timezone.utc,
+                int(year), month, int(day), hour, minute, tzinfo=timezone.utc
             )
 
     return None
 
 
 # ====================== MAIN ======================
-processed_uids = load_processed_uids()
-new_processed = set()
-counts = Counter()
+if not EMAIL_USER or not EMAIL_PASS:
+    print("ERREUR : EMAIL_USER ou EMAIL_PASS manquants dans les secrets.")
+    exit(1)
 
+counts = Counter()
+processed_uids = set()
+
+print("Connexion à la boîte mail...")
 with MailBox(IMAP_SERVER).login(EMAIL_USER, EMAIL_PASS, "INBOX") as mailbox:
-    # Récupérer tous les emails non lus avec sujet Framaforms ou Submitted
+    # Récupère tous les emails non lus contenant Framaforms ou "Submitted on"
     messages = mailbox.fetch(
-        AND(seen=False, subject=["Framaforms", "Submitted on"]), mark_seen=False
+        AND(seen=False, subject=["Framaforms", "Submitted on", "Soumission"]),
+        mark_seen=False,
     )
 
     for msg in messages:
-        if msg.uid in processed_uids:
-            continue
-
         body = msg.text or msg.html or ""
-        category = extract_category(body)
+        category = extract_category(body or msg.subject or "")
         submission_date = extract_submission_date(body)
 
-        # Si pas de date précise, utiliser date de réception
+        # Si pas de date dans le corps, utiliser la date de réception de l'email
         if submission_date is None:
-            submission_date = msg.date.replace(tzinfo=timezone.utc)
+            submission_date = (
+                msg.date.replace(tzinfo=timezone.utc)
+                if msg.date
+                else datetime.now(timezone.utc)
+            )
 
-        # Rapport pour la veille (hier, du 00:00 au 23:59 UTC)
-        yesterday_start = (
-            datetime.now(timezone.utc).date() - timedelta(days=1)
-        ).replace(tzinfo=timezone.utc)
+        # Définit la période "hier" (du 00:00 au 23:59 UTC)
+        yesterday_start = datetime.now(timezone.utc).date() - timedelta(days=1)
+        yesterday_start = datetime.combine(
+            yesterday_start, datetime.min.time(), tzinfo=timezone.utc
+        )
         yesterday_end = yesterday_start + timedelta(days=1)
 
         if yesterday_start <= submission_date < yesterday_end:
             counts[category] += 1
 
-        new_processed.add(msg.uid)
+        processed_uids.add(msg.uid)
 
-    # Marquer comme lus les emails traités (même si pas dans la veille)
-    if new_processed:
-        mailbox.flag(list(new_processed), "\\Seen", True)
+    # Marque tous les emails analysés comme lus
+    if processed_uids:
+        mailbox.flag(list(processed_uids), "\\Seen", True)
+        print(f"{len(processed_uids)} email(s) marqué(s) comme lu(s).")
 
-processed_uids.update(new_processed)
-save_processed_uids(processed_uids)
-
-# Créer l'issue si au moins une contribution hier
+# Création de l'issue si au moins une contribution hier
 if sum(counts.values()) > 0:
     yesterday_str = yesterday_start.strftime("%d %B %Y")
     report_lines = [
         f"# Rapport quotidien contributions Framaforms – {yesterday_str}",
         "",
-        "Nombre de contributions reçues hier via les formulaires anonymes :",
+        "Nombre de contributions reçues **hier** via les formulaires anonymes :",
         "",
     ]
     for cat, nb in counts.most_common():
-        report_lines.append(f"- **{cat.capitalize()}** : {nb}")
+        cat_name = cat.capitalize()
+        report_lines.append(f"- **{cat_name}** : {nb}")
 
     total = sum(counts.values())
     report_lines.append(f"\n**Total** : {total}")
     report_lines.append(
         "\nCes contributions seront prochainement transcrites anonymement sur GitHub pour débat public."
     )
+    report_lines.append("\nLabel : `rapport` `framaforms` `automatisé`")
 
     body_issue = "\n".join(report_lines)
 
     headers = {
-        "Authorization": f'Bearer {os.getenv("GITHUB_TOKEN")}',  # Ou directement github.token si context
+        "Authorization": f"Bearer {GITHUB_TOKEN}",
         "Accept": "application/vnd.github.v3+json",
     }
     data = {
@@ -203,8 +182,9 @@ if sum(counts.values()) > 0:
     response = requests.post(url, json=data, headers=headers)
 
     if response.status_code == 201:
-        print("Issue créée avec succès !")
+        print("Issue de rapport créée avec succès !")
     else:
-        print("Erreur création issue :", response.text)
+        print(f"Erreur lors de la création de l'issue : {response.status_code}")
+        print(response.text)
 else:
     print("Aucune nouvelle contribution hier – pas d'issue créée.")
