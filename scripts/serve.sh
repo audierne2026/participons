@@ -38,4 +38,4 @@ bundle exec jekyll build --baseurl ''
 #   || echo "⚠️  Some htmlproofer checks failed (non-blocking for local dev)"
 
 echo "Starting Jekyll server at http://127.0.0.1:4000/ (root for local dev)"
-bundle exec jekyll serve --livereload --host 127.0.0.1 --port 4000 --baseurl ''
+bundle exec jekyll serve --livereload --verbose --trace --host 127.0.0.1 --port 4000 --baseurl ''

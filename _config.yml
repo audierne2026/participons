@@ -4,14 +4,17 @@ title_separator: "|"
 subtitle: "Ensemble, écoutons et co-construisons"
 name: "Liste citoyenne Audierne-Esquibien"
 description: "Plateforme participative pour la campagne municipale Audierne-Esquibien 2026. Transparence, écoute citoyenne, co-construction du programme."
-url: "https://audierne2026.fr" # ← CHANGEMENT PRINCIPAL : votre domaine final
-baseurl: "" # ← CHANGEMENT : plus de sous-dossier /participons
+url: "http://127.0.0.1:4000" # main "https://audierne2026.fr"
+baseurl: "participons" # main ""
 repository: "audierne2026/participons"
 logo: "/assets/images/Blason_fr_Audierne.svg.png"
 email: "audierne2026@gmail.com"
-# Theme
-remote_theme: mmistakes/minimal-mistakes@4.27.3
-minimal_mistakes_skin: "air" # Options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise, sunset, wheat
+# Theme Settings on main branch
+# remote_theme: mmistakes/minimal-mistakes@4.27.3
+# minimal_mistakes_skin: "air" # Options: default, air, aqua, contrast, dark, dirt, neon, mint, plum, sunrise, sunset, wheat
+# Theme Settings on features branch
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "air"
 
 # Locale
 locale: "fr-FR"
@@ -132,7 +135,7 @@ defaults:
 # Plugins
 plugins:
   - jekyll-include-cache
-  - jekyll-remote-theme
+  # - jekyll-remote-theme # to use remote themes on main branch
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist

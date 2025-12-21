@@ -5,6 +5,9 @@ _site/
 .jekyll-metadata
 .ruby-version
 
+# linting 
+node_modules/
+
 # Ruby/Bundler
 .bundle/
 vendor/

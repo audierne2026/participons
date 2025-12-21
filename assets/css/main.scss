@@ -1,0 +1,39 @@
+---
+# Front matter obligatoire
+---
+
+@charset "utf-8";
+
+/* Import du thème gem local – indispensable */
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}";
+@import "minimal-mistakes";
+
+/* Vos personnalisations – appliquées après le thème */
+
+/* Masquer la sidebar sur mobile */
+@media (max-width: 768px) {
+  .sidebar {
+    display: none !important;
+  }
+  .page__content {
+    margin-top: 0;
+  }
+}
+
+/* Contour noir autour du texte des boutons primaires pour accessibilité */
+.btn--primary {
+  color: #ffffff;
+  background-color: #002fff;
+}
+
+.btn--primary:hover,
+.btn--primary:focus,
+.btn--primary:visited {
+  color: #ffffff;
+  background-color: #002fff;
+}
+
+/* Test temporaire : enlevez après confirmation */
+body {
+  background: lime !important;
+}
