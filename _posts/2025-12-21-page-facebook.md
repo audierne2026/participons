@@ -12,7 +12,7 @@ header:
 ---
 
 🌊 **Audierne 2026 : Un nouvel élan pour notre commune !** 🌊
-[![Page Facebook](/assets/images/lancement_fb_2.jpg "Lancement FB")](https://www.facebook.com/people/Audierne2026/61585265530136/)
+[![Page Facebook](/assets/images/lancement_fb_2.jpg "Lancement FB")](https://www.facebook.com/audierne2026/)
 
 Chers Audiernais et Esquibiens,
 
@@ -26,7 +26,7 @@ Audierne-Esquibien mérite un avenir ambitieux :
 
 Nous croyons en un renouveau collectif, loin des conflits passés, pour bâtir ensemble la commune que nous aimons.
 
-👉 **Suivez cette page pour découvrir notre vision, nos idées et notre équipe progressive !**  
+👉 [Suivez cette page](https://www.facebook.com/audierne2026/) **pour découvrir notre vision, nos idées !**  
 Actualités, échanges... Tout commence ici !
 
 #Audierne2026 #Municipales2026 #AudierneEsquibien #CapSizun #Renouveau
