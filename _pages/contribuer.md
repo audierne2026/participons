@@ -31,6 +31,7 @@ La manière la plus simple de contribuer. Partagez vos idées, priorités et pro
 - **École & Jeunesse** [Participer]({{ "/formulaires/jeunesse/" | relative_url }}): Priorités éducatives et activités pour les jeunes
 - **Environnement** [Participer]({{ "/formulaires/environnement/" | relative_url }}): Actions concrètes pour la transition écologique
 - **Économie locale** [Participer]({{ "/formulaires/economie/" | relative_url }}): Dynamiser le commerce et le tourisme durable
+- **Alimentation bien-être et soins** [Participer]({{  "/formulaires/alimentation-bien-etre-soins/"| relative_url }}): Une qualité de vie basée sur une alimentation saine, du bien-être et des soins
 
 </div>
 
