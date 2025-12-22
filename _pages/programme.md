@@ -184,6 +184,38 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
 **Vos idées :** Utilisez [le formulaire culture & patrimoine]({{ "/formulaires/culture/" | relative_url }}) pour partager vos priorités et propositions.
 {: .notice--info}
 
+## <a name="alimentation-bien-etre-soins"></a>Alimentation, bien-être et soins
+
+### Nos constats (basés sur l'actualité locale 2025)
+
+- Initiatives fortes pour l’alimentation locale : quinzaine "Manger demain" (avril 2025) avec ateliers, visites de fermes et glanage solidaire ; participation au festival Alimenterre avec projections-débats (novembre 2025) ; catalogue annuel des producteurs en circuits courts mis à jour.
+- Offre bio et produits sains en développement : présence de magasins comme Biocoop Maison Biologique à Audierne, avec focus sur produits locaux et équitables.
+- Besoins croissants en bien-être et soins : population vieillissante avec forte demande en aide à domicile (ADMR intervient auprès de plus de 260 seniors) ; initiatives bien-être (Reiki, relaxation, randonnées côtières).
+- Potentiel pour plus de lien social : ateliers intergénérationnels, jardins partagés et prévention santé pour renforcer la qualité de vie.
+
+### Propositions en cours
+
+1. **Alimentation locale et durable**
+
+   - Renforcer les circuits courts et le catalogue des producteurs
+   - Soutenir les événements comme la quinzaine de l’alimentation et Alimenterre
+   - Développer des marchés bio réguliers et épiceries solidaires
+
+2. **Bien-être au quotidien**
+
+   - Promouvoir activités physiques accessibles (randonnées côtières, yoga, ateliers relaxation)
+   - Créer espaces verts et jardins partagés pour le lien social
+   - Valoriser offres locales (Reiki, naturopathie, sport santé)
+
+3. **Accès aux soins et accompagnement**
+
+   - Renforcer l’aide à domicile pour seniors (ADMR, services coordonnés)
+   - Améliorer l’accès aux professionnels de santé et prévention
+   - Développer initiatives intergénérationnelles pour lutter contre l’isolement
+
+**Vos idées :** Utilisez [le formulaire alimentation, bien-être et soins]({{ "/formulaires/alimentation-bien-etre-soins/" | relative_url }}) pour partager vos visions.
+{: .notice--info}
+
 ---
 
 ## Historique des modifications
