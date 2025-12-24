@@ -25,7 +25,7 @@ La manière la plus simple de contribuer. Partagez vos idées, priorités et pro
 ** mise en place via Framaforms** (gratuit, sans tracking, respectueux de vos données)
 ({{ "/formulaires/economie/" | relative_url }})
 
-- **Logement & Urbanisme** [Participer]({{ "/formulaires/associations/" | relative_url }}): Vos besoins et idées pour l'habitat
+- **Logement & Urbanisme** [Participer]({{ "/formulaires/logement/" | relative_url }}): Vos besoins et idées pour l'habitat
 - **Culture & Patrimoine** [Participer]({{ "/formulaires/culture/" | relative_url }}): Votre avis est précieux pour préserver et faire vivre le riche patrimoine d'Audierne-Esquibien.
 - **Associations & Vie locale** [Participer]({{ "/formulaires/associations/" | relative_url }}): Comment mieux soutenir le tissu associatif
 - **École & Jeunesse** [Participer]({{ "/formulaires/jeunesse/" | relative_url }}): Priorités éducatives et activités pour les jeunes

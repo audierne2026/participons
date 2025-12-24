@@ -4,7 +4,7 @@ title: "À propos"
 permalink: /a-propos/
 ---
 
-## Une liste citoyenne pour Audierne-Esquibien
+## Un programme citoyenne pour Audierne-Esquibien
 
 ### Notre vision
 
@@ -53,9 +53,9 @@ Notre démarche s'inspire de :
 
 ---
 
-## L'équipe (en construction)
+## L'équipe de la platerforme (en construction)
 
-Cette section évoluera pour présenter les membres de la liste citoyenne au fur et à mesure de sa constitution.
+Cette section évoluera pour présenter les membres du programme citoyenne au fur et à mesure de sa constitution.
 
 **Vous voulez rejoindre l'équipe ?** Contactez-nous via [{{ site.email }}](mailto:{{ site.email }})
 
@@ -77,7 +77,7 @@ Dans un souci de transparence totale, voici notre budget prévisionnel :
 
 Cette campagne refuse tout financement d'intérêts privés. Les frais sont assumés par :
 
-- Contributions des membres de la liste
+- Contributions des membres
 - Dons de particuliers (si nécessaire, avec transparence totale)
 
 ---
