@@ -109,7 +109,17 @@ Au contraire. La transparence est une force :
 - Elle permet le contrôle citoyen
 - Elle garantit la cohérence entre discours et actions
 
----
+### Intervenants des listes déclarées aux municipales 2026
+
+Vous faites partie d’une liste déclarée pour les élections municipales de mars 2026 à Audierne-Esquibien ?
+
+Nous vous proposons de participer au processus de **contextualisation factuelle** des contributions citoyennes recueillies sur Audierne2026.fr.
+
+Ce dispositif vise à **renforcer la qualité et la richesse du programme co-construit**, au bénéfice de tous les Capistes.
+
+Merci pour votre contribution citoyenne en utilisant ce formulaire!
+
+- **Formulaire intervenant** [Participer]({{ "/formulaires/intervenant-liste/" | relative_url }}): Je souhaite apporter mon expertise sur certains domaine
 
 ## Contact
 
