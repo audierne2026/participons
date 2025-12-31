@@ -1,7 +1,7 @@
 ---
 layout: single
 title: Participez aux discussions !
-permalink: /toutes
+permalink: /toutes/
 ---
 
 Toutes les contributions ici alimentent directement nos **Discussions publiques sur GitHub** – tout est ouvert et traçable.
