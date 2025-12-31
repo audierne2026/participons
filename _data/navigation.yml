@@ -4,12 +4,14 @@ main:
     url: /
   - title: "Programme"
     url: /programme/
-  - title: "Actualités"
-    url: /actualites/
+  - title: "Discussions"
+    url: /toutes/
   - title: "Contribuer"
     url: /contribuer/
   - title: "À propos"
     url: /a-propos/
+  - title: "Actualités"
+    url: /actualites/
   - title: "Contact"
     url: /contact/
 
