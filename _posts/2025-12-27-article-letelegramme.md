@@ -14,6 +14,7 @@ header:
   caption: "Dans les coulisses avec la presse locale"
 ---
 
+[![Le Télégramme](/assets/images/coulisses-presse.jpg "Interview de Sylvain par le télégramme")](/assets/images/coulisses-presse.jpg)
 Ô Capistes ! ⚓
 
 [Lannig Stervinou](https://www.letelegramme.fr/auteurs/lannig-stervinou) a pris le temps de découvrir Audierne2026.fr et d’échanger sur notre démarche participative. Voici les coulisses de cet entretien – pour que vous voyiez comment votre plateforme commence à faire parler d’elle, et comment nous défendons notre vision : **transparence, ouverture, et co-construction citoyenne**.

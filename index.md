@@ -14,21 +14,21 @@ excerpt: "Écoutons, co-construisons notre territoire ensemble.<br/>Campagne mun
 intro:
   - excerpt: "Cette plateforme incarne notre engagement pour une démocratie participative. Nous construisons ensemble le programme, en toute transparence. Le code source est public, votre voix compte."
 feature_row:
-  - image_path: /assets/images/evolutif.png
+  - image_path: /assets/images/audierne_lobster.jpg
     alt: "Programme participatif"
     title: "Programme évolutif"
     excerpt: "Un programme construit avec vous, qui évolue selon vos retours sur le logement, les associations, l'école, l'environnement et l'économie locale."
     url: /programme/
     btn_label: "Découvrir"
     btn_class: "btn--primary"
-  - image_path: /assets/images/transparency.png
+  - image_path: /assets/images/drop_audierne.jpg
     alt: "Transparence totale"
     title: "Transparence totale"
     excerpt: "Code source public sur GitHub, processus de décision documenté, modifications traçables. Vous voyez tout, vous participez à tout."
     url: "https://github.com/audierne2026/participons"
     btn_label: "Voir le code"
     btn_class: "btn--primary"
-  - image_path: /assets/images/contributions.png
+  - image_path: /assets/images/anchor_intergeneration.jpg
     alt: "Votre voix compte"
     title: "Contribuez maintenant"
     excerpt: "Proposez vos idées sur les thèmes qui vous tiennent à cœur. Formulaires participatifs, discussions ouvertes, pull requests bienvenues."
