@@ -39,9 +39,9 @@ Thumbs.db
 .env
 
 # Local reviewer instructions
-docs/REVIEWER_INSTRUCTIONS.md
-docs/SETUP_COMPLETE.md
+docs/help/REVIEWER_INSTRUCTIONS.md
+docs/help/SETUP_COMPLETE.md
 docs/DEPLOYMENT_READY.md
 docs/FORMS.md
 docs/preparation-statut-1901.md
-
+docs/task_audierne2026/*

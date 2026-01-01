@@ -21,6 +21,7 @@ Ce projet ouvert vise à co-construire ensemble un programme municipal pour les 
 
 ## Comment contribuer
 
+**Guide complet** : Consultez la page [Contribuer](https://audierne2026.github.io/participons/contribuer/) sur le site
 Plusieurs façons de participer :
 
 ### 1. Formulaires participatifs (pour tous)
@@ -33,13 +34,27 @@ Participez aux [discussions](https://github.com/audierne2026/participons/discuss
 
 ### 3. Issues
 
+Les issues sont le premier receptacle des contributions et des améliorations du site .
+
+#### 3a. Les contributions
+
+Quand elles sont dans les issues elles sont à l'étude, c'est à dire que l'on y vérifie :
+
+- la conformité à la charte
+- le contexte du domaine (catégorie)
+- le recoupement de la problematique ailleurs
+- on regle des imprecisions sur la problématique
+
+#### 3b. Les améliorations du site
+
 Signalez des problèmes ou proposez des améliorations via les [issues](https://github.com/audierne2026/participons/issues)
 
-### 4. Pull Requests
+### 4. Pull Requests (changement d'origine tierce)
 
+Proposer directement des améliorations au site cad. nouveau theme, nouvelle fonctionnalité (pour contributeurs techniques)
 Proposez directement des modifications au programme (pour contributeurs techniques)
 
-**Guide complet** : Consultez la page [Contribuer](https://audierne2026.github.io/participons/contribuer/) sur le site
+---
 
 ## Structure du projet
 
@@ -51,12 +66,13 @@ Proposez directement des modifications au programme (pour contributeurs techniqu
 ├── _pages/                  # Pages principales
 │   ├── programme.md         # Programme participatif
 │   ├── contribuer.md        # Guide de contribution
+│   ├── discussions.md       # Les discussions actuelles
 │   ├── a-propos.md          # À propos de la démarche
 │   ├── contact.md           # Contact
 │   └── actualites.md        # Page des actualités
 ├── _actualites/             # Articles d'actualités
-├── assets/images/                  # assets/images et assets
-├── docs/                    # Documentation technique
+├── assets/images/           # assets/images et assets
+├── docs/                    # Documentation consolidation et technique
 └── scripts/                 # Scripts utilitaires
 ```
 
@@ -92,9 +108,9 @@ En local, le site sera accessible sur http://127.0.0.1:4000/participons
 
 ## Documentation
 
-- [Plan technique de déploiement](./docs/README.md)
+- [Plan technique de déploiement](DEPLOYMENT_READY.md)
 - [Transparence et processus](./docs/TRANSPARENCY.md)
-- [Instructions pour reviewers](./docs/REVIEWER_INSTRUCTIONS_TEMPLATE.md)
+- [Instructions pour reviewers](./docs/help/REVIEWER_INSTRUCTIONS_TEMPLATE.md)
 
 ## Licence
 
