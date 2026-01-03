@@ -1,3 +1,7 @@
+---
+DRAFT (brouillon )
+---
+
 ### Procédure et coûts pour un projet public en zone inondable (ex. école Pierre-Le Lec)
 
 Le projet de rénovation/regroupement de l’école Pierre-Le Lec à Audierne-Esquibien est en zone à risque inondation/submersion (PPRI et loi Littoral), ce qui impose une procédure renforcée – souvent une **enquête publique complète** (pas simplifiée), avec commissaire enquêteur indépendant.
