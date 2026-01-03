@@ -154,9 +154,9 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
 
 ### Nos constats
 
-- Richesse exceptionnelle du [patrimoine religieux](../docs/culture/README.md)) : plusieurs chapelles classées (Sainte-Brigitte datée 1654, Sainte-Edwett mobilier classé seulement 1723) et églises historiques (Saint-Raymond, Saint-Onneau, Saint-Joseph)
+- Richesse exceptionnelle du [patrimoine religieux](https://github.com/audierne2026/participons/tree/main/docs/culture/README.md)) : plusieurs chapelles classées (Sainte-Brigitte datée 1654, Sainte-Edwett mobilier classé seulement 1723) et églises historiques (Saint-Raymond, Saint-Onneau, Saint-Joseph)
 - La sauvegarde et la modernisation du Musée Maritime du Cap-Sizun
-- Héritage préhistorique et maritime unique : menhirs, dolmens à [Sainte-Evette](../docs/culture/saint-edwette.md), port historique au cœur de l'identité audiernaise
+- Héritage préhistorique et maritime unique : menhirs, dolmens à [Sainte-Evette](https://github.com/audierne2026/participons/tree/main/docs/culture/saint-edwette.md), port historique au cœur de l'identité audiernaise
 - Dynamisme associatif culturel : l'association Audierne Esquibien Culture organise régulièrement expositions, conférences et animations (Fête de la Science, cinéma Le Goyen)
 - Événements culturels appréciés mais perfectibles : Fête de la Musique, illuminations "Goyen en lumières", festivals estivaux attirent habitants et visiteurs
 - Besoin de valoriser et transmettre ce patrimoine aux jeunes générations et nouveaux arrivants

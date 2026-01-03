@@ -3,7 +3,9 @@
 Des sources montrent que le patrimoine mégalithique est réel (mais discret), Sainte-Brigitte inscrite MH, et Sainte-Evette seulement pour mobilier.
 Voici les sources fiables qui confirment (ou infirment) les éléments mentionnés, avec liens directs quand disponibles (vérifiés janvier 2026) :
 
-#### **Mégalithes (menhirs et dolmens) à Sainte-Evette / Esquibien**
+#### **Mégalithes**
+
+c'est à dire menhirs et dolmens à Sainte-Evette / Esquibien
 
 - **Inventaire Général du Patrimoine Culturel (Région Bretagne)** :
   - Menhir de Kerustum (proche Sainte-Edvette) :
