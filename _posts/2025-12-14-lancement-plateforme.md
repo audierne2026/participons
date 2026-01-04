@@ -1,5 +1,6 @@
 ---
 title: "Lancement de la plateforme participative"
+classes: wide
 date: 2025-12-14
 categories:
   - annonce

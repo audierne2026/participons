@@ -1,6 +1,7 @@
 ---
 title: "Les coulisses de l’article : entretien avec le journaliste"
 date: 2025-12-27
+classes: wide
 categories:
   - annonce
 tags:

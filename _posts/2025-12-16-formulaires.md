@@ -1,5 +1,6 @@
 ---
 title: "Les formulaires sont disponibles !"
+classes: wide
 date: 2025-12-16
 categories:
   - annonce

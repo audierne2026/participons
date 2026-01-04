@@ -1,5 +1,6 @@
 ---
 title: "Audierne2026 a sa Page Facebook !"
+classes: wide
 date: 2025-12-21
 categories:
   - annonce

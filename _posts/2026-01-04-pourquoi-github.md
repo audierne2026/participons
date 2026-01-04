@@ -1,6 +1,7 @@
 ---
 title: "Github est-il un frein à la participation?"
 date: 2026-01-04
+classes: wide
 categories:
   - annonce
   - tech
@@ -12,7 +13,9 @@ header:
   teaser: /assets/images/github-frein.png
 ---
 
+[![retour facebookgithub?](/assets/images/github-frein.png "Github Audierne: les discussions")](https://github.com/audierne2026/participons/discussions)
 **Pourquoi Audierne2026 repose sur Git et une plateforme ouverte?**
+
 En trois mots :**transparence, modernité et rayonnement**
 
 Certaines personnes pourraient penser que l’utilisation de GitHub représente un frein technique. Nous le voyons au contraire comme **une force et une opportunité unique** pour notre commune.
