@@ -68,10 +68,10 @@ Proposez directement des modifications au programme (pour contributeurs techniqu
 ├── _pages/                  # Pages principales
 │   ├── programme.md         # Programme participatif
 │   ├── contribuer.md        # Guide de contribution
-│   ├── discussions.md       # Les discussions actuelles
+│   ├── discussions.md       # Les discussions actuelles ouvertes
 │   ├── a-propos.md          # À propos de la démarche
 │   ├── contact.md           # Contact
-│   └── actualites.md        # Page des actualités
+│   └── _posts.md            # Page des actualités ou posts
 ├── _actualites/             # Articles d'actualités
 ├── assets/images/           # assets/images et assets
 ├── docs/                    # Documentation consolidation et technique
