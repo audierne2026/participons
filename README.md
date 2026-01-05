@@ -6,7 +6,9 @@
 
 Bienvenue sur la plateforme participative pour la campagne municipale Audierne-Esquibien 2026.
 
-**Site web** : https://audierne2026.github.io/participons
+**Site web** :
+https://audierne2026.fr
+https://audierne2026.github.io/participons
 
 ## À propos
 
