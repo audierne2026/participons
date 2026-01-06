@@ -2,7 +2,7 @@
 
 **Date**: 16 décembre 2025
 **Status**: ✅ Ready for GitHub Actions deployment
-**Local Testing**: ⚠️ Blocked by Ruby 3.4.1 compatibility (not required)
+**Local Testing**: Ruby 3.3.6 | 3.4 on gh pages
 
 ---
 
