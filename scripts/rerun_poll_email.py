@@ -167,9 +167,11 @@ if __name__ == "__main__":
     with MailBox(IMAP_SERVER).login(EMAIL_USER, EMAIL_PASS, "INBOX") as mailbox:
         # Récupère tous les emails (pas seulement les non lus pour permettre le retraitement)
         print("\n🔍 Recherche des emails Framaforms...")
-        messages = mailbox.fetch(
+        messages = list(mailbox.fetch(
             mark_seen=False,
-        )
+        ))
+
+        print(f"📬 Total d'emails récupérés: {len(messages)}")
 
         # Define the target period (00:00 to 23:59 UTC)
         target_start = datetime.combine(
@@ -179,11 +181,15 @@ if __name__ == "__main__":
 
         print(f"Période recherchée: {target_start.strftime('%Y-%m-%d %H:%M')} à {target_end.strftime('%Y-%m-%d %H:%M')}\n")
 
+        framaforms_count = 0
         for msg in messages:
             # Filtre: ne traiter que les emails Framaforms
             subject_lower = (msg.subject or "").lower()
             if not any(keyword in subject_lower for keyword in ["framaforms", "submitted on", "soumission"]):
                 continue
+
+            framaforms_count += 1
+            print(f"\n[{framaforms_count}] Email Framaforms détecté: {msg.subject[:60]}...")
 
             body = msg.text or msg.html or ""
             category = extract_category(body or msg.subject or "")
@@ -196,6 +202,9 @@ if __name__ == "__main__":
                     if msg.date
                     else datetime.now(timezone.utc)
                 )
+                print(f"    Date extraite du corps: None → Utilisation date réception: {submission_date.strftime('%Y-%m-%d %H:%M')}")
+            else:
+                print(f"    Date extraite du corps: {submission_date.strftime('%Y-%m-%d %H:%M')}")
 
             # Only process emails from the target date
             if target_start <= submission_date < target_end:
@@ -209,9 +218,14 @@ if __name__ == "__main__":
                 counts[category] += 1
                 print(f"  ✅ Compté dans la catégorie '{category}'")
                 processed_uids.add(msg.uid)
+            else:
+                print(f"    ❌ Hors période cible")
 
         print(f"\n{'='*60}")
-        print(f"Total des emails traités pour {target_date.strftime('%d/%m/%Y')}: {len(processed_uids)}")
+        print(f"📊 Résumé:")
+        print(f"  - Total emails dans INBOX: {len(messages)}")
+        print(f"  - Emails Framaforms détectés: {framaforms_count}")
+        print(f"  - Emails correspondant à la date {target_date.strftime('%d/%m/%Y')}: {len(processed_uids)}")
 
     # Création du rapport
     if sum(counts.values()) > 0:
