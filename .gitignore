@@ -4,7 +4,8 @@ _site/
 .jekyll-cache/
 .jekyll-metadata
 .ruby-version
-
+#logs 
+/logs/
 # testing python virtual environments
 .venv/
 
