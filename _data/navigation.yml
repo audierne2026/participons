@@ -12,6 +12,8 @@ main:
     url: /a-propos/
   - title: "Actualités"
     url: /actualites/
+  # - title: "Contribution Process(EN)"
+  #   url: /contribution-process/
   - title: "Contact"
     url: /contact/
 
