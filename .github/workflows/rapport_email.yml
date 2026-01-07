@@ -4,6 +4,11 @@ on:
   schedule:
     - cron: "0 8 * * *" # Tous les jours à 8h UTC (9h France)
   workflow_dispatch:
+    inputs:
+      date:
+        description: 'Date spécifique à analyser (DD/MM/YYYY, ex: 06/01/2025). Laisser vide pour hier.'
+        required: false
+        type: string
 
 jobs:
   report:
@@ -29,4 +34,11 @@ jobs:
           EMAIL_PASS: ${{ secrets.EMAIL_PASS }}
           GITHUB_REPO: audierne2026/participons
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: python scripts/poll_email.py
+        run: |
+          if [ -z "${{ inputs.date }}" ]; then
+            echo "📅 Analyse pour hier (mode automatique)"
+            python scripts/poll_email.py
+          else
+            echo "📅 Analyse pour la date spécifiée: ${{ inputs.date }}"
+            python scripts/rerun_poll_email.py "${{ inputs.date }}"
+          fi
