@@ -70,6 +70,8 @@ Dans un souci de transparence totale, voici notre budget prévisionnel :
 | Nom de domaine (audierne2026.fr). | 10-15€/an                 |
 | Hébergement                       | 0€ (GitHub Pages gratuit) |
 | Outils participatifs              | 0€ (Framaforms gratuit)   |
+| Contextualisation par IA          | $0.001-0.005 par contrib. |
+| Synthese hebdomadaire par IA      | ~$0.01-0.05 per semaine   |
 
 **Principe** : Nous privilégions les outils gratuits et open source pour minimiser les coûts et garantir l'indépendance.
 

@@ -1,0 +1,82 @@
+name: Synthèse IA des contributions
+
+on:
+  # Manual trigger with options
+  workflow_dispatch:
+    inputs:
+      days:
+        description: "Période en jours à analyser"
+        required: false
+        default: "7"
+        type: string
+      create_issue:
+        description: "Créer une issue avec la synthèse"
+        required: false
+        default: true
+        type: boolean
+
+  # Optional: weekly automatic run (every Monday at 8am UTC)
+  # Uncomment to enable
+  # schedule:
+  #   - cron: '0 8 * * 1'
+
+jobs:
+  synthesize:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      contents: read
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Run AI Synthesis
+        id: synthesis
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPO: ${{ github.repository }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: |
+          DAYS="${{ inputs.days || '7' }}"
+          echo "Analyzing last $DAYS days..."
+          python scripts/ai_synthesis.py --days "$DAYS" --output synthese_ia.md
+
+          # Store output for later steps
+          echo "days=$DAYS" >> $GITHUB_OUTPUT
+
+      - name: Display synthesis
+        run: |
+          echo "📄 Synthèse générée:"
+          echo "===================="
+          cat synthese_ia.md
+
+      - name: Create GitHub Issue with synthesis
+        if: ${{ inputs.create_issue == true || inputs.create_issue == 'true' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          # Get current date for title
+          DATE=$(date +"%d/%m/%Y")
+          DAYS="${{ steps.synthesis.outputs.days }}"
+
+          # Create issue using gh CLI
+          gh issue create \
+            --title "📊 Synthèse IA des contributions - $DATE ($DAYS jours)" \
+            --body-file synthese_ia.md \
+            --label "rapport,synthese,automatisé"
+
+      - name: Upload synthesis as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: synthese-ia-${{ github.run_number }}
+          path: synthese_ia.md
+          retention-days: 30
