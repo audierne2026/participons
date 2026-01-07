@@ -5,6 +5,40 @@
 
 ---
 
+# Synthèse des contributions citoyennes
+
+**Période :** 20 derniers jours
+
+## Logement & Urbanisme
+
+**8 contributions** Les citoyens soulèvent des enjeux majeurs : insécurité routière rue du 14 juillet avec demandes d'aménagements cyclables et limitation à 30 km/h ([#36](https://github.com/audierne2026/participons/issues/36)), nuisances des poubelles enterrées au centre-ville ([#20](https://github.com/audierne2026/participons/issues/20)), inquiétudes des propriétaires sur l'ORI après l'OPAH-RU ([#18](https://github.com/audierne2026/participons/issues/18)), et besoins de transparence sur les travaux d'enfouissement des câbles ([#7](https://github.com/audierne2026/participons/issues/7)). L'absence de desserte ferroviaire ([#11](https://github.com/audierne2026/participons/issues/11)) et le manque de terrains artisanaux ([#28](https://github.com/audierne2026/participons/issues/28)) freinent le développement. Une proposition émergente concerne la réhabilitation de l'ancienne école maritime ([#38](https://github.com/audierne2026/participons/issues/38)).
+
+## Associations & Vie locale
+
+**2 contributions** Forte demande pour un lieu de convivialité intergénérationnel : café associatif avec ludothèque, événements inclusifs et troc ([#33](https://github.com/audierne2026/participons/issues/33)). Les associations culturelles et sportives ont besoin de soutien matériel (salles, équipements) sans ingérence municipale dans leur fonctionnement autonome ([#39](https://github.com/audierne2026/participons/issues/39)).
+
+## École & Jeunesse
+
+**5 contributions** La rénovation de l'école Pierre-Le Lec divise mais progresse, avec des idées de multifonctionnalité hors temps scolaire ([#9](https://github.com/audierne2026/participons/issues/9), [#31](https://github.com/audierne2026/participons/issues/31)). Besoin de mutualisation du matériel informatique entre écoles publiques/privées ([#21](https://github.com/audierne2026/participons/issues/21)) et de transport pour activités à Plouhinec/Pont-Croix ([#12](https://github.com/audierne2026/participons/issues/12)). La sauvegarde du corps de garde de la Douane mobilise via une pétition ([#13](https://github.com/audierne2026/participons/issues/13)).
+
+## Environnement
+
+**2 contributions** Protection de la biodiversité des dunes de Trez Goarem perturbée par les chiens en liberté ([#15](https://github.com/audierne2026/participons/issues/15)). Demande de transparence accrue sur la qualité de l'eau potable avec création possible d'un Observatoire de l'eau ([#14](https://github.com/audierne2026/participons/issues/14)).
+
+## Économie locale
+
+**2 contributions** Dynamisation du front de mer Avenue Manu Brusq avec identification des locaux vacants pour commerces permanents ([#37](https://github.com/audierne2026/participons/issues/37)). Confirmation du manque de zones artisanales disponibles ([#22](https://github.com/audierne2026/participons/issues/22)).
+
+## Pistes d'action
+
+1. **Aménager la rue du 14 juillet** en zone 30 avec piste cyclable et passages piétons sécurisés
+2. **Créer un tiers-lieu intergénérationnel** (café associatif) dans un équipement public rénové
+3. **Optimiser l'école Pierre-Le Lec** pour usages communautaires hors temps scolaire
+4. **Développer une zone artisanale intercommunale** avec la CCSPR
+5. **Améliorer la communication municipale** sur les projets d'urbanisme et la qualité de l'eau
+
+_Synthèse générée le 07/01/2026 à 14:39 UTC_ _Script : `scripts/ai_synthesis.py`_
+
 ## Vue d'ensemble
 
 - **Issues (contributions conformes) :** 20
