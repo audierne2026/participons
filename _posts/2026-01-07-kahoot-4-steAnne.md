@@ -1,6 +1,6 @@
 ---
 title: "Les CM1-CM2 à Audierne se mobilisent pendant 4 semaines!"
-date: 2026-01-05
+date: 2026-01-07
 classes: wide
 categories:
   - tech
