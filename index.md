@@ -39,6 +39,8 @@ feature_row:
 
 {% include feature_row id="intro" type="center" %}
 
+{% include posts_carousel.html title="Actualités" limit=6 %}
+
 {% include feature_row %}
 
 ## Notre démarche
