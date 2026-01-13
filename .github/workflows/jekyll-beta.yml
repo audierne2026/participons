@@ -1,0 +1,112 @@
+name: Deploy Beta to GitHub Pages
+
+on:
+  # Manual trigger with branch selection
+  workflow_dispatch:
+    inputs:
+      deploy_mode:
+        description: 'Deployment mode'
+        required: true
+        default: 'subdirectory'
+        type: choice
+        options:
+          - subdirectory   # Deploy to /beta/ path (safe, production stays live)
+          - replace        # Replace production entirely (for final review)
+
+# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build-beta:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout beta branch
+        uses: actions/checkout@v4
+
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.3"
+          bundler-cache: true
+
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v5
+
+      - name: Build Jekyll (subdirectory mode)
+        if: ${{ github.event.inputs.deploy_mode == 'subdirectory' }}
+        run: bundle exec jekyll build --baseurl "/beta" --destination ./_site_beta
+        env:
+          JEKYLL_ENV: production
+
+      - name: Build Jekyll (replace mode)
+        if: ${{ github.event.inputs.deploy_mode == 'replace' }}
+        run: bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Checkout main for production build
+        if: ${{ github.event.inputs.deploy_mode == 'subdirectory' }}
+        uses: actions/checkout@v4
+        with:
+          ref: main
+          path: _main_checkout
+
+      - name: Build production site
+        if: ${{ github.event.inputs.deploy_mode == 'subdirectory' }}
+        run: |
+          cd _main_checkout
+          bundle install
+          bundle exec jekyll build --baseurl "${{ steps.pages.outputs.base_path }}"
+        env:
+          JEKYLL_ENV: production
+
+      - name: Merge beta into production site
+        if: ${{ github.event.inputs.deploy_mode == 'subdirectory' }}
+        run: |
+          mkdir -p _main_checkout/_site/beta
+          cp -r _site_beta/* _main_checkout/_site/beta/
+          mv _main_checkout/_site ./_site
+
+      - name: Add beta indicator page
+        if: ${{ github.event.inputs.deploy_mode == 'subdirectory' }}
+        run: |
+          cat > ./_site/beta/index.html << 'EOF'
+          <!DOCTYPE html>
+          <html>
+          <head>
+            <meta charset="utf-8">
+            <title>Beta Preview</title>
+            <meta http-equiv="refresh" content="0; url=./actualites/">
+            <style>
+              body { font-family: sans-serif; padding: 2rem; text-align: center; }
+              a { color: #0066cc; }
+            </style>
+          </head>
+          <body>
+            <p>Redirecting to beta preview...</p>
+            <p><a href="./actualites/">Click here if not redirected</a></p>
+          </body>
+          </html>
+          EOF
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}${{ github.event.inputs.deploy_mode == 'subdirectory' && 'beta/' || '' }}
+    runs-on: ubuntu-latest
+    needs: build-beta
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

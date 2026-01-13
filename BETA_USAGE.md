@@ -1,64 +1,137 @@
-IDEA :
+# Beta Preview Deployment
 
-GitHub Pages deploys from only **one source** (branch/folder) per repository, so the live site URL stays the same. You can't host production and beta simultaneously at different subpaths without extra setup (like GitHub Actions).
+Ce guide explique comment publier une version beta du site pour validation avant publication sur main.
 
-A simple, safe approach uses branch renaming to switch to the beta temporarily, show it to users at the live URL, and easily revert if needed.
+## Architecture
 
-### Recommended Approach: Temporary Beta Switch via Branch Rename
+```
+main (production)     →  https://audierne2026.fr/
+feature-branch (beta) →  https://audierne2026.fr/beta/
+```
 
-This preserves your current production site code while letting you deploy the beta to the live URL.
+Le site utilise GitHub Actions pour le déploiement. Deux workflows existent :
+- `jekyll.yml` : déploiement automatique de `main` (production)
+- `jekyll-beta.yml` : déploiement manuel d'une branche beta
 
-1. **Identify your current Pages source**  
-   Go to repository **Settings > Pages**. Note the branch (e.g., `gh-pages`, `main`, or another) and folder (usually `/ (root)` or `/docs`).
+## Publier une Beta
 
-2. **Rename the current production branch (to preserve it)**
+### 1. Préparer la branche
 
-   - In GitHub UI: Go to the **Branches** tab, click the pencil icon next to the branch, and rename it (e.g., to `gh-pages-prod` or `main-prod`).
-   - Or locally:
-     ```
-     git checkout current-branch-name
-     git branch -m new-prod-name  # e.g., gh-pages-prod
-     git push origin :old-branch-name new-prod-name  # Delete old remote and push new
-     ```
-     After renaming, your live site may temporarily show a 404 until you set a new source—act quickly.
+```bash
+# Créer et basculer sur la branche article
+git checkout -b article/mon-nouvel-article
 
-3. **Create a new branch for the beta**
+# Faire les modifications...
+# Ajouter les fichiers
+git add .
+git commit -m "Ajout article: mon-nouvel-article"
 
-   - Create and checkout a new branch with the same name as the old one (e.g., `gh-pages`).
-   - Base it on your development branch with the changes:
-     ```
-     git checkout your-changes-branch
-     git branch gh-pages  # Or main, matching the original source name
-     git push origin gh-pages
-     ```
+# Pousser la branche sur GitHub
+git push -u origin article/mon-nouvel-article
+```
 
-4. **Update Pages settings to the new branch**
+### 2. Déclencher le déploiement beta
 
-   - Repository **Settings > Pages > Branch**: Select the new branch (same name as before) and folder. Save.
-   - GitHub will deploy the beta version automatically (may take a few minutes).
-   - Your live GitHub Pages URL now shows the beta—share it with users for feedback.
+1. Aller sur GitHub → **Actions** → **Deploy Beta to GitHub Pages**
+2. Cliquer sur **Run workflow**
+3. Sélectionner votre branche (ex: `article/mon-nouvel-article`)
+4. Choisir le mode de déploiement :
+   - **subdirectory** (recommandé) : la beta est accessible à `/beta/`, production reste intacte
+   - **replace** : remplace temporairement la production (pour review finale)
+5. Cliquer sur **Run workflow**
 
-5. **Revert to production if needed**
-   - Rename the beta branch away (e.g., to `gh-pages-beta`).
-   - Rename the preserved prod branch back to the original name (e.g., `gh-pages-prod` → `gh-pages`).
-   - Or in Settings > Pages, switch back to the prod branch.
-   - The site reverts to the original version.
+### 3. Partager le lien beta
 
-This method is straightforward, requires no workflows, and works on all plans.
+Mode subdirectory :
+```
+https://audierne2026.fr/beta/
+```
 
-### Better Long-Term Option: Persistent Beta (Without Affecting Live URL)
+Mode replace :
+```
+https://audierne2026.fr/
+```
 
-If you want production at the root URL and beta at a subpath like `your-site.com/beta` simultaneously:
+### 4. Après validation
 
-- Set up a **GitHub Actions** workflow to build/deploy the beta to a subdirectory on your production branch.
-- Use popular actions like [peaceiris/actions-gh-pages](https://github.com/peaceiris/actions-gh-pages) (supports `destination_dir: beta`).
-- Trigger it on pushes to your changes branch.
-- Production stays untouched at the root.
+Si la beta est approuvée :
+```bash
+# Fusionner dans main
+git checkout main
+git merge article/mon-nouvel-article
+git push origin main
+# → Le workflow jekyll.yml se déclenche automatiquement
+```
 
-This needs a `.github/workflows/deploy.yml` file—check the action's docs for examples.
+Si mode "replace" était utilisé, la production est automatiquement mise à jour avec le contenu final.
 
-If your site uses Jekyll or another builder, set a `baseurl: /beta` in config for subpath deploys to handle links correctly.
+## Modes de déploiement
 
-For details, see GitHub Docs on [configuring Pages source](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) and [renaming branches](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-branches-in-your-repository/renaming-a-branch).
+| Mode | URL Beta | Production | Usage |
+|------|----------|------------|-------|
+| `subdirectory` | `/beta/` | Intacte | Review sans risque |
+| `replace` | `/` | Remplacée | Review finale avant merge |
 
-Let me know your current Pages branch/setup or if you use Actions already—I can give more tailored steps!
+### Mode subdirectory (recommandé)
+
+- La production reste accessible à la racine
+- La beta est accessible sous `/beta/`
+- Idéal pour montrer un article à quelqu'un sans impacter les visiteurs
+- Après merge dans main, la production est mise à jour et `/beta/` disparait au prochain build
+
+### Mode replace
+
+- Remplace entièrement la production
+- Utile pour une dernière vérification avant merge
+- Pour restaurer : relancer le workflow `jekyll.yml` depuis main
+
+## Exemple concret : article Van Praët
+
+```bash
+# Situation actuelle
+git checkout article/meeting-van-praet
+
+# Pousser si pas déjà fait
+git push -u origin article/meeting-van-praet
+
+# Sur GitHub :
+# Actions → Deploy Beta to GitHub Pages → Run workflow
+# Branch: article/meeting-van-praet
+# Mode: subdirectory
+
+# Partager le lien :
+# https://audierne2026.fr/beta/campaign/2026/01/11/meeting-liste-mvp.html
+
+# Après validation :
+git checkout main
+git merge article/meeting-van-praet
+git push origin main
+```
+
+## Troubleshooting
+
+### La beta ne se déploie pas
+- Vérifier que la branche est bien poussée sur GitHub
+- Vérifier les logs dans Actions → Deploy Beta to GitHub Pages
+
+### Les liens sont cassés en beta
+- En mode subdirectory, les liens absolus pointent vers la production
+- Utiliser `{{ site.baseurl }}` dans les templates pour des liens relatifs
+
+### Revenir à la production après un "replace"
+```bash
+# Option 1: Relancer le workflow production
+# Actions → Deploy Jekyll site to Pages → Run workflow (depuis main)
+
+# Option 2: Faire un commit vide pour déclencher le build
+git checkout main
+git commit --allow-empty -m "Trigger rebuild"
+git push origin main
+```
+
+## Notes techniques
+
+- Le workflow beta clone `main` pour la production et la branche courante pour la beta
+- Les deux builds sont fusionnés : production à `/` et beta à `/beta/`
+- Le baseurl est automatiquement configuré (`/beta` en mode subdirectory)
+- Les deux déploiements partagent le même environnement GitHub Pages
