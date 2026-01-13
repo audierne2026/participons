@@ -15,7 +15,7 @@ plaud_url: "https://web.plaud.ai/s/pub_9708be19-131d-4d96-86ef-b6b0e1921c78::AJz
 plaud_url_2: "https://web.plaud.ai/s/pub_0545c947-9190-48da-be98-dd7267ce3bac::Ou8GuuYdQk-99zho3ETXlintvsDRzEmOJfflO_y_KzBPZCCuNqb1lYX3DIxOuNV8eLDa2R4KXSnhle00JJcC"
 ---
 
-[![Le projet de la nouvelle école](/assets/images/reunion_van_praet_1101.png "Michel van Praët nous présente")](https://www.facebook.com/share/p/1DbzV6eE3U/?mibextid=wwXIfr)
+[![Le projet de la nouvelle école]( {{ "assets/images/reunion_van_praet_1101.png" | relative_url }} "Michel van Praët nous présente")](https://www.facebook.com/share/p/1DbzV6eE3U/?mibextid=wwXIfr)
 
 La liste **En 2026, s’unir pour Audierne-Esquibien** menée par Michel Van Praët s'est réunie le 11 janvier à Esquibien. Trois thèmes étaient à l'ordre du jour : **projet d'école**, **finances** et **gouvernance**.
 
@@ -25,7 +25,7 @@ La réunion s'est déroulée dans une ambiance sereine et respectueuse, avec des
 
 La liste publie ses propres comptes-rendus sur sa page Facebook. [Pour la version officielle et complète](https://www.facebook.com/share/p/1DbzV6eE3U/?mibextid=wwXIfr).
 
-![plan école modifié crédits goyen2026](/assets/images/plan_ecole_mvp.jpg)
+![plan école modifié crédits goyen2026]( {{ "assets/images/plan_ecole_mvp.jpg" | relative_url }} )
 
 > **Résumé IA** : Réunion de campagne abordant le projet d'école, les finances communales et la gouvernance à Audierne.
 
@@ -34,7 +34,7 @@ Une transcription automatique complète est disponible:
 
 Une transcription automatique incomplète (je suis arrivé en retard) de la réunion satelite:
 
-![reunion satelite crédits goyen2026](/assets/images/satellite_meeting.jpeg)
+![reunion satelite crédits goyen2026]( {{ "assets/images/satellite_meeting.jpeg" | relative_url }} )
 
 [<i class="fas fa-robot"></i>Réunion satellite: Urbanisme, logement et projets participatifs à Audierne]({{ page.plaud_url_2 }}){: .btn .btn--info target="\_blank"}
 
