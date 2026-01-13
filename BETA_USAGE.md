@@ -2,6 +2,18 @@
 
 Ce guide explique comment publier une version beta du site pour validation avant publication sur main.
 
+## Configuration initiale (une seule fois)
+
+### Environnement GitHub
+
+Aller sur GitHub → **Settings** → **Environments** → **beta** → **Deployment branches and tags**
+
+Ajouter ces patterns pour autoriser les branches de preview :
+- `article/*`
+- `feature/*`
+
+Cela permet à toutes les branches de preview de se déployer sans blocage.
+
 ## Architecture
 
 ```
@@ -108,11 +120,33 @@ git merge article/meeting-van-praet
 git push origin main
 ```
 
+## Bonnes pratiques
+
+### Chemins des images
+
+**Toujours utiliser des chemins absolus** dans les posts et pages :
+
+```markdown
+<!-- ✓ Correct -->
+![description](/assets/images/mon-image.jpg)
+
+<!-- ✗ Incorrect - ne fonctionne pas -->
+![description](../assets/images/mon-image.jpg)
+```
+
+En mode subdirectory, les images à `/assets/...` restent accessibles car la production est aussi déployée.
+
 ## Troubleshooting
 
 ### La beta ne se déploie pas
 - Vérifier que la branche est bien poussée sur GitHub
 - Vérifier les logs dans Actions → Deploy Beta to GitHub Pages
+- Vérifier que l'environnement `beta` autorise votre branche (Settings → Environments → beta)
+
+### Les images ne s'affichent pas
+- Utiliser des chemins absolus : `/assets/images/...`
+- Ne PAS utiliser de chemins relatifs : `../assets/images/...`
+- Les chemins absolus fonctionnent car la production (avec ses assets) est aussi déployée
 
 ### Les liens sont cassés en beta
 - En mode subdirectory, les liens absolus pointent vers la production
@@ -131,7 +165,8 @@ git push origin main
 
 ## Notes techniques
 
+- Le workflow beta utilise l'environnement `beta` (sans protection stricte)
+- Le workflow production utilise l'environnement `github-pages` (protégé, main uniquement)
 - Le workflow beta clone `main` pour la production et la branche courante pour la beta
 - Les deux builds sont fusionnés : production à `/` et beta à `/beta/`
 - Le baseurl est automatiquement configuré (`/beta` en mode subdirectory)
-- Les deux déploiements partagent le même environnement GitHub Pages
