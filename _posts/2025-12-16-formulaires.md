@@ -23,7 +23,7 @@ Nous croyons que :
 
 les formulaires sont :
 
-- **Logement & Urbanisme** [Participer]({{ "/formulaires/associations/" | relative_url }})
+- **Logement & Urbanisme** [Participer]({{ "/formulaires/logement/" | relative_url }})
 - **Culture & Patrimoine** [Participer]({{ "/formulaires/culture/" | relative_url }})
 - **Associations & Vie locale** [Participer]({{ "/formulaires/associations/" | relative_url }})
 - **École & Jeunesse** [Participer]({{ "/formulaires/jeunesse/" | relative_url }})

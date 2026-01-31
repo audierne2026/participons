@@ -59,6 +59,9 @@ footer:
     - label: "Traitement des données"
       icon: "fas fa-fw fa-gavel"
       url: "https://audierne2026.github.io/participons/privacy/"
+    - label: "CGU"
+      icon: "fas fa-fw fa-gavel"
+      url: "https://audierne2026.fr/tos/"
 
 # Reading Files
 include:
