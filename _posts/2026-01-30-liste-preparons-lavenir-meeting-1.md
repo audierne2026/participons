@@ -45,7 +45,7 @@ Les propositions s'appuient sur des projets finançables, avec un engagement sur
 **Culture (Patrimoine, événements, arts, musique)**
 
 - Valorisation identité capiste ("Fête des Lavoirs" Esquibien).
-- "Rue des Arts" pour vitrines vacantes (rues Double/Danton) avec RIA.
+- "Rue des Arts" pour vitrines vacantes (rues Double/Danton) avec l'association ARIA.
 - Rehaussement programmation Théâtre Georges Madec ; réflexion régie municipale vs. associatif.
 - Marché nocturne vers Capucins (sous accords privés).
 
