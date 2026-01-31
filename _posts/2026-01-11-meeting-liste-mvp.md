@@ -75,7 +75,7 @@ Le débat oppose cette vision à des critiques sur l'endettement, les pertes de 
 Points forts : pragmatisme (rationalisation patrimoine, mixité usages), transparence sur contraintes budgétaires, volonté transpartisane sur eau/santé/écologie.  
 Défis : impasse potentielle projet scolaire (subventions refusées non démenties), crédibilité "nouvelle méthode" face bilan vertical, forte dépendance externes (État, ComCom, ARS, syndicats eau).
 
-## Recommandations
+## Recommandations O Capistaine (agent IA modéré par l'humain)
 
 1. **Audit financier indépendant flash** sur capacité désendettement intégrant refus subventions 2025 pour trancher projet école.
 2. **Table ronde publique Eau/Résilience** avec DDTM/syndicats/citoyens pour feuille de route hors polémique.
