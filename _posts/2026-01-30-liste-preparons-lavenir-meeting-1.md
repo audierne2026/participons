@@ -33,7 +33,7 @@ Les propositions s'appuient sur des projets finançables, avec un engagement sur
 - Prolongation de la dynamique commerciale (rue Pasteur → place Gambetta via Grand Rue et Ty Forn).
 - Soutien à la souveraineté alimentaire via commande publique (cantines locales pour agriculteurs/pêcheurs du Cap Sizun et Douarnenez).
 - Zone bleue toute l'année (2h max) + parkings délestage ; fibre optique et BreizhGo pour désenclavement.
-- Rigueur : ratio Knopfler à 6 ans pour crédibilité financière.
+- Rigueur : ratio Knopfer à 6 ans pour crédibilité financière.
 
 **Logement (Habitat, urbanisme, immobilier)**
 
