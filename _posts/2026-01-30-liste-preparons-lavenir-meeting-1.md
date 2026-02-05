@@ -17,7 +17,7 @@ header:
 
 ### Analyse de la Réunion Publique : Liste "Construire l'Avenir" (Janvier 2026)
 
-La réunion publique du 30 janvier 2026 au Théâtre Georges Madec à Esquibien, animée par Florent Lardic (tête de liste), Carine Thomas, Thierry Capron, Malika Andréolien et d'autres colistiers, a réuni des citoyens autour d'un programme ambitieux mais réaliste pour la commune nouvelle d'Audierne-Esquibien. Face à un mandat sortant marqué par des tensions et une gestion parfois perçue comme autoritaire, l'équipe propose une rupture via une gouvernance apaisée, une écoute citoyenne (plus de 500 rencontres revendiquées) et un sérieux budgétaire.
+La réunion publique du 30 janvier 2026 au Théâtre Georges Madec à Esquibien, animée par Florent Lardic (tête de liste), Carine Thomas, Thierry Capron, Malika Redaouia et d'autres colistiers, a réuni des citoyens autour d'un programme ambitieux mais réaliste pour la commune nouvelle d'Audierne-Esquibien. Face à un mandat sortant marqué par des tensions et une gestion parfois perçue comme autoritaire, l'équipe propose une rupture via une gouvernance apaisée, une écoute citoyenne (plus de 500 rencontres revendiquées) et un sérieux budgétaire.
 
 Le fil rouge : transformer Audierne-Esquibien en une "ville qui vit toute l'année", loin d'une simple station balnéaire saisonnière, en équilibrant modernisation (rénovation énergétique, fibre) et préservation de l'identité capiste.
 
