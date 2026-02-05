@@ -1,0 +1,191 @@
+name: Feed Mistral RAG
+
+on:
+  workflow_dispatch:
+    inputs:
+      extract_pdfs:
+        description: 'Extract text from PDFs using Mistral OCR'
+        type: boolean
+        default: true
+      pdf_limit:
+        description: 'Limit number of PDFs to process (0 = all)'
+        type: number
+        default: 10
+      upload_to_mistral:
+        description: 'Upload dataset to Mistral API'
+        type: boolean
+        default: false
+
+jobs:
+  feed-rag:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: |
+          pip install requests python-dotenv
+
+      # ==================== STEP 1: Export Contributions ====================
+      - name: Export contributions to markdown
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          echo "📄 Exporting GitHub contributions to markdown files..."
+          python scripts/export_contributions_to_md.py --clean
+
+      # ==================== STEP 2: Extract PDFs ====================
+      - name: Extract PDFs with Mistral OCR
+        if: ${{ inputs.extract_pdfs == true }}
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: |
+          echo "📑 Extracting text from PDFs using Mistral Document AI..."
+
+          if [ -z "$MISTRAL_API_KEY" ]; then
+            echo "⚠️ MISTRAL_API_KEY not set - skipping PDF extraction"
+            echo "   Add MISTRAL_API_KEY to repository secrets to enable this feature"
+            exit 0
+          fi
+
+          LIMIT=${{ inputs.pdf_limit }}
+          if [ "$LIMIT" -gt 0 ]; then
+            python scripts/extract_pdf_with_mistral.py --limit $LIMIT
+          else
+            python scripts/extract_pdf_with_mistral.py
+          fi
+
+      - name: List extracted PDFs
+        if: ${{ inputs.extract_pdfs == true }}
+        run: |
+          echo "📋 PDF extraction results:"
+          if [ -f "data/pdf_extracts/pdf_index.json" ]; then
+            cat data/pdf_extracts/pdf_index.json | python3 -c "
+          import json, sys
+          data = json.load(sys.stdin)
+          pdfs = data.get('pdfs', {})
+          print(f'Total PDFs indexed: {len(pdfs)}')
+          print(f'Last updated: {data.get(\"last_updated\", \"N/A\")}')
+          "
+          else
+            echo "No PDF index found"
+          fi
+
+      # ==================== STEP 3: Prepare Dataset ====================
+      - name: Prepare Mistral fine-tuning dataset
+        run: |
+          echo "🤖 Preparing JSONL dataset for Mistral fine-tuning..."
+          python scripts/prepare_mistral_dataset.py --output data/mistral/dataset.jsonl
+
+      # ==================== STEP 4: Upload Artifacts ====================
+      - name: Upload dataset artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: mistral-rag-data
+          path: |
+            data/mistral/*.jsonl
+            data/mistral/*.json
+            data/pdf_extracts/pdf_index.json
+            data/pdf_extracts/**/*.md
+          retention-days: 30
+
+      # ==================== STEP 5: Upload to Mistral (Optional) ====================
+      - name: Upload files to Mistral API
+        if: ${{ inputs.upload_to_mistral == true }}
+        env:
+          MISTRAL_API_KEY: ${{ secrets.MISTRAL_API_KEY }}
+        run: |
+          if [ -z "$MISTRAL_API_KEY" ]; then
+            echo "❌ MISTRAL_API_KEY not set"
+            exit 1
+          fi
+
+          echo "📤 Uploading training dataset to Mistral..."
+          TRAIN_RESPONSE=$(curl -s -X POST "https://api.mistral.ai/v1/files" \
+            -H "Authorization: Bearer $MISTRAL_API_KEY" \
+            -F "file=@data/mistral/dataset_train.jsonl" \
+            -F "purpose=fine-tune")
+
+          echo "$TRAIN_RESPONSE" | tee upload_train.json
+          TRAIN_ID=$(echo "$TRAIN_RESPONSE" | jq -r '.id // empty')
+
+          echo ""
+          echo "📤 Uploading validation dataset to Mistral..."
+          VAL_RESPONSE=$(curl -s -X POST "https://api.mistral.ai/v1/files" \
+            -H "Authorization: Bearer $MISTRAL_API_KEY" \
+            -F "file=@data/mistral/dataset_val.jsonl" \
+            -F "purpose=fine-tune")
+
+          echo "$VAL_RESPONSE" | tee upload_val.json
+          VAL_ID=$(echo "$VAL_RESPONSE" | jq -r '.id // empty')
+
+          echo ""
+          echo "============================================"
+          echo "✅ Upload complete!"
+          echo "   Train file ID: $TRAIN_ID"
+          echo "   Validation file ID: $VAL_ID"
+          echo "============================================"
+
+          # Save file IDs for potential follow-up jobs
+          echo "TRAIN_FILE_ID=$TRAIN_ID" >> $GITHUB_ENV
+          echo "VAL_FILE_ID=$VAL_ID" >> $GITHUB_ENV
+
+      # ==================== STEP 6: Summary ====================
+      - name: Generate summary
+        run: |
+          echo ""
+          echo "============================================"
+          echo "📊 Feed Mistral RAG - Summary"
+          echo "============================================"
+          echo ""
+
+          echo "📁 Contributions exported:"
+          if [ -f "docs/.contributions_export_metadata.json" ]; then
+            cat docs/.contributions_export_metadata.json | python3 -c "
+          import json, sys
+          data = json.load(sys.stdin)
+          print(f'   Issues: {data.get(\"issues_exported\", 0)}')
+          print(f'   Discussions: {data.get(\"discussions_exported\", 0)}')
+          print(f'   Files created: {data.get(\"files_created\", 0)}')
+          "
+          fi
+
+          echo ""
+          echo "📑 PDFs processed:"
+          if [ -f "data/pdf_extracts/pdf_index.json" ]; then
+            cat data/pdf_extracts/pdf_index.json | python3 -c "
+          import json, sys
+          data = json.load(sys.stdin)
+          print(f'   Total: {len(data.get(\"pdfs\", {}))}')
+          "
+          else
+            echo "   Skipped (extract_pdfs=false or no API key)"
+          fi
+
+          echo ""
+          echo "🤖 Dataset prepared:"
+          if [ -f "data/mistral/dataset_metadata.json" ]; then
+            cat data/mistral/dataset_metadata.json | python3 -c "
+          import json, sys
+          data = json.load(sys.stdin)
+          print(f'   Total Q&A pairs: {data.get(\"total_pairs\", 0)}')
+          print(f'   Train: {data.get(\"train_pairs\", 0)}')
+          print(f'   Validation: {data.get(\"val_pairs\", 0)}')
+          print()
+          print('   By category:')
+          for cat, count in sorted(data.get('categories', {}).items(), key=lambda x: -x[1]):
+              print(f'     - {cat}: {count}')
+          "
+          fi
+
+          echo ""
+          echo "============================================"

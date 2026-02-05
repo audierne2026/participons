@@ -1,0 +1,41 @@
+{
+  "last_export": "2026-02-05T14:26:32.013156+00:00",
+  "commit_hash": "33036b2cd6d1a504482830a91a1e7173d36c9836",
+  "issues_exported": 34,
+  "discussions_exported": 14,
+  "files_created": 58,
+  "categories": {
+    "associations": {
+      "issues": 6,
+      "discussions": 1
+    },
+    "economie": {
+      "issues": 5,
+      "discussions": 1
+    },
+    "logement": {
+      "issues": 10,
+      "discussions": 2
+    },
+    "ecologie": {
+      "issues": 3,
+      "discussions": 2
+    },
+    "alimentation-bien-etre-soins": {
+      "issues": 2,
+      "discussions": 1
+    },
+    "autre": {
+      "issues": 1,
+      "discussions": 4
+    },
+    "jeunesse": {
+      "issues": 6,
+      "discussions": 3
+    },
+    "culture": {
+      "issues": 1,
+      "discussions": 1
+    }
+  }
+}
