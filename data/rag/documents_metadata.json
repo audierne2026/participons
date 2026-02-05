@@ -1,0 +1,20 @@
+{
+  "created_at": "2026-02-05T16:12:39.240639+00:00",
+  "total_documents": 103,
+  "by_type": {
+    "readme": 7,
+    "contribution": 44,
+    "pdf_extract": 52
+  },
+  "by_category": {
+    "economie": 25,
+    "logement": 32,
+    "culture": 4,
+    "environnement": 13,
+    "associations": 9,
+    "jeunesse": 12,
+    "alimentation-bien-etre-soins": 8
+  },
+  "total_characters": 362801,
+  "total_words": 43437
+}

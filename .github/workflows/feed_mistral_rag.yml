@@ -35,23 +35,31 @@ jobs:
           echo "📄 Exporting GitHub contributions to markdown files..."
           python scripts/export_contributions_to_md.py --clean
 
-      # ==================== STEP 2: Prepare Dataset ====================
+      # ==================== STEP 2: Prepare RAG Dataset ====================
+      - name: Prepare RAG dataset (full documents)
+        run: |
+          echo "📚 Preparing RAG dataset with full documents..."
+          python scripts/prepare_rag_dataset.py --output data/rag/documents.jsonl
+
+      # ==================== STEP 3: Prepare Fine-tuning Dataset ====================
       - name: Prepare Mistral fine-tuning dataset
         run: |
           echo "🤖 Preparing JSONL dataset for Mistral fine-tuning..."
           python scripts/prepare_mistral_dataset.py --output data/mistral/dataset.jsonl
 
-      # ==================== STEP 3: Upload Artifacts ====================
+      # ==================== STEP 4: Upload Artifacts ====================
       - name: Upload dataset artifact
         uses: actions/upload-artifact@v4
         with:
           name: mistral-rag-data
           path: |
+            data/rag/*.jsonl
+            data/rag/*.json
             data/mistral/*.jsonl
             data/mistral/*.json
           retention-days: 30
 
-      # ==================== STEP 4: Upload to Mistral (Optional) ====================
+      # ==================== STEP 5: Upload to Mistral (Optional) ====================
       - name: Upload files to Mistral API
         if: ${{ inputs.upload_to_mistral == true }}
         env:
@@ -62,6 +70,16 @@ jobs:
             exit 1
           fi
 
+          echo "📚 Uploading RAG dataset to Mistral..."
+          RAG_RESPONSE=$(curl -s -X POST "https://api.mistral.ai/v1/files" \
+            -H "Authorization: Bearer $MISTRAL_API_KEY" \
+            -F "file=@data/rag/documents.jsonl" \
+            -F "purpose=retrieval")
+
+          echo "$RAG_RESPONSE" | tee upload_rag.json
+          RAG_ID=$(echo "$RAG_RESPONSE" | jq -r '.id // empty')
+
+          echo ""
           echo "📤 Uploading training dataset to Mistral..."
           TRAIN_RESPONSE=$(curl -s -X POST "https://api.mistral.ai/v1/files" \
             -H "Authorization: Bearer $MISTRAL_API_KEY" \
@@ -84,11 +102,12 @@ jobs:
           echo ""
           echo "============================================"
           echo "✅ Upload complete!"
+          echo "   RAG file ID: $RAG_ID"
           echo "   Train file ID: $TRAIN_ID"
           echo "   Validation file ID: $VAL_ID"
           echo "============================================"
 
-      # ==================== STEP 5: Summary ====================
+      # ==================== STEP 6: Summary ====================
       - name: Generate summary
         run: |
           echo ""
@@ -109,7 +128,21 @@ jobs:
           fi
 
           echo ""
-          echo "🤖 Dataset prepared:"
+          echo "📚 RAG dataset (full documents):"
+          if [ -f "data/rag/documents_metadata.json" ]; then
+            cat data/rag/documents_metadata.json | python3 -c "
+          import json, sys
+          data = json.load(sys.stdin)
+          print(f'   Total documents: {data.get(\"total_documents\", 0)}')
+          print(f'   - READMEs: {data.get(\"by_type\", {}).get(\"readme\", 0)}')
+          print(f'   - Contributions: {data.get(\"by_type\", {}).get(\"contribution\", 0)}')
+          print(f'   - PDF extracts: {data.get(\"by_type\", {}).get(\"pdf_extract\", 0)}')
+          print(f'   Total words: {data.get(\"total_words\", 0):,}')
+          "
+          fi
+
+          echo ""
+          echo "🤖 Fine-tuning dataset (Q&A pairs):"
           if [ -f "data/mistral/dataset_metadata.json" ]; then
             cat data/mistral/dataset_metadata.json | python3 -c "
           import json, sys
@@ -117,10 +150,6 @@ jobs:
           print(f'   Total Q&A pairs: {data.get(\"total_pairs\", 0)}')
           print(f'   Train: {data.get(\"train_pairs\", 0)}')
           print(f'   Validation: {data.get(\"val_pairs\", 0)}')
-          print()
-          print('   By category:')
-          for cat, count in sorted(data.get('categories', {}).items(), key=lambda x: -x[1]):
-              print(f'     - {cat}: {count}')
           "
           fi
 
@@ -128,6 +157,6 @@ jobs:
           echo "============================================"
           echo ""
           echo "💡 To extract PDFs locally, run:"
-          echo "   export MISTRAL_API_KEY='your-key'"
+          echo "   export MISTRAL_OCR_API_KEY='your-key'"
           echo "   python scripts/extract_pdf_with_mistral.py"
           echo "============================================"
