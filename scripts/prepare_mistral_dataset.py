@@ -229,6 +229,53 @@ def generate_qa_pairs_from_contribution(filepath, category_key):
     return qa_pairs
 
 
+def generate_qa_pairs_from_pdf_extract(filepath, category_key):
+    """Generate Q&A pairs from a PDF extract markdown file."""
+    qa_pairs = []
+
+    with open(filepath, "r", encoding="utf-8") as f:
+        content = f.read()
+
+    filename = filepath.stem  # filename without extension
+
+    # Extract title
+    title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+    title = title_match.group(1) if title_match else filename
+
+    # Extract source URL
+    url_match = re.search(r'\*\*Source URL:\*\*\s*(.+?)$', content, re.MULTILINE)
+    source_url = url_match.group(1).strip() if url_match else ""
+
+    # Extract main content (after "## Contenu extrait")
+    content_match = re.search(r'## Contenu extrait\n\n(.+?)(?=\n---|\Z)', content, re.DOTALL)
+    main_content = content_match.group(1).strip() if content_match else ""
+
+    cat_title = CATEGORIES.get(category_key, category_key.capitalize())
+
+    if main_content and len(main_content) > 100:
+        # Limit content to avoid very long answers
+        content_excerpt = main_content[:2000]
+        if len(main_content) > 2000:
+            content_excerpt += "\n\n*[...contenu tronqué pour la formation]*"
+
+        # Q&A about this PDF document
+        qa_pairs.append({
+            "question": f"Que contient le document PDF '{title}' lié à {cat_title.lower()} ?",
+            "answer": f"Le document **{title}** contient les informations suivantes :\n\n{content_excerpt}",
+            "category": category_key
+        })
+
+        # If source URL available, add a source question
+        if source_url:
+            qa_pairs.append({
+                "question": f"Où trouver le document officiel '{title}' ?",
+                "answer": f"Le document **{title}** est disponible à l'adresse suivante :\n\n{source_url}\n\nCe document concerne la catégorie **{cat_title}**.",
+                "category": category_key
+            })
+
+    return qa_pairs
+
+
 def generate_general_qa_pairs():
     """Generate general Q&A pairs about the campaign."""
     return [
@@ -342,6 +389,20 @@ def main():
                     contrib_count += len(pairs)
 
     print(f"   {contrib_count} paires depuis contributions")
+
+    # Process PDF extracts
+    print("\n📑 Traitement des PDF extraits...")
+    pdf_count = 0
+    for cat_key in CATEGORIES.keys():
+        pdf_dir = docs_dir / cat_key / "pdf_extracts"
+        if pdf_dir.exists():
+            for filepath in pdf_dir.glob("*.md"):
+                if filepath.name != "INDEX.md":
+                    pairs = generate_qa_pairs_from_pdf_extract(filepath, cat_key)
+                    all_qa_pairs.extend(pairs)
+                    pdf_count += len(pairs)
+
+    print(f"   {pdf_count} paires depuis PDF extraits")
 
     # Shuffle and split
     random.shuffle(all_qa_pairs)

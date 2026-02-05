@@ -1,0 +1,421 @@
+{
+  "pdfs": {
+    "dc2e791e1719569936d19414820720bb": {
+      "url": "https://www.douarnenez-communaute.fr/wp-content/uploads/2025/07/CATALOGUE_PRODUCTEUR_ED3_2025_LIGHT.pdf",
+      "filename": "CATALOGUE_PRODUCTEUR_ED3_2025_LIGHT",
+      "category": "alimentation-bien-etre-soins",
+      "output_path": "docs/alimentation-bien-etre-soins/pdf_extracts/CATALOGUE_PRODUCTEUR_ED3_2025_LIGHT.md",
+      "pages": 36,
+      "extracted_at": "2026-02-05T15:27:56.261421+00:00"
+    },
+    "172cf2be1fa8ccaf6dd09eeec95905c9": {
+      "url": "https://ch-douarnenez.bzh/sites/default/files/publication-file/ok_Guide_Clic_V2025_web.pdf",
+      "filename": "ok_Guide_Clic_V2025_web",
+      "category": "alimentation-bien-etre-soins",
+      "output_path": "docs/alimentation-bien-etre-soins/pdf_extracts/ok_Guide_Clic_V2025_web.md",
+      "pages": 25,
+      "extracted_at": "2026-02-05T15:28:02.330555+00:00"
+    },
+    "7d5b11bf5ca7c266c0b5a0297d87f0ec": {
+      "url": "https://france-pat.fr/wp-content/uploads/2024/09/rapport-pat2.pdf",
+      "filename": "rapport-pat2",
+      "category": "alimentation-bien-etre-soins",
+      "output_path": "docs/alimentation-bien-etre-soins/pdf_extracts/rapport-pat2.md",
+      "pages": 30,
+      "extracted_at": "2026-02-05T15:29:02.193345+00:00"
+    },
+    "42de1630ae072e67a684d9a347bab50d": {
+      "url": "https://www.sciencespo-lyon.fr/wp-content/uploads/2025/07/RFMPF-PF13.pdf",
+      "filename": "RFMPF-PF13",
+      "category": "alimentation-bien-etre-soins",
+      "output_path": "docs/alimentation-bien-etre-soins/pdf_extracts/RFMPF-PF13.md",
+      "pages": 176,
+      "extracted_at": "2026-02-05T15:29:39.065873+00:00"
+    },
+    "83b922ef0aa0588ff76a6fcfa6648d62": {
+      "url": "https://www.audierne.bzh/wp-content/uploads/2025/03/ANNUAIRE-DES-ASSOCIATIONS-2024-2025-par-theme.pdf",
+      "filename": "ANNUAIRE-DES-ASSOCIATIONS-2024-2025-par-theme",
+      "category": "associations",
+      "output_path": "docs/associations/pdf_extracts/ANNUAIRE-DES-ASSOCIATIONS-2024-2025-par-theme.md",
+      "pages": 12,
+      "extracted_at": "2026-02-05T15:29:57.040371+00:00"
+    },
+    "0610dcc8647ccb2b511f153236ea33c9": {
+      "url": "https://www.cap-sizun.bzh/wp-content/uploads/2025/01/CCCSPR_Schema_local_tourisme_web.pdf",
+      "filename": "CCCSPR_Schema_local_tourisme_web",
+      "category": "culture",
+      "output_path": "docs/culture/pdf_extracts/CCCSPR_Schema_local_tourisme_web.md",
+      "pages": 20,
+      "extracted_at": "2026-02-05T15:30:16.150008+00:00"
+    },
+    "5d1cb536bacdd371703d676c47677fc9": {
+      "url": "https://www.audierne.bzh/wp-content/uploads/2025/07/RP_AUDIERNE_M2_062025.pdf",
+      "filename": "RP_AUDIERNE_M2_062025",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/RP_AUDIERNE_M2_062025.md",
+      "pages": 116,
+      "extracted_at": "2026-02-05T15:30:40.486701+00:00"
+    },
+    "44222f1b51227b85695c7403fa979387": {
+      "url": "https://www.clcl.bzh/images/9-Economie/1-ATOUTS_DU_TERRITOIRE/CHIFFRES/411_08_portrait_éco_CLCL_VF.pdf",
+      "filename": "411_08_portrait_éco_CLCL_VF",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/411_08_portrait_éco_CLCL_VF.md",
+      "pages": 72,
+      "extracted_at": "2026-02-05T15:31:08.253533+00:00"
+    },
+    "d5943d7b6bd570335c3d459b615f137b": {
+      "url": "https://www.ccomptes.fr/sites/default/files/2025-07/BRR2025-20_0.pdf",
+      "filename": "BRR2025-20_0",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/BRR2025-20_0.md",
+      "pages": 57,
+      "extracted_at": "2026-02-05T15:31:28.672225+00:00"
+    },
+    "4db1a7f38c7f905779b1db1bf0b1abdc": {
+      "url": "https://www.ccpcp.bzh/wp-content/uploads/2023/04/411_07_diag_eco_CCPCP_WEB-2.pdf",
+      "filename": "411_07_diag_eco_CCPCP_WEB-2",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/411_07_diag_eco_CCPCP_WEB-2.md",
+      "pages": 72,
+      "extracted_at": "2026-02-05T15:31:57.589816+00:00"
+    },
+    "ed497fb83de8a589b1b7ee34eb80df1e": {
+      "url": "http://www.pays-de-saintbrieuc.org/documents/FTP/214/000/009/114/9114386_4852_4.1_RP_diag_socioeco_SCOT_approuve_07022025.pdf",
+      "filename": "9114386_4852_4.1_RP_diag_socioeco_SCOT_approuve_07022025",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/9114386_4852_4.1_RP_diag_socioeco_SCOT_approuve_07022025.md",
+      "pages": 157,
+      "extracted_at": "2026-02-05T15:32:34.353063+00:00"
+    },
+    "718dbfa8388daf3633c2bb7766e81ea6": {
+      "url": "https://www.paysdesabers.bzh/wp-content/uploads/2023/04/schema_dev_eco_2021_2026.pdf",
+      "filename": "schema_dev_eco_2021_2026",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/schema_dev_eco_2021_2026.md",
+      "pages": 40,
+      "extracted_at": "2026-02-05T15:32:54.641722+00:00"
+    },
+    "c4e36d40d621e7428334ef92feffca34": {
+      "url": "https://www.plouhinec.bzh/wp-content/uploads/2025/07/Liste-des-d_lib_rations-du-CM-du-03-juillet-2025_compressed.pdf",
+      "filename": "Liste-des-d_lib_rations-du-CM-du-03-juillet-2025_compressed",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/Liste-des-d_lib_rations-du-CM-du-03-juillet-2025_compressed.md",
+      "pages": 605,
+      "extracted_at": "2026-02-05T15:33:41.750063+00:00"
+    },
+    "ca20881d2182167eaad3833ba34c2c99": {
+      "url": "https://www.fnau.org/wp-content/uploads/2025/03/rapport-dactivite-2024-web.pdf",
+      "filename": "rapport-dactivite-2024-web",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/rapport-dactivite-2024-web.md",
+      "pages": 32,
+      "extracted_at": "2026-02-05T15:34:04.081586+00:00"
+    },
+    "e24ac84e0edc18f59893bce43d2ba9f5": {
+      "url": "https://www.registre-dematerialise.fr/upload/boxes/6395/documents/693047e36e3e2_Conclusions%20et%20avis%20ScoT%20Brest%20.pdf",
+      "filename": "693047e36e3e2_Conclusions_et_avis_ScoT_Brest_",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/693047e36e3e2_Conclusions_et_avis_ScoT_Brest_.md",
+      "pages": 81,
+      "extracted_at": "2026-02-05T15:34:24.942734+00:00"
+    },
+    "46023d2df793822db43cfc95101c2d91": {
+      "url": "https://www.quimper-cornouaille-developpement.bzh/voy_content/uploads/2023/10/CA-du-10.10.2023-Ordre-du-jour-et-Rapports.pdf",
+      "filename": "CA-du-10.10.2023-Ordre-du-jour-et-Rapports",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/CA-du-10.10.2023-Ordre-du-jour-et-Rapports.md",
+      "pages": 44,
+      "extracted_at": "2026-02-05T15:34:51.483460+00:00"
+    },
+    "aa323491191b777de3cb71e81bc20620": {
+      "url": "https://www.finistere.fr/wp-content/uploads/2025/03/Budget-primitif-2025-Departement-du-Finistere.pdf",
+      "filename": "Budget-primitif-2025-Departement-du-Finistere",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/Budget-primitif-2025-Departement-du-Finistere.md",
+      "pages": 102,
+      "extracted_at": "2026-02-05T15:35:34.215823+00:00"
+    },
+    "bae6ff9035475b70098e21275e8ed3d6": {
+      "url": "https://www.comcom-crozon.com/wp-content/uploads/2025/11/PV_29_09_2025_signe.pdf",
+      "filename": "PV_29_09_2025_signe",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/PV_29_09_2025_signe.md",
+      "pages": 30,
+      "extracted_at": "2026-02-05T15:35:55.789064+00:00"
+    },
+    "eecc4802f6979a5f3d78863da33f26a9": {
+      "url": "https://www.notre-environnement.gouv.fr/IMG/pdf/ree2024_rapport.pdf",
+      "filename": "ree2024_rapport",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/ree2024_rapport.md",
+      "pages": 144,
+      "extracted_at": "2026-02-05T15:37:28.400034+00:00"
+    },
+    "11a565bf1103fa062cd3d2b2a6ab943a": {
+      "url": "https://data.megalis.bretagne.bzh/OpenData/200067072/Deliberation/2025/958055/2671c0fcec46b6de109548c763e592257d4b22d77d6db613df0b4ff40f80de74.pdf",
+      "filename": "2671c0fcec46b6de109548c763e592257d4b22d77d6db613df0b4ff40f80de74",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/2671c0fcec46b6de109548c763e592257d4b22d77d6db613df0b4ff40f80de74.md",
+      "pages": 158,
+      "extracted_at": "2026-02-05T15:37:52.849642+00:00"
+    },
+    "76c3eb1c188750b8d7fea2d645c08315": {
+      "url": "https://www.ccpbs.fr/media/2024/06/20230802_pac_elaboration-pluih-ccpbsVf3.pdf",
+      "filename": "20230802_pac_elaboration-pluih-ccpbsVf3",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/20230802_pac_elaboration-pluih-ccpbsVf3.md",
+      "pages": 143,
+      "extracted_at": "2026-02-05T15:38:17.570514+00:00"
+    },
+    "f2dd7221e775b009b4b92ae23e6378d3": {
+      "url": "https://extranet-elus.golfedumorbihan-vannesagglomeration.bzh/extranet-elus/sites/dev/files/2025-10/51009_DEL09%20à%2018_FINANCES_0.pdf",
+      "filename": "51009_DEL09_à_18_FINANCES_0",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/51009_DEL09_à_18_FINANCES_0.md",
+      "pages": 201,
+      "extracted_at": "2026-02-05T15:38:52.960202+00:00"
+    },
+    "4962d8df81c1bbea84c57f674de3f06d": {
+      "url": "https://www.iles-du-ponant.com/wp-content/uploads/2025/06/Guide_MOBILITE_AIP_VDEF_juin_2025_2.pdf",
+      "filename": "Guide_MOBILITE_AIP_VDEF_juin_2025_2",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/Guide_MOBILITE_AIP_VDEF_juin_2025_2.md",
+      "pages": 20,
+      "extracted_at": "2026-02-05T15:39:11.860859+00:00"
+    },
+    "345f74026aa90494202f7dea75aa037b": {
+      "url": "https://www.cap-sizun.bzh/wp-content/uploads/2024/12/PCAET_CCCSPR_diagnostic_territoriial_2024.pdf",
+      "filename": "PCAET_CCCSPR_diagnostic_territoriial_2024",
+      "category": "environnement",
+      "output_path": "docs/environnement/pdf_extracts/PCAET_CCCSPR_diagnostic_territoriial_2024.md",
+      "pages": 247,
+      "extracted_at": "2026-02-05T15:39:38.360322+00:00"
+    },
+    "68efe3062bd138c5594d006adb90434f": {
+      "url": "https://www.cap-sizun.bzh/wp-content/uploads/2024/11/DOCOB-Cap-Sizun-Volume-1-Cadre-2022-12-12_v2.pdf",
+      "filename": "DOCOB-Cap-Sizun-Volume-1-Cadre-2022-12-12_v2",
+      "category": "environnement",
+      "output_path": "docs/environnement/pdf_extracts/DOCOB-Cap-Sizun-Volume-1-Cadre-2022-12-12_v2.md",
+      "pages": 27,
+      "extracted_at": "2026-02-05T15:39:58.835991+00:00"
+    },
+    "d47270b053431f806fff340cd1a4b99f": {
+      "url": "https://www.audierne.bzh/wp-content/uploads/2025/02/Candidature_villes_villages_fleuris_2024_Brochure_web.pdf",
+      "filename": "Candidature_villes_villages_fleuris_2024_Brochure_web",
+      "category": "environnement",
+      "output_path": "docs/environnement/pdf_extracts/Candidature_villes_villages_fleuris_2024_Brochure_web.md",
+      "pages": 52,
+      "extracted_at": "2026-02-05T15:40:17.970105+00:00"
+    },
+    "09f19b46c786b370b48b431278999bd8": {
+      "url": "https://www.cap-sizun.bzh/wp-content/uploads/2024/10/CCCSPR_synthese_PCAET.pdf",
+      "filename": "CCCSPR_synthese_PCAET",
+      "category": "environnement",
+      "output_path": "docs/environnement/pdf_extracts/CCCSPR_synthese_PCAET.md",
+      "pages": 4,
+      "extracted_at": "2026-02-05T15:40:36.261145+00:00"
+    },
+    "90e4fadf766fecb284c88c289e17131e": {
+      "url": "https://www.audierne.bzh/wp-content/uploads/2025/12/Gwaien_n%C2%B017_Decembre_2025.pdf",
+      "filename": "Gwaien_n_17_Decembre_2025",
+      "category": "environnement",
+      "output_path": "docs/environnement/pdf_extracts/Gwaien_n_17_Decembre_2025.md",
+      "pages": 13,
+      "extracted_at": "2026-02-05T15:40:58.808280+00:00"
+    },
+    "21a2b952073645ee1ab8745e9db3a48e": {
+      "url": "https://www.audierne.bzh/wp-content/uploads/2025/03/M1-Evaluation-environnementale.pdf",
+      "filename": "M1-Evaluation-environnementale",
+      "category": "environnement",
+      "output_path": "docs/environnement/pdf_extracts/M1-Evaluation-environnementale.md",
+      "pages": 125,
+      "extracted_at": "2026-02-05T15:41:25.470640+00:00"
+    },
+    "2b14cb90e8c3064cfbc00e17f8b9bfb3": {
+      "url": "https://data.geopf.fr/annexes/gpu/documents/DU_29003/b861a14a00fd67e197c1f685671a7db0/29003_zonage_eaux_pluviales_20250709.pdf",
+      "filename": "29003_zonage_eaux_pluviales_20250709",
+      "category": "environnement",
+      "output_path": "docs/environnement/pdf_extracts/29003_zonage_eaux_pluviales_20250709.md",
+      "pages": 61,
+      "extracted_at": "2026-02-05T15:41:46.032573+00:00"
+    },
+    "2bb2ccefba55f98bdb6e039187369202": {
+      "url": "https://numeriquesolidaire.fr/wp-content/uploads/2019/07/Livre_blanc_Solidarite_Numerique.pdf",
+      "filename": "Livre_blanc_Solidarite_Numerique",
+      "category": "jeunesse",
+      "output_path": "docs/jeunesse/pdf_extracts/Livre_blanc_Solidarite_Numerique.md",
+      "pages": 84,
+      "extracted_at": "2026-02-05T15:42:06.053161+00:00"
+    },
+    "b63cb96b4320eeb415c32d1e0e3cfe88": {
+      "url": "https://www.lecese.fr/sites/default/files/pdf/Avis/2021/2021_13_ecole_ere_numerique.pdf",
+      "filename": "2021_13_ecole_ere_numerique",
+      "category": "jeunesse",
+      "output_path": "docs/jeunesse/pdf_extracts/2021_13_ecole_ere_numerique.md",
+      "pages": 99,
+      "extracted_at": "2026-02-05T15:42:28.081486+00:00"
+    },
+    "99aa2fbc16106166d7b6601798a0bcb9": {
+      "url": "https://www.finistere.gouv.fr/contenu/telechargement/65456/495363/file/Carte%20OPAH-PIG%2001-11-2024.pdf",
+      "filename": "Carte_OPAH-PIG_01-11-2024",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/Carte_OPAH-PIG_01-11-2024.md",
+      "pages": 1,
+      "extracted_at": "2026-02-05T15:42:46.416666+00:00"
+    },
+    "fc93827338c1d5914d4dd0ba2dbf0042": {
+      "url": "https://data.megalis.bretagne.bzh/OpenData/212900088/Deliberation/2025/911187/018b021c7575669cf3d71ddc3d4f2bbb7cb159ddbc00304c14650884c9b48bf6.pdf",
+      "filename": "018b021c7575669cf3d71ddc3d4f2bbb7cb159ddbc00304c14650884c9b48bf6",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/018b021c7575669cf3d71ddc3d4f2bbb7cb159ddbc00304c14650884c9b48bf6.md",
+      "pages": 9,
+      "extracted_at": "2026-02-05T15:43:05.268458+00:00"
+    },
+    "5adab8c0a32c29c725412e6a4047d737": {
+      "url": "https://data.megalis.bretagne.bzh/OpenData/212900088/Deliberation/2025/911187/179c383b3d7fb5567cf525ef65f13e0441ed33693837be7a9954df4a609b897a.pdf",
+      "filename": "179c383b3d7fb5567cf525ef65f13e0441ed33693837be7a9954df4a609b897a",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/179c383b3d7fb5567cf525ef65f13e0441ed33693837be7a9954df4a609b897a.md",
+      "pages": 56,
+      "extracted_at": "2026-02-05T15:43:25.448644+00:00"
+    },
+    "01537abc56c37d5f3f7dacc505d24a53": {
+      "url": "https://www.audierne.bzh/wp-content/uploads/2025/12/Reglement-des-aides-vote.pdf",
+      "filename": "Reglement-des-aides-vote",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/Reglement-des-aides-vote.md",
+      "pages": 9,
+      "extracted_at": "2026-02-05T15:43:43.883988+00:00"
+    },
+    "21bc635749a2e38e381733394e9c615a": {
+      "url": "https://www.epinal.fr/wp-content/uploads/2024/05/rapport-epp-opah-ru-vf.pdf",
+      "filename": "rapport-epp-opah-ru-vf",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/rapport-epp-opah-ru-vf.md",
+      "pages": 51,
+      "extracted_at": "2026-02-05T15:44:03.288353+00:00"
+    },
+    "e21f981cd7384b2f233635a7ccb80c96": {
+      "url": "https://www.stmeen.fr/wp-content/uploads/2025/08/Convention-de-mise-a-disposition-OPAH-RU.pdf",
+      "filename": "Convention-de-mise-a-disposition-OPAH-RU",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/Convention-de-mise-a-disposition-OPAH-RU.md",
+      "pages": 55,
+      "extracted_at": "2026-02-05T15:44:23.661740+00:00"
+    },
+    "8a058ecd5db799510b5e4c93dbd515ed": {
+      "url": "https://www.anah.gouv.fr/sites/default/files/2025-05/anah_gm_ingenierie_vbat_pap.pdf",
+      "filename": "anah_gm_ingenierie_vbat_pap",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/anah_gm_ingenierie_vbat_pap.md",
+      "pages": 92,
+      "extracted_at": "2026-02-05T15:44:43.140863+00:00"
+    },
+    "152fa5e6a35a8159bee59601252e3cc4": {
+      "url": "https://www.occitanie.developpement-durable.gouv.fr/IMG/pdf/guide-operation-revitalisation-de-territoire-2022_3_.pdf",
+      "filename": "guide-operation-revitalisation-de-territoire-2022_3_",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/guide-operation-revitalisation-de-territoire-2022_3_.md",
+      "pages": 92,
+      "extracted_at": "2026-02-05T15:45:10.323652+00:00"
+    },
+    "b6c574ff8d7eef1dcd858de58ab35cc4": {
+      "url": "https://media.anct.gouv.fr/ressources/2025-02/bilan_actioncoeurdeville_aout2021.pdf",
+      "filename": "bilan_actioncoeurdeville_aout2021",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/bilan_actioncoeurdeville_aout2021.md",
+      "pages": 64,
+      "extracted_at": "2026-02-05T15:45:31.056978+00:00"
+    },
+    "c8b1bf05ea4c8445701a05e927580818": {
+      "url": "https://www.anah.gouv.fr/sites/default/files/2024-01/202401_GuideORI_WEBA.pdf",
+      "filename": "202401_GuideORI_WEBA",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/202401_GuideORI_WEBA.md",
+      "pages": 82,
+      "extracted_at": "2026-02-05T15:45:51.412395+00:00"
+    },
+    "1979c6e3fac8f720206510ae6f2e9337": {
+      "url": "https://media.anct.gouv.fr/s3fs-public/2022-02/Boite_a_outils_financiers_renovation_de_l_habitat_degrade_operation_de_revitalisation_du_territoire_et_action_coeur_de_ville.pdf?VersionId=1736359075495823",
+      "filename": "Boite_a_outils_financiers_renovation_de_l_habitat_degrade_operation_de_revitalisation_du_territoire_et_action_coeur_de_ville",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/Boite_a_outils_financiers_renovation_de_l_habitat_degrade_operation_de_revitalisation_du_territoire_et_action_coeur_de_ville.md",
+      "pages": 56,
+      "extracted_at": "2026-02-05T15:46:12.064349+00:00"
+    },
+    "47612c974d6a15e0c496d4ef29700da9": {
+      "url": "https://www.charente-maritime.gouv.fr/contenu/telechargement/73792/526546/file/rapport_CE_ORI_Rochefort.pdf",
+      "filename": "rapport_CE_ORI_Rochefort",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/rapport_CE_ORI_Rochefort.md",
+      "pages": 76,
+      "extracted_at": "2026-02-05T15:46:50.814704+00:00"
+    },
+    "c42f0b78e249fc46ea66403ca15bb704": {
+      "url": "https://ampmetropole.fr/wp-content/uploads/2025/09/Convention-OPAH-RU-Cabucelle-Crottes.pdf",
+      "filename": "Convention-OPAH-RU-Cabucelle-Crottes",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/Convention-OPAH-RU-Cabucelle-Crottes.md",
+      "pages": 49,
+      "extracted_at": "2026-02-05T15:47:16.727732+00:00"
+    },
+    "11684b1c8190b9cb134436adabb552c8": {
+      "url": "https://www.ccpl47.fr/wp-content/uploads/2024/12/ANX_PROJET-CONVENTION-OPAH-RU.pdf",
+      "filename": "ANX_PROJET-CONVENTION-OPAH-RU",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/ANX_PROJET-CONVENTION-OPAH-RU.md",
+      "pages": 37,
+      "extracted_at": "2026-02-05T15:47:51.263469+00:00"
+    },
+    "677bbbccfb499ddf6034115fa1379586": {
+      "url": "https://www.ccpvm.fr/wp-content/files/2023/12/Projet-de-Convention-OPAH-RU_CCPVM.pdf",
+      "filename": "Projet-de-Convention-OPAH-RU_CCPVM",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/Projet-de-Convention-OPAH-RU_CCPVM.md",
+      "pages": 108,
+      "extracted_at": "2026-02-05T15:48:14.291433+00:00"
+    },
+    "b48c64b21adca656b32df21da5f9104d": {
+      "url": "https://www.villehoudan.fr/wp-content/uploads/2024/01/HOUDAN-projet-convention-OPAH-RU-dispo-publi.pdf",
+      "filename": "HOUDAN-projet-convention-OPAH-RU-dispo-publi",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/HOUDAN-projet-convention-OPAH-RU-dispo-publi.md",
+      "pages": 67,
+      "extracted_at": "2026-02-05T15:48:33.778876+00:00"
+    },
+    "49490534b17e3a69a0699fa51e11ecb2": {
+      "url": "https://www.audierne.bzh/wp-content/uploads/2025/03/NOTICE_M1_012024.pdf",
+      "filename": "NOTICE_M1_012024",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/NOTICE_M1_012024.md",
+      "pages": 80,
+      "extracted_at": "2026-02-05T15:48:56.342042+00:00"
+    },
+    "7c4b6c72b837ac6f91dd163709c97d8e": {
+      "url": "https://brest.fr/sites/default/files/medias/brestfr/documents/brest_ville_et_metropole/plu/plu_2025-07/242900314_orientations_amenagement_20251010_0.pdf",
+      "filename": "242900314_orientations_amenagement_20251010_0",
+      "category": "economie",
+      "output_path": "docs/economie/pdf_extracts/242900314_orientations_amenagement_20251010_0.md",
+      "pages": 232,
+      "extracted_at": "2026-02-05T15:54:10.549405+00:00"
+    },
+    "00d7926135756c06f08351f1c61fb9a7": {
+      "url": "https://www.paysdiois.fr/wp-content/uploads/2023/07/Del8_Convention_OPAH_RU-Ville-de-Die.pdf",
+      "filename": "Del8_Convention_OPAH_RU-Ville-de-Die",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/Del8_Convention_OPAH_RU-Ville-de-Die.md",
+      "pages": 2,
+      "extracted_at": "2026-02-05T15:54:28.425816+00:00"
+    },
+    "04f56bf896868bff04628d56621fcd6b": {
+      "url": "https://anct-site-prod.s3.fr-par.scw.cloud/s3fs-public/2024-04/ATLAS%20National%20ACV%20-%20T4%202023%20VF_compressed.pdf",
+      "filename": "ATLAS_National_ACV_-_T4_2023_VF_compressed",
+      "category": "logement",
+      "output_path": "docs/logement/pdf_extracts/ATLAS_National_ACV_-_T4_2023_VF_compressed.md",
+      "pages": 23,
+      "extracted_at": "2026-02-05T15:54:46.739880+00:00"
+    }
+  },
+  "last_updated": "2026-02-05T15:55:01.743124+00:00"
+}

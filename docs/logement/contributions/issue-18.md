@@ -148,12 +148,12 @@ https://stela3k.sictiam.fr/api/acte/public/b9f6733d-d1de-491a-b941-f49625b63490/
 https://www.charente-maritime.gouv.fr/contenu/telechargement/73792/526546/file/rapport_CE_ORI_Rochefort.pdf
 https://www.anah.gouv.fr/sites/default/files/2024-01/202401_GuideORI_WEBA.pdf
 https://www.stmeen.fr/wp-content/uploads/2025/08/Convention-de-mise-a-disposition-OPAH-RU.pdf
-https://www.mairie-die.fr/wp-content/uploads/2023/07/Convention-OPAH-RU-Die-V_19.06.23.pdf
+https://www.paysdiois.fr/wp-content/uploads/2023/07/Del8_Convention_OPAH_RU-Ville-de-Die.pdf
 https://www.occitanie.developpement-durable.gouv.fr/IMG/pdf/guide-operation-revitalisation-de-territoire-2022_3_.pdf
 https://media.anct.gouv.fr/ressources/2025-02/bilan_actioncoeurdeville_aout2021.pdf
 https://www.epinal.fr/wp-content/uploads/2024/05/rapport-epp-opah-ru-vf.pdf
 2 liens rompus : 
-ANCT : https://anct-site-prod.s3.fr-par.scw.cloud/s3fs-public/2021-03/ANCT_210316_Bilan_ActionCoeurdeVille_web%25281%2529.pdf 
+ANCT : https://anct-site-prod.s3.fr-par.scw.cloud/s3fs-public/2024-04/ATLAS%20National%20ACV%20-%20T4%202023%20VF_compressed.pdf 
 Saint Malo : https://delib.saint-malo.fr/webdelibplus/jsp/showFile.jsp?datePub=15/11/2023&dateRetLega=15/11/2023&pdf=iBZ0vzZXVsjS9EW8DKAZ7Oh5sFH0MXfJIZoaJpm8IxHiwCQe2QfDYnTjjX4nlCDRqvWulvTkGGxTiu8lBkwp6yG59J%25252F%25252BSQsa07Eew3DeClYUcp24m6uFxGsm1mKM%25252B1PJf0%25252Fq2fE879TGsrkxFHC8kg%25253D%25253D
 
 ### Commentaire 4 - jnschilling (2026-01-07)
@@ -215,11 +215,11 @@ Dès qu'une enquête sera ouverte (durée typique : 1 mois), vous pourrez consul
 - [https://www.charente-maritime.gouv.fr/contenu/telechargement/73792/526546/file/rapport_CE_ORI_Rochefort.pdf](https://www.charente-maritime.gouv.fr/contenu/telechargement/73792/526546/file/rapport_CE_ORI_Rochefort.pdf)
 - [https://www.anah.gouv.fr/sites/default/files/2024-01/202401_GuideORI_WEBA.pdf](https://www.anah.gouv.fr/sites/default/files/2024-01/202401_GuideORI_WEBA.pdf)
 - [https://www.stmeen.fr/wp-content/uploads/2025/08/Convention-de-mise-a-disposition-OPAH-RU.pdf](https://www.stmeen.fr/wp-content/uploads/2025/08/Convention-de-mise-a-disposition-OPAH-RU.pdf)
-- [https://www.mairie-die.fr/wp-content/uploads/2023/07/Convention-OPAH-RU-Die-V_19.06.23.pdf](https://www.mairie-die.fr/wp-content/uploads/2023/07/Convention-OPAH-RU-Die-V_19.06.23.pdf)
+- [https://www.paysdiois.fr/wp-content/uploads/2023/07/Del8_Convention_OPAH_RU-Ville-de-Die.pdf](https://www.paysdiois.fr/wp-content/uploads/2023/07/Del8_Convention_OPAH_RU-Ville-de-Die.pdf)
 - [https://www.occitanie.developpement-durable.gouv.fr/IMG/pdf/guide-operation-revitalisation-de-territoire-2022_3_.pdf](https://www.occitanie.developpement-durable.gouv.fr/IMG/pdf/guide-operation-revitalisation-de-territoire-2022_3_.pdf)
 - [https://media.anct.gouv.fr/ressources/2025-02/bilan_actioncoeurdeville_aout2021.pdf](https://media.anct.gouv.fr/ressources/2025-02/bilan_actioncoeurdeville_aout2021.pdf)
 - [https://www.epinal.fr/wp-content/uploads/2024/05/rapport-epp-opah-ru-vf.pdf](https://www.epinal.fr/wp-content/uploads/2024/05/rapport-epp-opah-ru-vf.pdf)
-- [https://anct-site-prod.s3.fr-par.scw.cloud/s3fs-public/2021-03/ANCT_210316_Bilan_ActionCoeurdeVille_web%25281%2529.pdf](https://anct-site-prod.s3.fr-par.scw.cloud/s3fs-public/2021-03/ANCT_210316_Bilan_ActionCoeurdeVille_web%25281%2529.pdf)
+- [https://anct-site-prod.s3.fr-par.scw.cloud/s3fs-public/2024-04/ATLAS%20National%20ACV%20-%20T4%202023%20VF_compressed.pdf](https://anct-site-prod.s3.fr-par.scw.cloud/s3fs-public/2024-04/ATLAS%20National%20ACV%20-%20T4%202023%20VF_compressed.pdf)
 - [https://delib.saint-malo.fr/webdelibplus/jsp/showFile.jsp?datePub=15/11/2023&dateRetLega=15/11/2023&pdf=iBZ0vzZXVsjS9EW8DKAZ7Oh5sFH0MXfJIZoaJpm8IxHiwCQe2QfDYnTjjX4nlCDRqvWulvTkGGxTiu8lBkwp6yG59J%25252F%25252BSQsa07Eew3DeClYUcp24m6uFxGsm1mKM%25252B1PJf0%25252Fq2fE879TGsrkxFHC8kg%25253D%25253D](https://delib.saint-malo.fr/webdelibplus/jsp/showFile.jsp?datePub=15/11/2023&dateRetLega=15/11/2023&pdf=iBZ0vzZXVsjS9EW8DKAZ7Oh5sFH0MXfJIZoaJpm8IxHiwCQe2QfDYnTjjX4nlCDRqvWulvTkGGxTiu8lBkwp6yG59J%25252F%25252BSQsa07Eew3DeClYUcp24m6uFxGsm1mKM%25252B1PJf0%25252Fq2fE879TGsrkxFHC8kg%25253D%25253D)
 
 ---

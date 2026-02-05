@@ -114,7 +114,7 @@ https://www.paysdesabers.bzh/wp-content/uploads/2023/04/schema_dev_eco_2021_2026
 https://www.epfbretagne.fr/experimentations/developpement-economique/
 https://www.bretagne.bzh/actions/amenagement-territoire/projets-locaux/
 https://www.registre-dematerialise.fr/upload/boxes/6395/documents/693047e36e3e2_Conclusions%20et%20avis%20ScoT%20Brest%20.pdf
-https://brest.fr/sites/default/files/medias/brestfr/documents/brest_ville_et_metropole/plu/plu_2025-07/242900314_rapport_20250716.pdf
+https://brest.fr/sites/default/files/medias/brestfr/documents/brest_ville_et_metropole/plu/plu_2025-07/242900314_orientations_amenagement_20251010_0.pdf
 
 ---
 
@@ -134,7 +134,7 @@ https://brest.fr/sites/default/files/medias/brestfr/documents/brest_ville_et_met
 - [https://www.epfbretagne.fr/experimentations/developpement-economique/](https://www.epfbretagne.fr/experimentations/developpement-economique/)
 - [https://www.bretagne.bzh/actions/amenagement-territoire/projets-locaux/](https://www.bretagne.bzh/actions/amenagement-territoire/projets-locaux/)
 - [https://www.registre-dematerialise.fr/upload/boxes/6395/documents/693047e36e3e2_Conclusions%20et%20avis%20ScoT%20Brest%20.pdf](https://www.registre-dematerialise.fr/upload/boxes/6395/documents/693047e36e3e2_Conclusions%20et%20avis%20ScoT%20Brest%20.pdf)
-- [https://brest.fr/sites/default/files/medias/brestfr/documents/brest_ville_et_metropole/plu/plu_2025-07/242900314_rapport_20250716.pdf](https://brest.fr/sites/default/files/medias/brestfr/documents/brest_ville_et_metropole/plu/plu_2025-07/242900314_rapport_20250716.pdf)
+- [https://brest.fr/sites/default/files/medias/brestfr/documents/brest_ville_et_metropole/plu/plu_2025-07/242900314_orientations_amenagement_20251010_0.pdf](https://brest.fr/sites/default/files/medias/brestfr/documents/brest_ville_et_metropole/plu/plu_2025-07/242900314_orientations_amenagement_20251010_0.pdf)
 
 ---
 
