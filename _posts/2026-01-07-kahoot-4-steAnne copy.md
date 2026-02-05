@@ -7,7 +7,7 @@ categories:
 tags:
   - jeunesse
   - participation
-excerpt: "Les CM1-CM2 à Audierne se mobilisent pendant 4 semaines!"
+excerpt: "Les bases des municipales et Kahoot cette première semaine!"
 header:
   teaser: /assets/images/jeunesse-sainte-anne.jpg
 ---
