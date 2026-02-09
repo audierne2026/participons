@@ -21,8 +21,11 @@ Voici l'analyse consolidée et détaillée de la réunion publique tenue par Did
 
 # Synthèse Globale
 
-Cette réunion publique s'inscrit dans un contexte pré-électoral tendu à l'approche des élections municipales de mars 2026. Didier Guillon, tête de liste de l'opposition ("Passons à l'action") et conseiller départemental, présente un programme de "rupture tranquille" mais ferme vis-à-vis de la majorité sortante.
+Cette réunion publique s'inscrit dans un contexte pré-électoral tendu à l'approche des élections municipales de mars 2026.
+Didier Guillon, tête de liste de l'opposition ("Passons à l'action") et conseiller départemental, présente un programme de "rupture tranquille" mais ferme vis-à-vis de la majorité sortante.
+
 L'axe central de son discours est la **soutenabilité financière et la méthode de gouvernance**. M. Guillon dépeint la gestion actuelle comme un "champ de ruines" (notamment au niveau des ressources humaines) et dénonce une opacité décisionnelle ("fait du prince"), illustrée par le projet controversé de la nouvelle école Pierre Le Lec.
+
 Le candidat positionne son équipe comme une alternative expérimentée et gestionnaire, prônant le pragmatisme budgétaire ("un achat pour une vente"), la transparence et une écoute renouvelée des citoyens et agents communaux. L'audience exprime des inquiétudes tangibles concernant le coût de la vie, le stationnement, la pression fiscale intercommunale, et les risques environnementaux (inondations). Le programme se veut non partisan, axé sur la revitalisation démographique pour sauver les services publics et l'autonomie de la commune au sein du Cap Sizun.
 
 # Analyse Catégorielle
@@ -76,12 +79,15 @@ Le candidat positionne son équipe comme une alternative expérimentée et gesti
 # Évaluation Objective
 
 Le programme présenté par Didier Guillon repose sur une **logique de gestion de crise financière et managériale**. Son argumentation est techniquement étayée (ratios financiers, connaissance des dossiers départementaux), ce qui lui confère une crédibilité de gestionnaire.
+
 **Points Forts (Transparence et Intérêt Général) :**
 
 - La volonté d'auditer les grands projets (école, siège ComCom) avant engagement définitif est une mesure de prudence alignée sur le bon usage des deniers publics.
 - L'accent mis sur le logement existant et la densification répond pragmatiquement aux injonctions de la loi ZAN et aux besoins démographiques réels.
 - La transparence affichée sur les difficultés (pas de "recette miracle" pour la montée des eaux ou la mobilité) tranche avec les promesses électorales habituelles.
-  **Défis et Points de Vigilance :**
+
+**Défis et Points de Vigilance :**
+
 - **Faisabilité Juridique :** L'arrêt brutal de marchés publics (école) expose la commune à des contentieux et pénalités financières dont le montant réel reste à confirmer.
 - **Ressources Humaines :** La qualification des services techniques comme "champ de ruines" indique une crise profonde. Restaurer la confiance nécessitera plus qu'une réunion ; le risque de paralysie administrative est réel en début de mandat.
 - **Conflit de Priorités :** Opposer la rénovation patrimoniale (église) à la construction scolaire neuve est un arbitrage politique risqué qui pourrait diviser la population entre défenseurs du passé et de l'avenir.
@@ -91,10 +97,16 @@ Le programme présenté par Didier Guillon repose sur une **logique de gestion d
 Pour garantir l'intérêt général et le développement durable d'Audierne, voici 4 recommandations opérationnelles basées sur l'analyse de cette réunion :
 
 1. **Audit Indépendant Immédiat (Finances & École) :** Dès la prise de fonction, commander un audit flash par un cabinet tiers (ou la Chambre Régionale des Comptes) pour objectiver l'état réel des finances et chiffrer précisément le coût d'arrêt vs poursuite du projet scolaire. Cela dépolitisera la décision.
-2. **États Généraux de l'Habitat et du Littoral :** Lancer une grande consultation citoyenne regroupant les enjeux de logement (densification, ZAN) et de risques côtiers. L'objectif est de co-construire une stratégie d'urbanisme résiliente qui accepte la densité pour sauver les terres agricoles et protéger les zones inondables.
-3. **Guichet Unique de Mobilité et Logement :** Créer une task-force municipale dédiée pour :
+
+2. **États Généraux de l'Habitat et du Littoral :**
+   Lancer une grande consultation citoyenne regroupant les enjeux de logement (densification, ZAN) et de risques côtiers. L'objectif est de co-construire une stratégie d'urbanisme résiliente qui accepte la densité pour sauver les terres agricoles et protéger les zones inondables.
+
+3. **Guichet Unique de Mobilité et Logement :**
+   Créer une task-force municipale dédiée pour :
    - Accompagner les propriétaires de logements vacants dans la remise sur le marché (aides rénovation).
    - Centraliser l'information sur les transports (Atchoum, BreizhGo) pour lutter contre l'isolement des seniors sans voiture.
-4. **Pacte Social avec les Agents Communaux :** Avant toute réorganisation, réaliser un audit de Qualité de Vie au Travail (QVT) pour les agents municipaux. Une administration apaisée est la condition _sine qua non_ pour mettre en œuvre tout programme politique ambitieux.
+
+4. **Pacte Social avec les Agents Communaux :**
+   Avant toute réorganisation, réaliser un audit de Qualité de Vie au Travail (QVT) pour les agents municipaux. Une administration apaisée est la condition _sine qua non_ pour mettre en œuvre tout programme politique ambitieux.
 
 _(Article basé sur la transcription et interventions publiques du 6 février 2026. Sources croisées : déclarations liste, contexte local via presse régionale.)_
