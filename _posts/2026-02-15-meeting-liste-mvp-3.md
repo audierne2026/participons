@@ -1,16 +1,22 @@
 ---
-title: "02-18 Réunion Publique Réunion publique 3 *S’unir pour Audierne-Esquibien*"
+title: "Réunion publique 3 — S’unir pour Audierne-Esquibien : Michel Van Praët"
+date: 2026-02-15
 classes: wide
 categories:
   - meeting
   - campaign
 tags:
+  - participation
+  - campagnemunicipale
+  - audierne
   - listes
 
-excerpt: Michel Van Praët dans la continuité réformatrice et la rationalisation patrimoniale. Synthèse neutre de la réunion du 18 Février 2026 à Esquibien : Stratégie de Transition et Développement Local .
+excerpt: "Michel Van Praët dans la continuité réformatrice et la rationalisation patrimoniale. Synthèse neutre de la réunion publique à Esquibien : stratégie de transition et développement local."
 header:
-  teaser: /assets/images/reunion_van_praet_1101.png
+  teaser: /assets/images/02-15-2026_MVP_highlights.png
 ---
+
+[![S’unir pour Audierne-Esquibien]({{ "assets/images/reunion_van_praet_1101.png" | relative_url }} "Réunion publique MVP 3")]
 
 # Analyse Stratégique de la Réunion Publique : Audierne (Février 2026)
 
