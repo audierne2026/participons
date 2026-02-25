@@ -29,7 +29,7 @@ header:
 - **Propositions phares** : Abandon du projet de rénovation de Pierre-Le Lec (6 millions €) au profit d'une école modulaire évolutive (3,5 millions €) ; reconversion de l'ancien bâtiment en pôle culturel avec musée maritime modernisé ; priorité à la santé (attraction de spécialistes, logement d'urgence pour victimes de violences) ; protection contre les submersions marines
 - **Climat de la réunion** : Échanges souvent tendus, avec interventions critiques d'élus ou militants d'autres listes contestant la cohérence du revirement politique, la faisabilité des projets et le chiffrage budgétaire
 - **Profession de foi** : Mandature apaisée, écoute citoyenne, maîtrise budgétaire, consultation des habitants, nouveaux services (santé, culture, environnement)
-- **Date et lieu** : Non précisés dans les transcriptions fournies
+- **Date et lieu** : Théatre Georges Madec Audierne-Esquibien
 
 ## 2. Programme et propositions par catégorie thématique
 
@@ -378,7 +378,7 @@ _Données démographiques et sanitaires :_
 
 - Impression d'un programme "flou", manque de précisions budgétaires (comparaison entre le coût de l'école modulaire et la rénovation de Pierre-Le Lec, enveloppe totale sur 6 ans).
 - Réponse :
-  - Montants communiqués pour l'école modulaire et les travaux de Pierre-Le Lec _(passage non clair dans l'extrait)_.
+  - Montants estimés et non confirmés pour l'instant pour l'école modulaire et les travaux de Pierre-Le Lec \_.
   - Engagement de ne pas dépasser les capacités budgétaires, de réaliser des études avant décision.
   - Promesse de transparence via le bulletin municipal.
 
@@ -392,7 +392,7 @@ _Données démographiques et sanitaires :_
 - Est-il prévu de transformer toute l'école Pierre-Le Lec en musée ?
 - Réponse : seul le bloc principal serait concerné, pas l'intégralité du site.
 - Quelle est l'estimation de la fréquentation ? Un chiffre de 12 000 visiteurs a-t-il été avancé ?
-- Réponse : _(passage non clair)_ — le chiffre semble évoqué mais non confirmé explicitement.
+- Réponse : le chiffre semble évoqué mais non confirmé explicitement.
 - Que deviendront les enseignants ?
 - Réponse : probables fermetures de classes et redéploiements d'effectifs.
 - Que contiendront les vitrines ?
