@@ -153,7 +153,7 @@ header:
 
 **Expérience citée :**
 
-- Un colistier a été président de la DMR (association locale) pendant 10 ans avant de rejoindre la liste
+- Un colistier a été président de la ADMR (association locale) pendant 10 ans avant de rejoindre la liste
   **Propositions :**
 - **Rencontres plus fréquentes** avec les associations (présentées comme insuffisantes dans la mandature actuelle)
 - **Partenariat renforcé** : implication des associations dans l'animation du territoire toute l'année, aux côtés des commerçants
@@ -209,7 +209,7 @@ _Données démographiques et sanitaires :_
 
 - 51,2% de la population a plus de 60 ans (60-74 ans : 30,4% ; 75 ans et plus : 20,8%)
 - **34,6% des patients en Affection Longue Durée (ALD)** contre 26% dans le Finistère
-- 720 patients ont un médecin traitant ; **84 patients en ALD n'ont pas de médecin traitant attitré** (suivis par différents médecins selon disponibilités)
+- 720 patients n'ont pas de médecin traitant ; **84 patients en ALD n'ont pas de médecin traitant attitré** (suivis par différents médecins selon disponibilités)
   _Situation des professionnels de santé :_
 - **Médecins généralistes** : situation relativement correcte, possibilité d'accueillir un médecin junior supplémentaire mais manque de place physique dans la maison de santé
 - **Dentistes** : situation d'urgence
