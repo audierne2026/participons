@@ -13,10 +13,10 @@ tags:
 
 excerpt: "Synthèse de la réunion de campagne de la liste menée par Éric Bosser, maire délégué sortant d'Esquibien. Abandon du projet Pierre-Le Lec au profit d'une école modulaire (3,5M€), reconversion en pôle culturel maritime, priorité santé et protection contre les submersions marines."
 header:
-  teaser: /assets/images/satellite_meeting.jpeg
+  teaser: /assets/images/bosser-eric.png
 ---
 
-[![Liste Éric Bosser]({{ "assets/images/satellite_meeting.jpeg" | relative_url }} "Réunion publique Éric Bosser")]
+[![Éric Bosser]({{ "assets/images/bosser-eric.png)" | relative_url }} "Réunion publique Éric Bosser")]
 
 # Réunion publique de campagne — Liste menée par Éric Bosser
 
@@ -378,7 +378,7 @@ _Données démographiques et sanitaires :_
 
 - Impression d'un programme "flou", manque de précisions budgétaires (comparaison entre le coût de l'école modulaire et la rénovation de Pierre-Le Lec, enveloppe totale sur 6 ans).
 - Réponse :
-  - Montants communiqués pour l'école modulaire et les travaux de Pierre-Le Lec *(passage non clair dans l'extrait)*.
+  - Montants communiqués pour l'école modulaire et les travaux de Pierre-Le Lec _(passage non clair dans l'extrait)_.
   - Engagement de ne pas dépasser les capacités budgétaires, de réaliser des études avant décision.
   - Promesse de transparence via le bulletin municipal.
 
@@ -392,7 +392,7 @@ _Données démographiques et sanitaires :_
 - Est-il prévu de transformer toute l'école Pierre-Le Lec en musée ?
 - Réponse : seul le bloc principal serait concerné, pas l'intégralité du site.
 - Quelle est l'estimation de la fréquentation ? Un chiffre de 12 000 visiteurs a-t-il été avancé ?
-- Réponse : *(passage non clair)* — le chiffre semble évoqué mais non confirmé explicitement.
+- Réponse : _(passage non clair)_ — le chiffre semble évoqué mais non confirmé explicitement.
 - Que deviendront les enseignants ?
 - Réponse : probables fermetures de classes et redéploiements d'effectifs.
 - Que contiendront les vitrines ?

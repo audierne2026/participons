@@ -14,10 +14,10 @@ tags:
 
 excerpt: "Séance marquée par l'adoption des budgets 2026, l'attribution des marchés de l'école Pierre-Le Lec (4,7M€ HT), des débats tendus sur l'endettement communal, et le maintien de la fiscalité locale. Recours au tribunal administratif signalé en séance."
 header:
-  teaser: /assets/images/Blason_fr_Audierne.svg.png
+  teaser: /assets/images/séance_conseil_municipal.jpg
 ---
 
-# Conseil municipal d'Audierne-Esquibien — Séance du 18 février 2026
+[![Conseil Municipal Février 2026]({{ "assets/images/séance_conseil_municipal.jpg" | relative_url }})](/conseil-municipal/governance/2026/02/18/conseil-municipal-fevrier.html "Conseil Municipal 20-2026")
 
 ## 1. Synthèse de la séance
 
