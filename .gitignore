@@ -38,6 +38,7 @@ Thumbs.db
 .env.private
 .env.local
 .env
+.env.claude
 
 # Local reviewer instructions
 docs/help/REVIEWER_INSTRUCTIONS.md
@@ -46,3 +47,4 @@ docs/DEPLOYMENT_READY.md
 docs/FORMS.md
 docs/preparation-statut-1901.md
 docs/task_audierne2026/*
+

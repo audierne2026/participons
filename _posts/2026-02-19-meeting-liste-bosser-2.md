@@ -134,7 +134,7 @@ header:
 - **Protection contre les submersions marines** : installation de palplanches pour sécuriser le centre-ville, en collaboration avec le Syndicat Mixte des Ports du Finistère
 - **Sécurisation du chemin du halage et du boulevard de Guéprat** : barrières automatisées permettant ouverture/fermeture rapide selon les horaires de marée (actuellement fermetures de 2-3 jours même quand l'eau n'arrive plus)
 - **Solution alternative au mur de protection** du boulevard de Guéprat (projet antérieur abandonné) : caniveau avec grosses buses pour évacuer l'eau vers la mer immédiatement
-- **Installation d'escaliers en bois** sur les plages (exemple : plage de l'hôtel Cascadec) pour faciliter l'accès là où le sable a disparu
+- **Installation d'escaliers en bois** sur les plages (exemple : plage prés de l'hôtel Ty•Ys) pour faciliter l'accès là où le sable a disparu
 - **École modulaire passive** : construction d'une école écologique avec panneaux solaires et matériaux durables, économe en énergie
 - **Labels environnementaux** : obtention et maintien du label Port Propre (avec le Syndicat Mixte), poursuite du label Pavillon Bleu par des éco-gestes et actions citoyennes
 - **Création d'un comité littoral** réunissant commune, habitants et acteurs locaux pour réfléchir collectivement aux actions de préservation de l'environnement maritime et du trait de côte
