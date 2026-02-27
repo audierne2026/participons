@@ -40,6 +40,12 @@ Thumbs.db
 .env
 .env.claude
 
+# claude instructions
+CLAUDE.md
+.claude/
+
+
+
 # Local reviewer instructions
 docs/help/REVIEWER_INSTRUCTIONS.md
 docs/help/SETUP_COMPLETE.md

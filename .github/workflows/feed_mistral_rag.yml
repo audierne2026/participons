@@ -3,6 +3,10 @@ name: Feed Mistral RAG
 on:
   workflow_dispatch:
     inputs:
+      sync_to_ocapistaine:
+        description: 'Push documents.jsonl to ocapistaine dev branch'
+        type: boolean
+        default: true
       upload_to_mistral:
         description: 'Upload dataset to Mistral API'
         type: boolean
@@ -59,7 +63,79 @@ jobs:
             data/mistral/*.json
           retention-days: 30
 
-      # ==================== STEP 5: Upload to Mistral (Optional) ====================
+      # ==================== STEP 5: Sync to OCapistaine (dev branch) ====================
+      - name: Push RAG dataset to ocapistaine dev branch
+        if: ${{ inputs.sync_to_ocapistaine == true }}
+        env:
+          OCAP_LOCKI_TOKEN: ${{ secrets.OCAP_LOCKI_TOKEN }}
+        run: |
+          if [ -z "$OCAP_LOCKI_TOKEN" ]; then
+            echo "❌ OCAP_LOCKI_TOKEN not set"
+            exit 1
+          fi
+
+          echo "🔄 Syncing RAG dataset to locki-io/ocapistaine (dev branch)..."
+
+          # Clone ocapistaine dev branch (shallow)
+          git clone --depth 1 --branch dev \
+            "https://ocapistaine:${OCAP_LOCKI_TOKEN}@github.com/locki-io/ocapistaine.git" \
+            /tmp/ocapistaine
+
+          # Copy RAG dataset
+          mkdir -p /tmp/ocapistaine/data/audierne2026/rag
+          cp data/rag/documents.jsonl /tmp/ocapistaine/data/audierne2026/rag/
+          cp data/rag/documents_metadata.json /tmp/ocapistaine/data/audierne2026/rag/
+
+          # Commit and push to dev
+          cd /tmp/ocapistaine
+          git config user.name "ocapistaine"
+          git config user.email "ocapistaine@users.noreply.github.com"
+          git add data/audierne2026/rag/
+          if git diff --cached --quiet; then
+            echo "ℹ️  No changes to push (dataset unchanged)"
+          else
+            DOCS=$(python3 -c "import json;d=json.load(open('data/audierne2026/rag/documents_metadata.json'));print(d.get('total_documents',0))")
+            WORDS=$(python3 -c "import json;d=json.load(open('data/audierne2026/rag/documents_metadata.json'));print(d.get('total_words',0))")
+            git commit -m "chore(rag): sync audierne2026 documents.jsonl (${DOCS} docs, ${WORDS} words)
+
+            Automated sync from audierne2026/participons workflow.
+            Branch: ${{ github.ref_name }}
+            Run: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+            git push origin dev
+            echo "✅ Pushed to locki-io/ocapistaine dev branch"
+          fi
+
+      # ==================== STEP 6: Notify jnschilling ====================
+      - name: Notify RAG update
+        if: ${{ inputs.sync_to_ocapistaine == true }}
+        env:
+          OCAP_LOCKI_TOKEN: ${{ secrets.OCAP_LOCKI_TOKEN }}
+        run: |
+          # Read stats for notification
+          DOCS=$(python3 -c "import json;d=json.load(open('data/rag/documents_metadata.json'));print(d.get('total_documents',0))" 2>/dev/null || echo "?")
+          WORDS=$(python3 -c "import json;d=json.load(open('data/rag/documents_metadata.json'));print(d.get('total_words',0))" 2>/dev/null || echo "?")
+          BRANCH="${{ github.ref_name }}"
+          RUN_URL="${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}"
+
+          BODY="## 🔄 RAG Dataset Updated
+
+          **Source**: audierne2026/participons (branch: \`${BRANCH}\`)
+          **Documents**: ${DOCS} | **Words**: ${WORDS}
+          **Workflow run**: [View logs](${RUN_URL})
+
+          The \`documents.jsonl\` has been pushed to \`locki-io/ocapistaine\` **dev** branch at \`data/audierne2026/rag/\`.
+
+          > Merge dev → main when ready."
+
+          # Post comment on participons discussion #24 (Toutes les contributions)
+          curl -s -X POST \
+            -H "Authorization: token $OCAP_LOCKI_TOKEN" \
+            -H "Accept: application/vnd.github.v3+json" \
+            "https://api.github.com/repos/audierne2026/participons/issues/24/comments" \
+            -d "$(python3 -c "import json;print(json.dumps({'body': '''${BODY}'''}))")" \
+            > /dev/null && echo "✅ Notification posted to discussion #24" || echo "⚠️  Notification failed (non-blocking)"
+
+      # ==================== STEP 7: Upload to Mistral (Optional) ====================
       - name: Upload files to Mistral API
         if: ${{ inputs.upload_to_mistral == true }}
         env:
@@ -107,7 +183,7 @@ jobs:
           echo "   Validation file ID: $VAL_ID"
           echo "============================================"
 
-      # ==================== STEP 6: Summary ====================
+      # ==================== STEP 8: Summary ====================
       - name: Generate summary
         run: |
           echo ""
