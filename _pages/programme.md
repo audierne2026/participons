@@ -10,11 +10,11 @@ toc_icon: "list"
 #   nav: "programme"
 ---
 
-## Programme évolutif et participatif
+## Programme co-construit avec les habitants
 
-Ce programme est construit avec vous et évolue selon vos contributions. Chaque proposition est discutée, documentée et tracée dans notre dépôt GitHub.
+Ce programme est le fruit de 33 contributions citoyennes recueillies entre décembre 2025 et février 2026. Chaque proposition a été discutée, documentée et tracée dans notre [dépôt GitHub](https://github.com/audierne2026/participons).
 
-> **Comment contribuer ?** Consultez la page [Contribuer]({{ "/contribuer/" | relative_url }}) pour proposer vos idées, commenter les propositions existantes ou participer aux discussions thématiques.
+> **Comment a-t-il été construit ?** Consultez le [bilan participatif]({{ "/contribuer/" | relative_url }}) pour comprendre notre méthode et retrouver les statistiques de participation.
 
 ---
 
@@ -22,24 +22,64 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
 
 ### Nos constats
 
-- Tension sur le marché locatif
-- Besoin de logements accessibles pour les jeunes et les familles
-- Enjeux de rénovation énergétique
+- Forte tension sur le marché locatif, aggravée par la pression touristique saisonnière et la pénurie de logements à l'année
+- Besoin critique de logements accessibles pour les jeunes et les familles
+- Enjeux majeurs de rénovation énergétique du bâti existant
+- Nécessité de concilier développement urbain et préservation de l'identité locale
 
-### Propositions en cours
+### Contexte local
+
+- OPAH-RU (Opération Programmée d'Amélioration de l'Habitat — Renouvellement Urbain) en cours jusqu'en 2029 avec financements ANAH
+- Projet La Chaloupe : 22 logements neufs éligibles PTZ face au port
+- PLH (Programme Local de l'Habitat) 2026-2031 en élaboration au niveau de la communauté de communes Cap Sizun
+- 7 immeubles du centre-ville en cours de restauration
+
+### Nos engagements
 
 1. **Favoriser le logement accessible**
-
    - Étude des besoins réels en concertation avec les habitants
    - Exploration de solutions innovantes (habitat participatif, bail réel solidaire)
-   - Soutien à la rénovation du bâti existant
+   - Soutien à la rénovation du bâti existant via l'OPAH-RU
 
 2. **Préservation du patrimoine et cadre de vie**
    - Équilibre entre développement et préservation de l'identité locale
    - Concertation systématique sur les projets d'aménagement
 
-**Vos idées :** Utilisez [le formulaire logement]({{ "/formulaires/logement/" | relative_url }}) pour partager vos priorités et propositions.
-{: .notice--info}
+**Construit avec vous :** 10 contributions citoyennes ont nourri cette thématique.
+{: .notice--success}
+
+---
+
+## <a name="culture"></a>Culture & Patrimoine
+
+### Nos constats
+
+- Richesse exceptionnelle du patrimoine religieux : chapelles classées (Sainte-Brigitte 1654, Sainte-Edwett 1723) et églises historiques (Saint-Raymond, Saint-Onneau, Saint-Joseph)
+- La sauvegarde et la modernisation du Musée Maritime du Cap-Sizun
+- Héritage préhistorique et maritime unique : menhirs, dolmens à Sainte-Evette, port historique au cœur de l'identité audiernaise
+- Dynamisme associatif culturel : l'association Audierne Esquibien Culture organise régulièrement expositions, conférences et animations
+- Événements culturels appréciés mais perfectibles : Fête de la Musique, illuminations "Goyen en lumières", festivals estivaux
+- Besoin de valoriser et transmettre ce patrimoine aux jeunes générations et nouveaux arrivants
+
+### Nos engagements
+
+1. **Renforcer la valorisation du patrimoine**
+   - Création de circuits patrimoniaux guidés (chapelles, fontaines, port historique) avec signalétique moderne et QR codes
+   - Partenariat renforcé avec Audierne Esquibien Culture pour un programme annuel d'expositions et conférences
+   - Mise en lumière nocturne de sites emblématiques (église Saint-Raymond, chapelles)
+
+2. **Développer l'offre culturelle tout public**
+   - Soutien accru aux associations culturelles locales (bibliothèques associatives, théâtre, musique)
+   - Programmation régulière de concerts, spectacles jeune public et festivals (extension de la Fête de la Musique, création d'un festival maritime)
+   - Ateliers intergénérationnels autour du patrimoine breton (conte, danse, langue)
+
+3. **Sauvegarder et moderniser le Musée Maritime du Cap-Sizun**
+   - Soutien actif à l'association pour trouver des locaux adaptés et durables
+   - Financement public-privé pour numériser les collections et créer des expositions interactives
+   - Intégration du musée dans un circuit patrimonial maritime (lien avec port, phares, chapelles)
+
+**Construit avec vous :** 1 contribution citoyenne a nourri cette thématique.
+{: .notice--success}
 
 ---
 
@@ -47,14 +87,19 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
 
 ### Nos constats
 
-- Tissu associatif dynamique et essentiel
-- Besoin de soutien logistique et financier
-- Manque de coordination entre acteurs
+- Tissu associatif dynamique et essentiel : environ 250 associations actives sur le Cap Sizun
+- Besoin récurrent de locaux, de financements stables et de mutualisation
+- Manque de coordination entre acteurs associatifs
 
-### Propositions en cours
+### Contexte local
+
+- Forum annuel des associations (ex. 13 septembre 2025 à Pont-Croix)
+- Annuaire associatif 2024-2025 classé par thématique
+- Réseaux d'accompagnement : Guid'Asso 29, Le Compte Asso
+
+### Nos engagements
 
 1. **Renforcer le soutien aux associations**
-
    - Simplification des démarches administratives
    - Accès facilité aux locaux municipaux
    - Budget participatif dédié aux projets associatifs
@@ -63,8 +108,8 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Espace partagé pour favoriser les synergies
    - Support logistique mutualisé
 
-**Vos idées :** Utilisez [le formulaire associations]({{ "/formulaires/associations/" | relative_url }}) pour partager vos besoins.
-{: .notice--info}
+**Construit avec vous :** 6 contributions citoyennes ont nourri cette thématique.
+{: .notice--success}
 
 ---
 
@@ -73,13 +118,20 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
 ### Nos constats
 
 - Importance de l'accompagnement éducatif de qualité
-- Enjeux de mobilité pour les jeunes
+- Enjeux de mobilité pour les jeunes en milieu rural
 - Besoin d'activités périscolaires diversifiées
 
-### Propositions en cours
+### Contexte local
+
+- École publique Pierre Le Lec (maternelle + élémentaire + ULIS) — rénovation prévue 2026-2027
+- Autres écoles : publique d'Esquibien, Sainte-Anne (catholique), Diwan (breton)
+- Collèges : Bois de Locqueran (public), Lamennais (privé)
+- ALSH géré par Cap Sizun Animation (3-12 ans)
+- SIJ (Service Information Jeunesse) ouvert à Audierne depuis 2025
+
+### Nos engagements
 
 1. **Soutien aux écoles publiques**
-
    - Équipements adaptés et entretenus
    - Dialogue constant avec les équipes éducatives et parents
 
@@ -87,8 +139,8 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
    - Développement de l'offre périscolaire et de loisirs
    - Espaces dédiés aux adolescents
 
-**Vos idées :** Utilisez [le formulaire école/jeunesse]({{ "/formulaires/jeunesse/" | relative_url }}) pour partager vos priorités.
-{: .notice--info}
+**Construit avec vous :** 6 contributions citoyennes ont nourri cette thématique.
+{: .notice--success}
 
 ---
 
@@ -96,25 +148,31 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
 
 ### Nos constats
 
-- Patrimoine naturel exceptionnel à préserver
-- Urgence climatique nécessitant des actions locales
+- Patrimoine naturel exceptionnel à préserver : littoral remarquable, Pointe du Raz Grand Site de France
+- Urgence climatique nécessitant des actions locales concrètes
 - Gestion des déchets à optimiser
 
-### Propositions en cours
+### Contexte local
+
+- Zones Natura 2000 Cap Sizun, zones humides, continuités écologiques
+- PCAET (Plan Climat-Air-Énergie Territorial) en élaboration — diagnostic 2024, actions projetées jusqu'en 2050
+- Le Conservatoire du littoral gère les espaces naturels sensibles
+- DOCOB (Document d'Objectifs) en place pour la gestion des habitats
+
+### Nos engagements
 
 1. **Transition écologique locale**
-
    - Réduction de l'empreinte carbone municipale
    - Soutien aux mobilités douces
-   - Protection des espaces naturels
+   - Protection des espaces naturels et limitation de l'artificialisation des sols
 
 2. **Gestion des ressources**
    - Optimisation de la collecte et du tri des déchets
    - Promotion du compostage et de l'économie circulaire
    - Préservation de la ressource en eau
 
-**Vos idées :** Utilisez [le formulaire environnement]({{ "/formulaires/environnement/" | relative_url }}) pour partager vos propositions.
-{: .notice--info}
+**Construit avec vous :** 3 contributions citoyennes ont nourri cette thématique.
+{: .notice--success}
 
 ---
 
@@ -123,19 +181,26 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
 ### Nos constats
 
 - Commerce de proximité fragilisé
-- Tourisme à valoriser tout en préservant la qualité de vie
+- Tourisme à valoriser tout en préservant la qualité de vie des habitants
 - Besoin d'accompagnement des entrepreneurs locaux
 
-### Propositions en cours
+### Contexte local
+
+- Environ 2 600 entreprises (dont économie sociale), environ 3 849 emplois (73,7 % salariés)
+- Secteurs dominants : services, agriculture/pêche, commerce, tourisme
+- Associations de commerçants actives (Pass Commerce & Artisanat pour l'installation)
+- Marchés hebdomadaires (mercredi et samedi)
+- Port de pêche artisanale essentiel à l'identité et l'économie locale
+- PAT (Projet Alimentaire Territorial) en place
+
+### Nos engagements
 
 1. **Dynamiser le commerce local**
-
    - Soutien à l'installation de commerces de proximité
    - Animation du centre-bourg
    - Circuits courts et consommation locale
 
 2. **Tourisme durable**
-
    - Promotion d'un tourisme respectueux
    - Valorisation du patrimoine maritime et culturel
    - Équilibre entre activité touristique et vie locale
@@ -143,87 +208,57 @@ Ce programme est construit avec vous et évolue selon vos contributions. Chaque 
 3. **Pêche artisanale locale**
    - Soutien à l'industrie de la pêche artisanale
    - Valorisation des produits locaux
-   - Création d'un réseau d'acteurs dans le domaine en relation avec la restauration et l'alimentation
+   - Création d'un réseau d'acteurs en lien avec la restauration et l'alimentation
 
-**Vos idées :** Utilisez [le formulaire économie]({{ "/formulaires/economie/" | relative_url }}) pour partager vos visions.
-{: .notice--info}
+**Construit avec vous :** 5 contributions citoyennes ont nourri cette thématique.
+{: .notice--success}
 
 ---
 
-## <a name="culture"></a>Culture & Patrimoine
+## <a name="alimentation-bien-etre-soins"></a>Alimentation, Bien-être & Soins
 
 ### Nos constats
 
-- Richesse exceptionnelle du [patrimoine religieux](https://github.com/audierne2026/participons/tree/main/docs/culture/README.md)) : plusieurs chapelles classées (Sainte-Brigitte datée 1654, Sainte-Edwett mobilier classé seulement - 1723) et églises historiques (Saint-Raymond, Saint-Onneau, Saint-Joseph)
-- La sauvegarde et la modernisation du Musée Maritime du Cap-Sizun
-- Héritage préhistorique et maritime unique : menhirs, dolmens à [Sainte-Evette](https://github.com/audierne2026/participons/tree/main/docs/culture/saint-edwette.md), port historique au cœur de l'identité audiernaise
-- Dynamisme associatif culturel : l'association Audierne Esquibien Culture organise régulièrement expositions, conférences et animations (Fête de la Science, cinéma Le Goyen)
-- Événements culturels appréciés mais perfectibles : Fête de la Musique, illuminations "Goyen en lumières", festivals estivaux attirent habitants et visiteurs
-- Besoin de valoriser et transmettre ce patrimoine aux jeunes générations et nouveaux arrivants
+- Initiatives fortes pour l'alimentation locale : quinzaine "Manger demain" (avril 2025), festival Alimenterre (novembre 2025), catalogue des producteurs en circuits courts
+- Offre bio en développement : Biocoop La Maison Biologique à Audierne
+- Besoins croissants en soins : population vieillissante, forte demande en aide à domicile (ADMR intervient auprès de plus de 260 seniors)
+- Potentiel pour renforcer le lien social : ateliers intergénérationnels, jardins partagés, prévention santé
 
-### Propositions en cours
+### Contexte local
 
-1. **Renforcer la valorisation du patrimoine**
+- Maison de Santé Pluri-professionnelle pour la coordination des soins
+- Offres bien-être : Cap Yoga Santé, énergétique chinoise, réflexologie
+- Restos du Cœur et cuisines solidaires actives sur le territoire
+- CLIC (Centre Local d'Information et de Coordination) pour l'accompagnement des seniors
 
-   - Création de circuits patrimoniaux guidés (chapelles, fontaines, port historique) avec signalétique moderne et QR codes
-   - Partenariat renforcé avec Audierne Esquibien Culture pour un programme annuel d'expositions et conférences
-   - Mise en lumière nocturne de sites emblématiques (église Saint-Raymond, chapelles)
-
-2. **Développer l'offre culturelle tout public**
-
-   - Soutien accru aux associations culturelles locales (bibliothèques associatives, théâtre, musique)
-   - Programmation régulière de concerts, spectacles jeune public et festivals (extension de la Fête de la Musique, création d'un festival maritime)
-   - Ateliers intergénérationnels autour du patrimoine breton (conte, danse, langue)
-
-3. **Sauvegarder et moderniser le Musée Maritime du Cap-Sizun**
-
-   - Soutien actif à l'association pour trouver des locaux adaptés et durables (rénovation ou nouveau site face à la mer)
-   - Financement public-privé pour numériser les collections et créer des expositions interactives
-   - Intégration du musée dans un circuit patrimonial maritime (lien avec port, phares, chapelles)
-
-**Vos idées :** Utilisez [le formulaire culture & patrimoine]({{ "/formulaires/culture/" | relative_url }}) pour partager vos priorités et propositions.
-{: .notice--info}
-
-## <a name="alimentation-bien-etre-soins"></a>Alimentation, bien-être et soins
-
-### Nos constats (basés sur l'actualité locale 2025)
-
-- Initiatives fortes pour l’alimentation locale : quinzaine "Manger demain" (avril 2025) avec ateliers, visites de fermes et glanage solidaire ; participation au festival Alimenterre avec projections-débats (novembre 2025) ; catalogue annuel des producteurs en circuits courts mis à jour.
-- Offre bio et produits sains en développement : présence de magasins comme Biocoop Maison Biologique à Audierne, avec focus sur produits locaux et équitables.
-- Besoins croissants en bien-être et soins : population vieillissante avec forte demande en aide à domicile (ADMR intervient auprès de plus de 260 seniors) ; initiatives bien-être (Reiki, relaxation, randonnées côtières).
-- Potentiel pour plus de lien social : ateliers intergénérationnels, jardins partagés et prévention santé pour renforcer la qualité de vie.
-
-### Propositions en cours
+### Nos engagements
 
 1. **Alimentation locale et durable**
-
    - Renforcer les circuits courts et le catalogue des producteurs
-   - Soutenir les événements comme la quinzaine de l’alimentation et Alimenterre
+   - Soutenir les événements comme la quinzaine de l'alimentation et Alimenterre
    - Développer des marchés bio réguliers et épiceries solidaires
 
 2. **Bien-être au quotidien**
-
-   - Promouvoir activités physiques accessibles (randonnées côtières, yoga, ateliers relaxation)
-   - Créer espaces verts et jardins partagés pour le lien social
-   - Valoriser offres locales (Reiki, naturopathie, sport santé)
+   - Promouvoir les activités physiques accessibles (randonnées côtières, yoga, ateliers relaxation)
+   - Créer des espaces verts et jardins partagés pour le lien social
+   - Valoriser les offres locales de bien-être
 
 3. **Accès aux soins et accompagnement**
+   - Renforcer l'aide à domicile pour les seniors
+   - Améliorer l'accès aux professionnels de santé et à la prévention
+   - Développer des initiatives intergénérationnelles pour lutter contre l'isolement
 
-   - Renforcer l’aide à domicile pour seniors (ADMR, services coordonnés)
-   - Améliorer l’accès aux professionnels de santé et prévention
-   - Développer initiatives intergénérationnelles pour lutter contre l’isolement
-
-**Vos idées :** Utilisez [le formulaire alimentation, bien-être et soins]({{ "/formulaires/alimentation-bien-etre-soins/" | relative_url }}) pour partager vos visions.
-{: .notice--info}
+**Construit avec vous :** 2 contributions citoyennes ont nourri cette thématique.
+{: .notice--success}
 
 ---
 
-## Historique des modifications
+## Traçabilité
 
-Toutes les modifications du programme sont tracées sur GitHub. Vous pouvez consulter :
+Ce programme co-construit est entièrement traçable. Vous pouvez consulter :
 
-- [L'historique complet](https://github.com/audierne2026/participons/commits/main/_pages/programme.md)
-- [Les discussions en cours](https://github.com/audierne2026/participons/issues)
-- [Les propositions de modifications](https://github.com/audierne2026/participons/pulls)
+- [L'historique complet des modifications](https://github.com/audierne2026/participons/commits/main/_pages/programme.md)
+- [Les contributions citoyennes](https://github.com/audierne2026/participons/issues?q=is%3Aissue)
+- [Les discussions communautaires](https://github.com/audierne2026/participons/discussions)
 
-**Ce programme n'est pas figé. Il vit et évolue avec vos contributions.**
+**Ce programme a été co-construit avec les habitants d'Audierne-Esquibien.**

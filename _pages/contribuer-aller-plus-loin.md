@@ -1,12 +1,16 @@
 ---
 layout: single
-title: "Contribuer au process de contribution"
+title: "Notre méthode participative"
 permalink: /contribuer-aller-plus-loin/
 
 toc: true
-toc_label: "Comment contribuer encore plus"
+toc_label: "Notre méthode"
 toc_icon: "hands-helping"
 ---
+
+<div class="notice--warning" markdown="1">
+**Phase de consultation terminée.** Les formulaires et discussions ont été clôturés fin février 2026. Cette page est conservée comme archive de notre méthode participative. Les contributions ont été intégrées dans [notre programme](/programme/).
+</div>
 
 ## Pull Requests (pour les contributeurs techniques)
 

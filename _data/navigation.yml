@@ -4,16 +4,12 @@ main:
     url: /
   - title: "Programme"
     url: /programme/
-  - title: "Discussions"
-    url: /toutes/
-  - title: "Contribuer"
+  - title: "Bilan participatif"
     url: /contribuer/
   - title: "À propos"
     url: /a-propos/
   - title: "Actualités"
     url: /actualites/
-  # - title: "Contribution Process(EN)"
-  #   url: /contribution-process/
   - title: "Contact"
     url: /contact/
 
@@ -33,3 +29,5 @@ programme:
         url: /programme/#environnement
       - title: "Économie locale"
         url: /programme/#economie
+      - title: "Alimentation, Bien-être & Soins"
+        url: /programme/#alimentation-bien-etre-soins
