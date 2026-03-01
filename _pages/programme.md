@@ -12,7 +12,7 @@ toc_icon: "list"
 
 ## Programme co-construit avec les habitants
 
-Ce programme est le fruit de 33 contributions citoyennes recueillies entre décembre 2025 et février 2026. Chaque proposition a été discutée, documentée et tracée dans notre [dépôt GitHub](https://github.com/audierne2026/participons).
+Ce programme est le fruit de 36 contributions citoyennes recueillies entre décembre 2025 et février 2026. Chaque proposition a été discutée, documentée et tracée dans notre [dépôt GitHub](https://github.com/audierne2026/participons).
 
 > **Comment a-t-il été construit ?** Consultez le [bilan participatif]({{ "/contribuer/" | relative_url }}) pour comprendre notre méthode et retrouver les statistiques de participation.
 
@@ -45,7 +45,7 @@ Ce programme est le fruit de 33 contributions citoyennes recueillies entre déce
    - Équilibre entre développement et préservation de l'identité locale
    - Concertation systématique sur les projets d'aménagement
 
-**Construit avec vous :** 10 contributions citoyennes ont nourri cette thématique.
+**Construit avec vous :** 11 contributions citoyennes ont nourri cette thématique.
 {: .notice--success}
 
 ---
@@ -78,7 +78,7 @@ Ce programme est le fruit de 33 contributions citoyennes recueillies entre déce
    - Financement public-privé pour numériser les collections et créer des expositions interactives
    - Intégration du musée dans un circuit patrimonial maritime (lien avec port, phares, chapelles)
 
-**Construit avec vous :** 1 contribution citoyenne a nourri cette thématique.
+**Construit avec vous :** 2 contributions citoyennes ont nourri cette thématique.
 {: .notice--success}
 
 ---
@@ -108,7 +108,7 @@ Ce programme est le fruit de 33 contributions citoyennes recueillies entre déce
    - Espace partagé pour favoriser les synergies
    - Support logistique mutualisé
 
-**Construit avec vous :** 6 contributions citoyennes ont nourri cette thématique.
+**Construit avec vous :** 5 contributions citoyennes ont nourri cette thématique.
 {: .notice--success}
 
 ---
@@ -139,7 +139,7 @@ Ce programme est le fruit de 33 contributions citoyennes recueillies entre déce
    - Développement de l'offre périscolaire et de loisirs
    - Espaces dédiés aux adolescents
 
-**Construit avec vous :** 6 contributions citoyennes ont nourri cette thématique.
+**Construit avec vous :** 5 contributions citoyennes ont nourri cette thématique.
 {: .notice--success}
 
 ---
@@ -171,7 +171,7 @@ Ce programme est le fruit de 33 contributions citoyennes recueillies entre déce
    - Promotion du compostage et de l'économie circulaire
    - Préservation de la ressource en eau
 
-**Construit avec vous :** 3 contributions citoyennes ont nourri cette thématique.
+**Construit avec vous :** 5 contributions citoyennes ont nourri cette thématique.
 {: .notice--success}
 
 ---

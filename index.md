@@ -17,7 +17,7 @@ feature_row:
   - image_path: /assets/images/audierne_lobster.jpg
     alt: "Programme participatif"
     title: "Programme co-construit"
-    excerpt: "Un programme nourri par 33 contributions citoyennes sur le logement, les associations, l'école, l'environnement, l'économie locale, la culture et l'alimentation."
+    excerpt: "Un programme nourri par 36 contributions citoyennes sur le logement, les associations, l'école, l'environnement, l'économie locale, la culture et l'alimentation."
     url: /programme/
     btn_label: "Découvrir"
     btn_class: "btn--primary"
@@ -31,7 +31,7 @@ feature_row:
   - image_path: /assets/images/anchor_intergeneration.jpg
     alt: "Co-construit avec vous"
     title: "Co-construit avec vous"
-    excerpt: "33 contributions citoyennes recueillies, contextualisées et débattues publiquement pour construire un programme ancré dans les réalités locales."
+    excerpt: "36 contributions citoyennes recueillies, contextualisées et débattues publiquement pour construire un programme ancré dans les réalités locales."
     url: /contribuer/
     btn_label: "Voir le bilan"
     btn_class: "btn--primary"

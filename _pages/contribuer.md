@@ -14,20 +14,21 @@ De décembre 2025 à février 2026, les habitants d'Audierne-Esquibien ont parti
 
 ---
 
-## 33 contributions citoyennes
+## 36 contributions citoyennes
 
 Vos idées, vos priorités et vos propositions ont été recueillies via des formulaires anonymes, puis contextualisées et débattues publiquement.
 
 | Thématique | Contributions |
 |:-----------|:-------------:|
-| Logement & Urbanisme | 10 |
-| Associations & Vie locale | 6 |
-| École & Jeunesse | 6 |
+| Logement & Urbanisme | 11 |
+| Associations & Vie locale | 5 |
+| École & Jeunesse | 5 |
 | Économie locale | 5 |
-| Environnement | 3 |
+| Environnement | 5 |
+| Culture & Patrimoine | 2 |
 | Alimentation, Bien-être & Soins | 2 |
-| Culture & Patrimoine | 1 |
-| **Total** | **33** |
+| Vivre-ensemble | 1 |
+| **Total** | **36** |
 
 ---
 
