@@ -120,24 +120,60 @@ Ce programme est le fruit de 36 contributions citoyennes recueillies entre déce
 - Importance de l'accompagnement éducatif de qualité
 - Enjeux de mobilité pour les jeunes en milieu rural
 - Besoin d'activités périscolaires diversifiées
+- La rénovation de l'école Pierre-Le Lec est le dossier structurant du mandat, engageant la commune sur 6 à 10 ans
 
 ### Contexte local
 
-- École publique Pierre Le Lec (maternelle + élémentaire + ULIS) — rénovation prévue 2026-2027
+- École publique Pierre Le Lec (maternelle + élémentaire + ULIS) — chantier de rénovation en cours, livraison prévue janvier 2028
+- Élèves temporairement relocalisés à l'ancien collège Saint-Joseph (Espace Émile-Combes) depuis septembre 2025
 - Autres écoles : publique d'Esquibien, Sainte-Anne (catholique), Diwan (breton)
 - Collèges : Bois de Locqueran (public), Lamennais (privé)
 - ALSH géré par Cap Sizun Animation (3-12 ans)
 - SIJ (Service Information Jeunesse) ouvert à Audierne depuis 2025
+
+<div class="notice--warning" markdown="1">
+
+#### Le dossier Pierre-Le Lec : un enjeu central de la campagne
+
+La rénovation de l'école Pierre-Le Lec cristallise le débat entre les quatre listes. C'est un choix structurant qui engage les finances communales pour la prochaine décennie.
+
+**Les faits :**
+- **Coût voté** : 4 682 507 € HT en tranche ferme (15 lots attribués le 18 février 2026), soit environ 6-7 M€ TTC toutes phases comprises
+- **Subventions demandées** : DETR (400 000 €), DSIL (1 400 000 €), Fonds Vert (~2 180 000 € de travaux éligibles). L'obtention de ces subventions, notamment la DSIL, est contestée par l'opposition
+- **Ratio de désendettement** : en dégradation — de 2,93 ans (2024) à 4,56 (2025), projeté à 7,1 (2026) et 10,8 en 2028 (seuil de vigilance : 10 ans)
+- **Démographie scolaire** : 146 élèves actuellement (88 Audierne + 58 Esquibien), baisse prévisionnelle avec le vieillissement (51,2 % de la population a plus de 60 ans)
+- **Calendrier** : démolition débutée le 29 décembre 2025, travaux principaux à partir du 2 mars 2026, livraison janvier 2028
+- **Recours** : un recours au tribunal administratif contre le permis de construire a été signalé en séance du conseil municipal
+
+**Ce que disent les listes :**
+
+| | Maintien du projet | Alternative proposée |
+|:--|:--|:--|
+| **Van Praet** (majorité sortante) | Oui — réhabilitation du patrimoine bâti en centre-ville, école multifonction (école le jour, associations/sport le soir) | — |
+| **Lardic** | Oui — l'école en centre-ville attire les familles, économies d'énergie de 70 000 €/an | Désendettement prioritaire sur 6 ans |
+| **Guillon** (opposition) | Non — moratoire et audit du projet, dénonce un projet "pharaonique" pour la capacité financière de la commune | Rénovation modeste ou extension, quitte à payer des indemnités de résiliation |
+| **Bosser** (ex-majorité) | Non — abandon au profit d'une école modulaire (3,5 M€ TTC, 50 % subventionné), reconversion du bâtiment en pôle culturel/musée maritime | École modulaire passive près de la piscine (zonage 2AUS, nécessite autorisation préfectorale) |
+
+**Les questions clés que cette page explorera dans les jours à venir :**
+- Quel est le coût réel d'un report ou d'un abandon (indemnités, subventions perdues, coût de transition) ?
+- Quel est le coût de maintien sur la trajectoire actuelle (endettement, capacité d'investissement résiduelle) ?
+- L'alternative modulaire est-elle réaliste en termes de délais et de faisabilité administrative ?
+- Comment les projections démographiques impactent-elles le dimensionnement ?
+
+*Sources : [conseil municipal du 18 février 2026]({{ "/conseil-municipal/2026/02/18/conseil-municipal-fevrier.html" | relative_url }}), réunions publiques des listes ([Van Praet]({{ "/campaign/2026/02/15/meeting-liste-mvp-3.html" | relative_url }}), [Bosser]({{ "/campaign/2026/02/19/meeting-liste-bosser-2.html" | relative_url }}), [Guillon]({{ "/campaign/2026/02/06/liste-passons-a-laction-meeting-1.html" | relative_url }}), [Lardic]({{ "/campaign/2026/01/30/liste-preparons-lavenir-meeting-1.html" | relative_url }}))*
+</div>
 
 ### Nos engagements
 
 1. **Soutien aux écoles publiques**
    - Équipements adaptés et entretenus
    - Dialogue constant avec les équipes éducatives et parents
+   - Suivi rigoureux du chantier Pierre-Le Lec : transparence sur les coûts, les délais et l'impact financier
 
 2. **Activités pour les jeunes**
    - Développement de l'offre périscolaire et de loisirs
    - Espaces dédiés aux adolescents
+   - Valorisation du modèle d'école multifonction (accueil associatif et sportif hors temps scolaire)
 
 **Construit avec vous :** 5 contributions citoyennes ont nourri cette thématique.
 {: .notice--success}

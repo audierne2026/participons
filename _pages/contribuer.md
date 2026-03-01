@@ -16,19 +16,19 @@ De décembre 2025 à février 2026, les habitants d'Audierne-Esquibien ont parti
 
 ## 36 contributions citoyennes
 
-Vos idées, vos priorités et vos propositions ont été recueillies via des formulaires anonymes, puis contextualisées et débattues publiquement.
+Vos idées, vos priorités et vos propositions ont été recueillies via des formulaires anonymes, puis contextualisées et proposées au débat publique (cela n'a pas éte suivi).
 
-| Thématique | Contributions |
-|:-----------|:-------------:|
-| Logement & Urbanisme | 11 |
-| Associations & Vie locale | 5 |
-| École & Jeunesse | 5 |
-| Économie locale | 5 |
-| Environnement | 5 |
-| Culture & Patrimoine | 2 |
-| Alimentation, Bien-être & Soins | 2 |
-| Vivre-ensemble | 1 |
-| **Total** | **36** |
+| Thématique                      | Contributions |
+| :------------------------------ | :-----------: |
+| Logement & Urbanisme            |      11       |
+| Associations & Vie locale       |       5       |
+| École & Jeunesse                |       5       |
+| Économie locale                 |       5       |
+| Environnement                   |       5       |
+| Culture & Patrimoine            |       2       |
+| Alimentation, Bien-être & Soins |       2       |
+| Vivre-ensemble                  |       1       |
+| **Total**                       |    **36**     |
 
 ---
 
@@ -41,7 +41,7 @@ Notre processus en 6 étapes a permis de transformer vos contributions anonymes 
 3. **Vérification de conformité** — Respect de la charte de contribution
 4. **Contextualisation publique** — Création d'issues GitHub avec analyse et sources
 5. **Discussion communautaire** — Débat ouvert sur GitHub Discussions
-6. **Intégration au programme** — Synthèse et rédaction des engagements
+6. **Intégration au programme** — (En cours) Synthèse et rédaction des engagements
 
 Chaque étape est documentée et traçable sur notre [dépôt GitHub](https://github.com/audierne2026/participons).
 
