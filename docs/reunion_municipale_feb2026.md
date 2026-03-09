@@ -1,0 +1,145 @@
+## Informations de la réunion
+
+> Date : 2026-02-18 19:22:40
+> Lieu : Mairie Audierne
+> Participants : [Gurvan Kerlo'ch] [Speaker 2] [Speaker 3] [Speaker 4] [Speaker 5] [Speaker 6] [Speaker 7] [Speaker 8]
+
+## Compte rendu de la réunion
+
+- Suivi de campagne locale et lancement du site Audierne2026.fr
+  - Présentation d’un projet de site “un peu informatique” pour la campagne : Audierne2026.fr.
+  - Contenus envisagés : résumés des réunions publiques, vœux du maire, approche “Courrier International” avec photos et analyses par catégories.
+  - Objectif : marketing de campagne; clarification qu’il n’est pas sur Facebook.
+  - Mention d’un logo “Phénix/Félix” et vigilance sur les propos en communication.
+  - Décision : lancement du site avec contenus d’analyse et de synthèse.
+- Ouverture du conseil municipal et règles de séance
+  - Début à 18h30, forte affluence; rappel de bienséance et de non-intervention du public.
+  - Appel nominal avec présences/absences/procurations; rappel que le public peut être invité à quitter la salle en cas de débordement.
+- Secrétaire de séance et approbation du PV
+  - Didier LOAS désigné secrétaire; PV du 21/01/2026 approuvé sans opposition ni abstention.
+- Information DDFIP et reprise anticipée des résultats
+  - Incident national DDFIP depuis le 5 février, retour espéré au 23 février; CFU non présentable.
+  - Recours légal à la reprise anticipée des résultats (art. L.2311-5 CGCT) pour intégrer besoins/excédents 2025 au BP 2026 et ajuster emprunt/fiscalité.
+- Budget annexe Port d’Esquibien – Affectation des résultats 2025
+  - Fonctionnement 2025 : recettes 53 580,30 €; dépenses 68 387,70 €; solde -14 807,40 €; report 2024 +23 537,77 €; résultat affecté +8 730,37 €.
+  - Investissement 2025 : dépenses 7 228,00 €; recettes 15 371,46 €; solde +8 143,46 €; report 2024 +9 175,48 €; cumulé +17 318,94 €.
+  - Affectation : 8 730,37 € repris au 002 en recettes de fonctionnement 2025; adopté sans opposition.
+- Budget primitif 2026 – Port d’Esquibien
+  - Avance remboursable : 140 000 € HT pour chaînes traversières (5 à poser; 1 achetée fin 2024 non posée).
+  - Avenant n°4 : prolongation convention jusqu’au 31/12/2027; fixation des tarifs AOT par la commune pour cofinancement.
+  - Fonctionnement dépenses : 50 684,49 € (dont personnel 24 602 €).
+  - Fonctionnement recettes : AOT 31 000 €; chap. 74 25 753,60 € (18 027,58 € perçus); VOLICA 7 726 €; amort. subvention 7 228 €; report 002 8 730,37 €; total 50 684,49 €.
+  - Investissement dépenses : dette 9 500 €; chaînes 140 000 €; total 170 983,40 €.
+  - Investissement recettes : amortissements 13 674,46 €; avance remboursable 140 000 €; report 001 17 319,94 €; total 170 983,40 €; adopté sans opposition.
+  - Appel d’offres chaînes traversières : Iroise Mer retenu à 113 680 € HT; ajustement de l’avance à ~113 000 €; autorisation de signer.
+- Durée d’amortissement des chaînes traversières
+  - Passage de 10 à 15 ans proposé et adopté; rappel du cadre M57 pour la compétence d’amortissement.
+- Budget annexe Assainissement – Affectation des résultats 2025 et BP 2026
+  - Fonctionnement 2025 : solde +13,50 €; report 2024 +8 692,63 €; cumulé +8 706,13 €; reprise anticipée et report total au 002.
+  - Restes à réaliser : dépenses 2 997,97 €; recettes 8 000 €; solde +5 002,03 €.
+  - BP 2026 : dépenses fonctionnement 10 000 € (lecture confuse); recettes ventes 8 293,87 € et report 8 706,13 €; investissement chap. 45 dépenses 8 000 € et recettes “compte de tiers” 8 000 €; adopté sans opposition.
+  - Contrôles ANC par la communauté; finalisation des aides ANC littoral en lien avec Région Bretagne et service assainissement.
+- Budget principal – Affectation des résultats 2025
+  - Fonctionnement 2025 : recettes 5 035 974 €; dépenses 4 358 054 €; résultat +677 850,34 €; report 2024 +100 000 €; total à affecter +777 850,34 €.
+  - Investissement 2025 : dépenses 2 195 560,84 €; recettes 3 562 813,64 €; solde +1 367 252,80 €; report 2024 -161 556,30 €; cumulé +905 696,50 €.
+  - RAR au 31/12/2025 : dépenses 1 241 812,23 €; recettes 1 835 123,96 €; solde +593 311,73 €.
+  - Affectation : 777 850,34 € au 1068 en BP 2026; observation d’une baisse de l’excédent vs 2022-2023 sans réponse chiffrée.
+- Budget primitif 2026 – Présentation et adoption
+  - Fonctionnement 2026 : 5 107 415 € (vs 5 089 469 € en 2025), stabilité relative.
+    - Dépenses : chap. 11 hausse fluides et fêtes/cérémonies; assurance 160 000 € (vs 27 000 €) ; chap. 12 +3,5% CNRACL et revalorisation RIFSEEP; chap. 65 CCF 25 000 € et budget global 120 000 €; chap. 14 SPIC 9 500 €; chap. 66 intérêts en hausse; chap. 042 dotations aux amortissements 470 000 €.
+    - Recettes : maintien des dotations; fiscalité indexée (bases +1%); baisse reversement assurance statutaire; travaux en régie 150 000 € reportés.
+  - Investissement : dépenses 5 348 670,80 € (chap. 40 150 000 € en régie reportée; chap. 20/21/23 investissements); recettes incluant 1068 777 850,34 €; subventions d’investissement; emprunt Banque des Territoires 100 000 € pour bâtiment d’Eslibien; dotations aux amortissements.
+  - Vote : budget 2026 adopté; détails des contre/abstentions non communiqués.
+- Ressources humaines et CCF
+  - RH : 42 postes; 5 agents en disponibilité (changements d’employeur, longue durée, départs vers privé possibles).
+  - CCF : baisse de participation (50 repas et 34 cadeaux en moins vs 2025) sans explication; retours positifs des participants.
+- Budget fêtes de Noël 2026
+  - 100 000 € en fonctionnement (comme 2025) et 20 000 € en investissement pour achats (ex. rue Pasteur); structure identique depuis 3 ans.
+- Subventions d’investissement et comparaisons intercommunales
+  - Subventions annoncées : 2 333 123,96 € (part RàR et prévisionnel).
+  - Débat vif sur aides départementales : 2015-2020 209 546 €; 2021-2026 489 184 €; divergences sur €/hab. (moyenne cantonale ~179 €/hab., Audierne ~100 €/hab. selon graphiques), équité, hors assiette (école), stratégie de demande; pas de consensus.
+- Stratégie de projets et voirie
+  - Accusations de sous-demande; rappel que la voirie est habituellement subventionnée; aucun fait établi sur un refus systémique; sujet non tranché.
+- Projet de rénovation de l’école Pierre Le Lec
+  - Contexte énergétique : décret tertiaire (-40% à -60% d’ici 2050); objectif -77% des consommations; chaufferie conservée.
+  - Programme : 2 350 m² réhabilités; 6 classes élémentaires, 2 maternelles, ateliers, locaux annexes, périscolaire RDC, 160 m² associatifs, réfectoire 140 m²; accès dissociés hors temps scolaire.
+  - Procédure et calendrier : MOE notifiée janv. 2025; consultations oct. 2025; offres janv. 2026; démolition attribuée; commission travaux 10/02/2026; démarrage 02/03/2026; procédure adaptée 60% technique / 40% prix; 47 offres, 36 actualisées (~47 000 € optimisation).
+  - Chiffrage : estimation MOE actualisée BT01 déc. 2025 4 644 271,99 € HT; atterrissage 4 682 507,18 € HT (+0,82%); ratio 1 695,57 € HT/m²; total avec PSE/options 4 777 835,15 €.
+  - Lots proposés : VRD (Leroux TP 288 990 € + TO 19 120 €); Gros œuvre (Lebrise 389 500 € + TO 9 262,80 €); Enveloppe (MCA 1 505 000 € + TO 21 719 €); Étanchéité/Couverture (QECB 275 000 €); Serrurerie (Forges de l’Elorn 59 802,63 €); Cloisons (Sauplac 240 500 €); Faux plafonds (Sauplac 118 000 € + PSE 5 300 € et 784 €); Menuiseries intérieures (Cebaco 290 000 € + TO 4 752,29 €); Revêtements de sol/Peinture (Lucas Gueguen, PSE reprise chapes); Électricité (Ouest Électricité 245 580,17 € + option 4 547,12 €); CVC/Plomberie (Prothermic 535 000 € + option 8 224,94 €); Ascenseur (Steka 23 500 €); Cuisine (Eurice 43 700 €).
+  - Attribution des lots 1, 3 à 15 : décision d’attribuer et autoriser le maire à signer; lot 2 (paysage) déclaré infructueux et relancé; abstentions enregistrées.
+  - Tranche optionnelle “dépose minute” : non affermie (estimée 300–400 k€); risques techniques et financiers (profondeur, mur, arbres, cour réduite, bénéfices limités ~10 places).
+  - Réseaux et voirie : chaussée devant l’école dégradée; travaux réseau programmés CIVOM/SIPON (positionnement profond ~8,50 m); calendrier non communiqué.
+  - Démographie scolaire : baisse des effectifs; 2 fermetures de classes sur le mandat; objectif école ~150 élèves; maintien des classes lié au projet; effectifs de rentrée à préciser (DASEN).
+  - Financement et endettement : débat sur soutenabilité (coût TTC évoqué 6 425 540 €; subventions DETR/DSIL/Fonds Vert; APCP pour lisser); opposition alerte sur ratio de désendettement (“Glob Fair” ~11), “doublement” de la dette; majorité défend finançabilité et lissage (APCP allongé, retour à l’équilibre prospectif).
+  - Étude financière (RCF / DOB) : ratio de capacité de remboursement cité (2024 2,93; 2025 4,56; 2026 7,1; 2027 8,1; 2028 10,8 scénario 100% PPI); divergence d’analyse sur le risque et le réalisme (scénario 75% plus crédible).
+  - Transparence et procédure : montants sous seuils AO, procédure adaptée/négociée par la MOE; contestation de l’opposition; majorité estime la procédure régulière.
+  - Recours TA sur le permis : non suspensif; débat sur loyauté contractuelle, clause d’information/résiliation (CCAG Travaux, indemnités ~3–5% selon cas); risque financier évoqué ~250 000 € en cas d’arrêt; désaccord sur stratégie juridique.
+- Actualisation de l’APCP École Pierre Le Lec
+  - APCP initial 2025–2027; ajout 2028 (solde possible 2029) pour s’adapter au retard sans augmenter le coût total; fin prévisionnelle fin 2027; rentrée au mieux janv. 2028; adopté.
+- Plans de financement et subventions École Pierre Le Lec
+  - Tranche 2 : dépenses 2 340 517 € (travaux 2 178 717 + imprévus 132 000 + honoraires à clarifier); recettes : DETR 400 000 (17,9%), DSIL 1 400 000 (50%), autofinancement 540 717 (23,10%); autorisation de dépôt des demandes adoptée.
+  - Candidature “Edu-Rénov’” (Banque des Territoires) pour ingénierie financière : approuvée.
+  - Demande Fonds Vert 2026 : autorisée (travaux énergie estimés 2 180 000 €).
+- Subventions et contributions diverses
+  - CCAS : 25 000 € (vs 36 000 € en 2025) adoptés; maire autorisé.
+  - OGEC Sainte-Anne : 33 600 € (800 €/élève, 42 élèves) adopté.
+  - École Diwan Boncroix : forfait 7 200 € (9 élèves d’Audierne) adopté.
+  - Théâtre Éphémère (Théâtre Georges Madec) : 12 000 €; convention de prévention des conflits d’intérêts rappelée; adopté.
+  - Toile d’Essai (Cinéma Le Goyen) : 13 000 € adopté.
+- Urbanisme et conventions
+  - Convention de mise à disposition de moyens (urbanisme) 2013 prolongée d’un an (01/01/2026–31/12/2026); adopté.
+  - Prorogation ORT-PVD jusqu’au 31/12/2026; avenant approuvé.
+  - Convention de coopération Région Bretagne – Embarcadère Sainte-Évette : prolongation jusqu’en 2027 (avenant n°4) approuvée; rappel d’un acompte régional restitué faute de travaux; difficulté à lancer la MOE sans étude de programmation (à la charge de la Région); AOT permettant d’ajuster les tarifs pour financer des améliorations; participation APLG via hausse d’AOT, complétée par Région/commune.
+- AOT – Petit train touristique
+  - Mise en place d’un petit train saisonnier (liaisons Ostüm–Yerbivi, embarcadère Île de Sein, terre-plein de Plouboizec le samedi matin); AOT pour point de vente et stationnement sur la place du Stüm (année 1 gracieuse, évaluation après un an); totem soumis à AOT; besoin d’un stationnement nocturne sécurisé; petits aménagements (zébras); approuvé.
+- GEMAPI – Adhésion EPAB Douarnenez
+  - Nécessité d’adhésion de la communauté de communes à l’EPAB au 01/01/2026; approbation des statuts et transfert de compétences; autorisations adoptées.
+- Patrimoine et biens communaux
+  - Vitraux église Saint-Raymond : fragments reconstitués (deux panneaux) et éléments conservés; intégration à l’inventaire patrimonial communal proposée.
+  - Incorporation d’un bien sans maître (Kerbuzulic) : parcelle AC 66 (451 m²) incorporée au domaine privé communal; approuvé.
+  - Cession à l’euro symbolique – Rue Danton : futur acquéreur choisi; autorisation de signer; approuvé.
+  - Rénovation bibliothèque/salle : avenants pour aléas (linteaux bois, charpente, CTA); total actualisé 501 699,60 € HT (vs 452 045,45 € HT attribué; prévisionnel 01/07/2024 290 000 € HT); avenants approuvés avec abstentions.
+  - Éclairage public stade d’Esquibien : SDEF mandataire; convention de mandat; incohérence relevée entre estimation initiale 17 800 € HT et participation communale 2 321 360 € TTC non résolue; projet approuvé; clarification à faire.
+  - Servitude fibre (rue Lamartine) : régularisation 5 m² pour armoire RégaliC Bretagne; approuvée.
+- Fongibilité des crédits et fiscalité
+  - Fongibilité : mouvements de crédits (hors personnel) jusqu’à 5% des dépenses réelles par section; autorisation adoptée.
+  - Taux de fiscalité directe locale 2026 : reconduction des taux 2025; majorité privilégie l’endettement plutôt que la hausse d’impôts; adopté.
+- État du lieu religieux, EHPAD et bibliothèque
+  - Église : aucune dégradation confirmée; association des “amis” mentionnée; aucun responsable identifié.
+  - Futur EHPAD : mixité intégrale; regroupements par unités (classiques, protégées, colocation) selon autonomie; chambres/studios individuels, sécurité et intimité assurées; personnel jour et nuit.
+  - Bibliothèque d’Audierne : continuité rue Lamartine; transfert temporaire en locaux privés place Gambetta lors des travaux du siège communautaire; intégration possible à l’ancien hospice après mise aux normes ERP.
+- Clôture et recours gracieux
+  - Recours gracieux contre permis 2903250005 : rappel de L.612-2 CU (silence &gt;2 mois = rejet implicite); choix de répondre conditionné par le contexte.
+  - Remerciements et fin de séance.
+
+## Prochaines dispositions
+
+- Publier les décisions sur la reprise anticipée des résultats (Port d’Esquibien, Assainissement).
+- Mettre à jour et signer l’avenant n°4 Port d’Esquibien (prolongation au 31/12/2027; tarifs AOT).
+- Mettre en place l’avance remboursable pour les chaînes traversières (montant ajusté ~113 000 € HT) et planifier le remboursement; ajuster l’amortissement à 15 ans.
+- Relancer la consultation du lot 2 “Paysage” (école) avec périmètre ajusté et budget cible; décider sur les tranches optionnelles Esquibien.
+- Notifier/Signer les marchés attribués (lots 1, 3–15) et organiser le démarrage des travaux au 02/03/2026; protocole de contrôle et décision sur PSE (faux plafonds, chapes) après curage.
+- Clarifier et corriger l’incohérence du plan de financement de l’éclairage du stade d’Esquibien; signer la convention SDEF.
+- Coordonner avec CIVOM/SIPON les travaux de réseaux devant l’école; communiquer un calendrier pour limiter l’impact commercial.
+- Déposer les demandes de subventions DETR/DSIL Tranche 2, Fonds Vert 2026, et la candidature Edu-Rénov’; formaliser l’accord de participation APLG lié à l’AOT.
+- Publier les délibérations de subventions (CCAS, OGEC, Diwan, Théâtre Éphémère, Toile d’Essai) et notifier les bénéficiaires.
+- Signer l’avenant ORT-PVD (31/12/2026), la convention Région Bretagne (Sainte-Évette 2027), et poursuivre l’étude de programmation.
+- Finaliser l’incorporation de la parcelle AC 66; signer l’acte de cession Rue Danton; mettre à jour l’inventaire patrimonial pour les vitraux de Saint-Raymond.
+- Clarifier la position du Département sur l’éligibilité du projet d’école; documenter l’historique des demandes de voirie; publier un récapitulatif des subventions (acquis vs prévisionnel).
+- Communiquer officiellement sur la mixité et l’organisation du futur EHPAD; détailler le calendrier de relocalisation de la bibliothèque.
+- Informer les entreprises du recours TA; définir une stratégie juridique (information, clauses éventuelles, risques et indemnités) avant notifications.
+
+## Suggestions IA
+
+- Assainissement : résoudre l’écart chiffré relevé et corriger les documents.
+- Assurance : expliquer la hausse à 160 000 € (marché, sinistralité, périmètre) et proposer un plan de maîtrise des coûts.
+- Subventions départementales : organiser une réunion tripartite (mairie–Département–financeurs) pour clarifier €/hab., critères, arbitrages (école).
+- École : établir un plan de financement détaillé (coûts, subventions, TVA, reste à charge, phasage), un calendrier jalonné 2026–2028, et un scénario prudentiel PPI (75%) avec impacts sur le ratio de désendettement.
+- Procédure marchés : produire un mémo juridique sur les seuils et la négociation en procédure adaptée; tracer les votes et abstentions.
+- Recours TA : évaluer officiellement les risques (délais, coûts, indemnités CCAG), définir un protocole d’information aux entreprises; décider sur clauses suspensives/résolutoires.
+- Démographie scolaire : fournir une projection à 3–4 ans des effectifs et obtenir une communication formelle de la DASEN sur ouvertures/fermetures de classes.
+- Travaux en régie : lister les 150 000 € reportés (2025→2026) avec calendrier.
+- CCF : analyser la baisse de participation et proposer des mesures d’attractivité.
+- Port d’Esquibien : préciser l’utilisation de l’avance révisée et le planning de pose des chaînes; ajuster l’exploitation.
+- Éclairage stade : mettre en place un tableau de bord des coûts et subventions pour les rénovations (bibliothèque/salle) et corriger l’incohérence financière.
+- Communication publique : préparer une note pédagogique sur “demander plus” vs “hors assiette” pour les habitants et le conseil.
