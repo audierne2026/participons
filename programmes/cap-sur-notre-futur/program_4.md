@@ -7,44 +7,6 @@
 
 ---
 
-<!-- Page 1 -->
-06
-07
-08
-09
-10
-11
-
-01
-02
-03
-04
-05
-06
-07
-
-01
-02
-03
-04
-05
-06
-
-01
-02
-03
-04
-
-01
-02
-03
-
-01
-
-02
-
-01
-
 # QUI EST ÉRIC BOSSER
 
 Éric Bosser, maire délégué d’Esquibien depuis le début de ce mandat, incarne l’engagement et la proximité.
@@ -61,22 +23,6 @@ Entouré d’une équipe qu’il a soigneusement choisie, Éric porte une vision
 
 Ensemble, ils forment le phare de demain – celui qui guidera Audierne Esquibien vers un futur stable et prospère.
 
-Contact : capsumotrefutur@gmail.com / Tél : 06 99 43 88 30
-
-capsumotrefutur
-
-capsumotrefutur 00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
-
-capsumotrefutur
-
-0 likes
-
-delivery ?
-
-Add a comment...
-
-Post
-
 ---
 
-*Extrait via Mistral OCR API (`mistral-ocr-latest`)*
+_Extrait via Mistral OCR API (`mistral-ocr-latest`)_

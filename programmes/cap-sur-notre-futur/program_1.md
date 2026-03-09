@@ -8,6 +8,7 @@
 ---
 
 <!-- Page 1 -->
+
 ENSEMBLE AUDIERNE ESQUIBIEN
 
 Autour d'Éric Bosser, 26 colistières et colistiers réunissent des parcours, des âges et des métiers différents, tous ancrés à Audierne Esquibien. Ensemble, ils portent une même ambition : mettre l'intérêt de la commune et de ses habitants au cœur de chaque décision. Cette liste rassemble des acteurs de la vie associative, économique, sociale et culturelle, venant de l'ensemble des quartiers. C'est cette diversité qui fait sa force et garantit une vision équilibrée de l'avenir du territoire.
@@ -20,16 +21,6 @@ Trois engagements clairs :
 
 Éric BOSSER
 
-capsumstrefutur
-
-capsumstrefutur Municipales 2026 à Audierne Esquibien
-Eric BOSSER tête de liste
-
-0 likes
-January 7
-Add a comment...
-Post
-
 ---
 
-*Extrait via Mistral OCR API (`mistral-ocr-latest`)*
+_Extrait via Mistral OCR API (`mistral-ocr-latest`)_

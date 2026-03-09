@@ -8,6 +8,7 @@
 ---
 
 <!-- Page 1 -->
+
 Cap SUR NOTRE FUTUR
 
 Face à cette réalité, notre programme puise dans le bon sens, l'écoute de tous, et une gestion rigoureuse : Logement accessible à l'année : mobilisation active des logements vacants, accompagnement des jeunes ménages à s'installer ici, priorité aux familles, aux aînés, et aux actifs du pays.
@@ -22,17 +23,6 @@ L'argent de notre nouvelle commune doit rester ici, au service du quotidien.
 
 Notre engagement est simple : porter ce projet avec cœur, rigueur et proximité, en travaillant main dans la main avec vous, pour que chaque Audiernais, chaque Esquibiennois retrouvent leur fierté de leur territoire, la sécurité pour leurs proches, et l'assurance d'un avenir solide pour leurs enfants.
 
-capsurnotrefutur
-Audierne, Finistère
-
-No comments yet.
-Start the conversation.
-
-4 likes
-January 7
-
-Add a comment...
-
 ---
 
-*Extrait via Mistral OCR API (`mistral-ocr-latest`)*
+_Extrait via Mistral OCR API (`mistral-ocr-latest`)_

@@ -8,6 +8,7 @@
 ---
 
 <!-- Page 1 -->
+
 ELECTIONS MUNICIPALES 2026
 
 Chers Audiernais et Audiernaises,
@@ -24,10 +25,4 @@ Aujourd'hui, Audierne et Esquibien font face à des défis concrets :
 - La protection urgente de notre littoral, de la baie et de nos espaces naturels.
 - Le souci d'une gestion municipale responsable où chaque euro a du sens et profite d'abord à ceux qui vivent ici..
 
-3 likes
-January 7
-Add a comment...
-
----
-
-*Extrait via Mistral OCR API (`mistral-ocr-latest`)*
+_Extrait via Mistral OCR API (`mistral-ocr-latest`)_
