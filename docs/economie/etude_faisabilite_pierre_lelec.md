@@ -1,6 +1,4 @@
----
-DRAFT (brouillon )
----
+<!-- DRAFT (brouillon) -->
 
 ### Procédure et coûts pour un projet public en zone inondable (ex. école Pierre-Le Lec)
 

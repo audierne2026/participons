@@ -75,7 +75,6 @@ exclude:
   - vendor/bundle
   - .bundle
   - scripts
-  - docs
   - "*.log"
   - .gitignore
   - .github
@@ -135,6 +134,11 @@ defaults:
       author_profile: false
       read_time: false
       share: false
+
+# Docs directory — serve as static content (no layout, no relative-links processing)
+relative_links:
+  exclude:
+    - docs
 
 # Plugins
 plugins:

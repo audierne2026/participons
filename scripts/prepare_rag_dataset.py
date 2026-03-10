@@ -65,7 +65,7 @@ def extract_readme_document(filepath, category_key):
         "category_title": CATEGORIES.get(category_key, category_key),
         "source_type": "readme",
         "title": title,
-        "url": f"https://github.com/audierne2026/audierne/blob/main/docs/{category_key}/README.md",
+        "url": f"https://github.com/audierne2026/participons/blob/main/docs/{category_key}/README.md",
         "content": content,
         "metadata": {
             "filepath": str(filepath),

@@ -1,6 +1,4 @@
----
-DRAFT (brouillon )
----
+<!-- DRAFT (brouillon) -->
 
 **Oui, la politique en faveur des malentendants (notamment les boucles d’induction magnétique – BIM) a bien des racines citoyennes en France**, même si la technologie est américaine et que l’obligation légale est venue plus tard.
 
