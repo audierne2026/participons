@@ -12,7 +12,7 @@ tags:
   - transparence
   - ia
 
-excerpt: "À cinq jours du premier tour, un outil en ligne permet de comparer les propositions des quatre listes sur n'importe quel sujet. Neutre, sourcé, ouvert à tous. Ici, l'IA n'est pas une boîte noire — c'est notre phare."
+excerpt: "À cinq jours du premier tour, cap.audierne2026.fr permet de comparer les propositions des quatre listes sur n'importe quel sujet. Neutre, sourcé, ouvert à tous. Ici, l'IA n'est pas une boîte noire — c'est notre phare."
 header:
   teaser: /assets/images/lighthouse_audierne.jpg
 ---
@@ -29,7 +29,7 @@ Les propositions existent. Elles sont publiques — dans des tracts, des posts F
 
 ## Un outil pour poser vos questions
 
-Depuis le 9 mars, **Ò Capistaine** est en ligne. C'est un assistant qui a lu tous les programmes publiés par les quatre listes et le programme participatif d'audierne2026.fr.
+Depuis le 9 mars, **Ò Capistaine** est en ligne sur [cap.audierne2026.fr](https://cap.audierne2026.fr). C'est un assistant qui a lu tous les programmes publiés par les quatre listes et le programme participatif d'audierne2026.fr.
 
 Vous pouvez lui poser des questions en français, simplement :
 
@@ -83,11 +83,15 @@ Trois mois de travail plus tard — avec l'aide d'une équipe internationale de 
 
 ---
 
+## Un outil qui s'améliore avec vos retours
+
+Depuis la mise en ligne, nous avons reçu des retours de citoyens et de candidats — sur l'interface, sur des réponses incomplètes ou inexactes. Ces retours sont précieux. Ils ont déjà permis de corriger des erreurs dans le traitement de certains programmes et d'améliorer la lisibilité des réponses.
+
+C'est le principe même de cette démarche : la collaboration améliore le résultat. L'outil progresse avec chaque question posée et chaque retour signalé. Si une réponse vous semble fausse ou incomplète, dites-le-nous — c'est comme ça que le phare éclaire mieux.
+
 ## Comment l'utiliser
 
-L'outil est accessible en ligne. Tapez votre question comme vous la poseriez à un voisin. Pas besoin de mots-clés techniques. Si la réponse vous semble incomplète, posez une question de suivi. Si vous voulez comparer deux listes sur un sujet précis, demandez-le directement.
-
-Deux boutons apparaissent après chaque réponse : un pouce vers le haut et un pouce vers le bas. Votre retour nous aide à améliorer la qualité des réponses.
+Rendez-vous sur [cap.audierne2026.fr](https://cap.audierne2026.fr). Tapez votre question comme vous la poseriez à un voisin. Pas besoin de mots-clés techniques. Si la réponse vous semble incomplète, posez une question de suivi. Si vous voulez comparer deux listes sur un sujet précis, demandez-le directement.
 
 ---
 
@@ -106,6 +110,8 @@ Nous invitons - dans un premier temps - chaque liste à examiner le système et 
 ## Le faisceau tourne pour tous
 
 Ce phare n'éclaire pas dans une seule direction. Il tourne pour tout le monde — chaque liste, chaque citoyen, chaque question. La décision du 15 mars vous appartient. On veut juste s'assurer que vous avez les outils pour la prendre en connaissance de cause.
+
+**[cap.audierne2026.fr](https://cap.audierne2026.fr)** — posez vos questions avant le 15 mars.
 
 _Bonne chance, Audierne-Esquibien._
 
