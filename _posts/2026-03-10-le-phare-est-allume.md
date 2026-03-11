@@ -91,7 +91,7 @@ C'est le principe même de cette démarche : la collaboration améliore le résu
 
 ## Comment l'utiliser
 
-Rendez-vous sur [cap.audierne2026.fr](https://cap.audierne2026.fr). Tapez votre question comme vous la poseriez à un voisin. Pas besoin de mots-clés techniques. Si la réponse vous semble incomplète, posez une question de suivi. Si vous voulez comparer deux listes sur un sujet précis, demandez-le directement.
+Bientôt, rendez-vous sur [cap.audierne2026.fr](https://cap.audierne2026.fr). Tapez votre question comme vous la poseriez à un voisin. Pas besoin de mots-clés techniques. Si la réponse vous semble incomplète, posez une question de suivi. Si vous voulez comparer deux listes sur un sujet précis, demandez-le directement.
 
 ---
 
@@ -103,7 +103,7 @@ Tout est vérifiable :
 - **Documentation** : [docs.locki.io](https://docs.locki.io)
 - **Plateforme participative** : [audierne2026.fr](https://audierne2026.fr)
 
-Nous invitons - dans un premier temps - chaque liste à examiner le système et à nous signaler toute inexactitude.
+Nous avons invité - dans un premier temps - chaque liste à examiner le système et à nous signaler toute inexactitude.
 
 ---
 
