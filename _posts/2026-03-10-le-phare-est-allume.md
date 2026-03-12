@@ -84,11 +84,11 @@ L'outil cherche dans les documents, retrouve les extraits pertinents, et vous r�
 
 | Liste                                        | Tête de liste    | Documents indexés |
 | :------------------------------------------- | :--------------- | :---------------: |
-| **Construire l'Avenir**                      | Florent Lardic   |        17         |
+| **Construire l'Avenir**                      | Florent Lardic   |        18         |
 | **Passons à l'Action !**                     | Didier Guillon   |        24         |
-| **S'unir pour Audierne-Esquibien**           | Michel Van Praët |        15         |
-| **Cap sur Notre Futur**                      | Éric Bosser      |         5         |
-| **Programme participatif** (audierne2026.fr) | Co-construit     |        103        |
+| **S'unir pour Audierne-Esquibien**           | Michel Van Praët |        17         |
+| **Cap sur Notre Futur**                      | Éric Bosser      |         6         |
+| **Programme participatif** (audierne2026.fr) | Co-construit     |        171        |
 
 Chaque document a été traité avec le même pipeline. Aucun traitement de faveur.
 
