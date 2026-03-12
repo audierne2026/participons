@@ -6,32 +6,34 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/Blason_fr_Audierne.svg.png
   actions:
+    - label: "💬 Poser une question"
+      url: https://cap.audierne2026.fr
     - label: "Découvrir notre programme"
       url: /programme/
     - label: "Bilan participatif"
       url: /contribuer/
-excerpt: "Écoutons, co-construisons notre territoire ensemble.<br/>Campagne municipale 2026 en transparence totale."
+excerpt: "Vous avez parlé, nous avons écouté.<br/>Le phare est allumé — éclairez votre vote."
 intro:
-  - excerpt: "Cette plateforme incarne notre engagement pour une démocratie participative. Nous avons construit ensemble le programme, en toute transparence. Le code source est public, votre voix a compté."
+  - excerpt: "36 contributions citoyennes ont forgé ce programme. Aujourd'hui, comparez les 4 listes, posez vos questions, et votez en connaissance de cause. Tout est transparent, tout est sourcé."
 feature_row:
   - image_path: /assets/images/audierne_lobster.jpg
-    alt: "Programme participatif"
-    title: "Programme co-construit"
-    excerpt: "Un programme nourri par 36 contributions citoyennes sur le logement, les associations, l'école, l'environnement, l'économie locale, la culture et l'alimentation."
+    alt: "Programme citoyen"
+    title: "Le programme"
+    excerpt: "Logement, école, santé, environnement, économie — un programme forgé par 36 contributions citoyennes. Lisez-le, comparez-le."
     url: /programme/
-    btn_label: "Découvrir"
+    btn_label: "Lire le programme"
     btn_class: "btn--primary"
   - image_path: /assets/images/drop_audierne.jpg
-    alt: "Transparence totale"
-    title: "Transparence totale"
-    excerpt: "Code source public sur GitHub, processus de décision documenté, modifications traçables. Vous voyez tout, vous participez à tout."
-    url: "https://github.com/audierne2026/participons"
-    btn_label: "Voir le code"
+    alt: "Comparez les 4 listes"
+    title: "Posez vos questions"
+    excerpt: "Notre assistant citoyen analyse les programmes des 4 listes en lice. Posez vos questions, obtenez des réponses sourcées."
+    url: "https://cap.audierne2026.fr"
+    btn_label: "Interroger le phare"
     btn_class: "btn--primary"
   - image_path: /assets/images/anchor_intergeneration.jpg
-    alt: "Co-construit avec vous"
-    title: "Co-construit avec vous"
-    excerpt: "36 contributions citoyennes recueillies, contextualisées et débattues publiquement pour construire un programme ancré dans les réalités locales."
+    alt: "Transparence totale"
+    title: "Tout est public"
+    excerpt: "Code source ouvert, contributions traçables, processus documenté. Chaque décision, chaque source, vérifiable par tous."
     url: /contribuer/
     btn_label: "Voir le bilan"
     btn_class: "btn--primary"
@@ -39,26 +41,26 @@ feature_row:
 
 {% include feature_row id="intro" type="center" %}
 
+{% include cap_banner.html %}
+
 {% include posts_carousel.html title="Actualités" limit=6 %}
 
 {% include feature_row %}
 
-## Notre démarche
+## Ce qui nous distingue
 
-Cette campagne municipale pour Audierne-Esquibien 2026 rompt avec les pratiques traditionnelles. Nous croyons en :
+- **Vous avez parlé, nous avons écouté** : 36 contributions citoyennes intégrées dans le programme
+- **Tout est vérifiable** : Code source ouvert, chaque modification traçable, chaque source citée
+- **Comparez par vous-même** : Un assistant citoyen pour interroger les 4 programmes, sans filtre
+- **Pas de promesses creuses** : Des propositions ancrées dans les réalités locales, sourcées et chiffrées
 
-- **L'écoute citoyenne** : Vos priorités ont façonné notre programme
-- **La co-construction** : Ensemble, nous avons trouvé les meilleures solutions
-- **La transparence radicale** : Code open source, modifications publiques, processus documenté
-- **L'inclusion** : Tous les habitants ont pu contribuer, quel que soit leur niveau technique
+## Le chemin parcouru
 
-## Nos étapes
-
-1. **Décembre 2025** : Lancement de la plateforme, premiers retours citoyens
-2. **Janvier 2026** : Consolidation du programme avec vos contributions
-3. **Février 2026** : Clôture de la consultation, constitution du programme final
-4. **Mars 2026** : Campagne avec un programme co-construit
+1. **Décembre 2025** : Lancement — vous nous avez dit ce qui compte
+2. **Janvier 2026** : Vos 36 contributions contextualisées et débattues
+3. **Février 2026** : Programme finalisé avec vos priorités
+4. **Mars 2026** : Le phare est allumé — comparez, questionnez, votez
 
 ---
 
-**Découvrez le résultat** : [Programme]({{ "/programme/" | relative_url }}) • [Bilan participatif]({{ "/contribuer/" | relative_url }}) • [Contact]({{ "/contact/" | relative_url }}) • [GitHub](https://github.com/audierne2026/participons)
+[Lire le programme]({{ "/programme/" | relative_url }}){: .btn .btn--primary} [Poser une question](https://cap.audierne2026.fr){: .btn .btn--primary} [Nous contacter]({{ "/contact/" | relative_url }}){: .btn .btn--inverse}

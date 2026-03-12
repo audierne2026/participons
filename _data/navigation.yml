@@ -4,6 +4,8 @@ main:
     url: /
   - title: "Programme"
     url: /programme/
+  - title: "💬 Poser une question"
+    url: https://cap.audierne2026.fr
   - title: "Bilan participatif"
     url: /contribuer/
   - title: "À propos"
