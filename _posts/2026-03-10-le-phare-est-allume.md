@@ -1,5 +1,5 @@
 ---
-title: "Le phare est allumé — Un outil pour comparer les programmes avant le vote"
+title: "Le phare est allumé"
 date: 2026-03-10
 classes: wide
 categories:
@@ -11,27 +11,52 @@ tags:
   - audierne
   - transparence
   - ia
+  - hackathon
 
-excerpt: "À cinq jours du premier tour, cap.audierne2026.fr permet de comparer les propositions des quatre listes sur n'importe quel sujet. Neutre, sourcé, ouvert à tous. Ici, l'IA n'est pas une boîte noire — c'est notre phare."
+excerpt: "Trois mois, une équipe internationale, un prix pour l'impact social, et 36 contributions citoyennes plus tard — le phare est allumé. Ici, l'IA n'est pas une boîte noire. C'est notre phare."
 header:
   teaser: /assets/images/lighthouse_audierne.jpg
 ---
 
-## Ici, l'IA n'est pas une boîte noire — c'est notre phare
+## Ce qui a commencé par une question
 
-Dimanche 15 mars, vous voterez. Quatre listes vous proposent quatre visions pour Audierne-Esquibien. Quatre programmes, des dizaines de propositions sur le logement, l'école, le port, l'économie, l'environnement, la culture, les associations.
+Décembre 2025, conseil municipal d'Audierne. Le sujet du soir : la rénovation de l'école Pierre-Le Lec. Les échanges sont tendus. La majorité cite ses chiffres. L'opposition cite les siens. Dans la salle, les citoyens écoutent — sans aucun moyen de vérifier qui dit vrai.
 
-**Avez-vous eu le temps de tout lire ?**
+Ce soir-là, en rentrant, une question simple s'est posée : **et si les citoyens pouvaient simplement demander ?**
 
-Les propositions existent. Elles sont publiques — dans des tracts, des posts Facebook, des stories Instagram, des PDF, et bien sûr dans le [programme participatif](https://audierne2026.fr/programme/) co-construit grâce à vos 36 contributions. Mais publique ne veut pas dire accessible. Qui a le temps de croiser chaque promesse, de chaque liste, sur chaque sujet ?
+Pas demander à un élu, pas demander à un journaliste, pas demander à un voisin qui a entendu dire. Demander directement aux documents. Aux programmes. Aux délibérations. Aux promesses publiées par ceux qui veulent nous représenter.
+
+L'information existe. Elle est publique — dans des tracts, des posts Facebook, des stories Instagram, des PDF, dans le [programme participatif](https://audierne2026.fr/programme/) co-construit grâce à vos 36 contributions. Mais publique ne veut pas dire accessible. Qui a le temps de croiser chaque promesse, de chaque liste, sur chaque sujet ?
+
+C'est de cette question qu'est né Ò Capistaine.
 
 ---
 
-## Un outil pour poser vos questions
+## Ce que le hackathon nous a appris
 
-Depuis le 9 mars, **Ò Capistaine** est en ligne sur [cap.audierne2026.fr](https://cap.audierne2026.fr). C'est un assistant qui a lu tous les programmes publiés par les quatre listes et le programme participatif d'audierne2026.fr.
+En février 2026, une équipe de bénévoles venus de quatre pays s'est inscrite au hackathon Encode « Commit to Change ». Le défi : construire un outil à impact social en quelques semaines. Notre proposition : un assistant citoyen pour les municipales d'Audierne.
 
-Vous pouvez lui poser des questions en français, simplement :
+On ne va pas se mentir — quand on a présenté le projet, personne ne savait placer Audierne sur une carte. Une commune de 3 500 habitants au bout du Finistère. Pas exactement la Silicon Valley.
+
+Et pourtant.
+
+C'est précisément parce que c'est petit que c'est important. Dans une grande ville, un citoyen peut se perdre dans la masse. À Audierne, chaque voix compte, chaque programme touche des gens qu'on croise au marché le dimanche. L'enjeu n'est pas abstrait — c'est l'école de vos enfants, le port où travaillent vos voisins, le logement que cherche votre fils.
+
+Le hackathon nous a appris trois choses :
+
+**Premièrement, la neutralité ne se décrète pas — elle se construit.** Au début, l'outil présentait toujours les listes dans le même ordre. Ça semblait anodin. Mais être toujours cité en premier, c'est un avantage. Être toujours cité en dernier, c'est un préjudice. On a dû construire un système qui mélange l'ordre à chaque réponse. La neutralité, ça se code ligne par ligne.
+
+**Deuxièmement, la confiance se prouve, elle ne se proclame.** On peut dire « notre IA est transparente » sur une jolie page web. Ça ne veut rien dire. Ce qui veut dire quelque chose, c'est quand chaque réponse cite sa source, quand le code est ouvert, quand n'importe quel candidat peut vérifier que son programme a été traité comme les autres.
+
+**Troisièmement, l'humain reste aux commandes.** L'IA prépare, l'humain décide. C'est vrai pour le vote — l'outil ne vous dit jamais pour qui voter. Mais c'est vrai aussi dans les coulisses : aucune mise en ligne ne se fait sans une vérification humaine. Chaque décision sensible passe par une main humaine. L'IA est un outil. Le phare, c'est nous qui l'allumons.
+
+Le jury a décerné à Ò Capistaine le **prix Social Impact**. Non pas pour la technologie — mais pour la démarche.
+
+---
+
+## Comment ça marche
+
+Rendez-vous sur [cap.audierne2026.fr](https://cap.audierne2026.fr). Posez votre question comme vous la poseriez à un voisin :
 
 - _« Que proposent les listes pour le logement ? »_
 - _« Que dit la liste de Van Praët sur le port ? »_
@@ -40,26 +65,22 @@ Vous pouvez lui poser des questions en français, simplement :
 
 L'outil cherche dans les documents, retrouve les extraits pertinents, et vous répond avec les **sources citées** — quel document, quelle liste, quel passage. Pas d'interprétation. Pas de classement. Pas de recommandation. Juste ce que chaque liste a réellement écrit.
 
----
+**Ce que l'outil fait :**
+- Compare les quatre listes sur n'importe quel sujet
+- Cite ses sources — vous pouvez vérifier chaque affirmation
+- Corrige les fautes — si vous tapez « van praet », il comprend « Van Praët »
+- Garde le fil — vous pouvez poser des questions de suivi
+- Reste neutre — aucune liste n'est favorisée
 
-## Ce que l'outil fait
-
-- **Compare les quatre listes** sur n'importe quel sujet
-- **Cite ses sources** — vous pouvez vérifier chaque affirmation
-- **Corrige les fautes** — si vous tapez « van praet », il comprend « Van Praët »
-- **Garde le fil** — vous pouvez poser des questions de suivi (« et pour eux ? »)
-- **Reste neutre** — aucune liste n'est favorisée ou désavantagée
-
-## Ce que l'outil ne fait pas
-
-- Il ne vous dit **pas pour qui voter**
-- Il ne **classe pas** les programmes du meilleur au moins bon
-- Il n'**invente pas** — si l'information n'est pas dans les documents, il le dit
-- Il n'**envoie pas** vos données à l'étranger — tout tourne en local
+**Ce que l'outil ne fait pas :**
+- Il ne vous dit pas pour qui voter
+- Il ne classe pas les programmes du meilleur au moins bon
+- Il n'invente pas — si l'information n'est pas dans les documents, il le dit
+- Il n'envoie pas vos données à l'étranger
 
 ---
 
-## Les quatre listes dans l'outil
+## Les quatre listes
 
 | Liste                                        | Tête de liste    | Documents indexés |
 | :------------------------------------------- | :--------------- | :---------------: |
@@ -73,48 +94,36 @@ Chaque document a été traité avec le même pipeline. Aucun traitement de fave
 
 ---
 
-## Pourquoi on a construit ça
+## Vos retours font la lumière
 
-Tout a commencé avec le débat sur la rénovation de l'école Pierre-Le Lec. Au conseil municipal de décembre 2025, les échanges étaient tendus. Majorité et opposition avaient chacune leurs chiffres. Les citoyens dans la salle n'avaient aucun moyen de vérifier.
+Depuis la beta, nous avons reçu des retours de citoyens et de candidats — sur l'interface, sur des réponses incomplètes, sur des erreurs. Ces retours sont précieux. Ils ont déjà permis de corriger le traitement de certains programmes et d'améliorer la lisibilité des réponses.
 
-L'information existait — dans les délibérations, les rapports, la presse. Mais elle était dispersée, inaccessible en pratique. On s'est dit : et si les citoyens pouvaient simplement _demander_ ?
-
-Trois mois de travail plus tard — avec l'aide d'une équipe internationale de bénévoles, un hackathon gagné pour l'impact social, et 36 contributions citoyennes qui ont nourri le programme — le phare est allumé.
+C'est le principe même de cette démarche : **la collaboration améliore le résultat.** L'outil progresse avec chaque question posée et chaque retour signalé. Si une réponse vous semble fausse ou incomplète, dites-le-nous — c'est comme ça que le phare éclaire mieux.
 
 ---
 
-## Un outil qui s'améliore avec vos retours
-
-Depuis la mise en ligne, nous avons reçu des retours de citoyens et de candidats — sur l'interface, sur des réponses incomplètes ou inexactes. Ces retours sont précieux. Ils ont déjà permis de corriger des erreurs dans le traitement de certains programmes et d'améliorer la lisibilité des réponses.
-
-C'est le principe même de cette démarche : la collaboration améliore le résultat. L'outil progresse avec chaque question posée et chaque retour signalé. Si une réponse vous semble fausse ou incomplète, dites-le-nous — c'est comme ça que le phare éclaire mieux.
-
-## Comment l'utiliser
-
-Bientôt, rendez-vous sur [cap.audierne2026.fr](https://cap.audierne2026.fr). Tapez votre question comme vous la poseriez à un voisin. Pas besoin de mots-clés techniques. Si la réponse vous semble incomplète, posez une question de suivi. Si vous voulez comparer deux listes sur un sujet précis, demandez-le directement.
-
----
-
-## Le code est ouvert
-
-Tout est vérifiable :
+## Tout est vérifiable
 
 - **Code source** : [github.com/locki-io/ocapistaine](https://github.com/locki-io/ocapistaine) (licence Apache 2.0)
 - **Documentation** : [docs.locki.io](https://docs.locki.io)
 - **Plateforme participative** : [audierne2026.fr](https://audierne2026.fr)
 
-Nous avons invité - dans un premier temps - chaque liste à examiner le système et à nous signaler toute inexactitude.
+Chaque liste est invitée à examiner le système et à nous signaler toute inexactitude.
 
 ---
 
 ## Le faisceau tourne pour tous
 
-Ce phare n'éclaire pas dans une seule direction. Il tourne pour tout le monde — chaque liste, chaque citoyen, chaque question. La décision du 15 mars vous appartient. On veut juste s'assurer que vous avez les outils pour la prendre en connaissance de cause.
+Un phare n'éclaire pas dans une seule direction. Il tourne — pour chaque liste, chaque citoyen, chaque question. Il ne choisit pas quels bateaux guider. Il se tient sur le rocher et il éclaire.
 
-**[cap.audierne2026.fr](https://cap.audierne2026.fr)** — posez vos questions avant le 15 mars.
+Dimanche 15 mars, vous voterez. La décision vous appartient, comme elle vous a toujours appartenu. On veut juste s'assurer que vous avez la lumière pour la prendre en connaissance de cause.
+
+Trois mois, une équipe internationale, un prix pour l'impact social, 36 contributions citoyennes, et un principe simple : **ici, l'IA n'est pas une boîte noire — c'est notre phare.**
+
+**[cap.audierne2026.fr](https://cap.audierne2026.fr)** — posez vos questions.
 
 _Bonne chance, Audierne-Esquibien._
 
 ---
 
-_Cet outil a été développé dans le cadre du projet [Ò Capistaine](https://docs.locki.io), un système d'IA civique open source. Il a remporté le prix Social Impact au hackathon Encode « Commit to Change » 2026._
+_Ò Capistaine est un système d'IA civique open source. Il a remporté le prix Social Impact au hackathon Encode « Commit to Change » 2026. [En savoir plus](https://docs.locki.io)._
