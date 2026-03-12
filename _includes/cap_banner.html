@@ -1,0 +1,122 @@
+<style>
+  .cap-banner {
+    margin: 2em auto;
+    max-width: 800px;
+    background: linear-gradient(135deg, #0092ca 0%, #007aab 100%);
+    border-radius: 12px;
+    padding: 2em 2.5em;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 146, 202, 0.3);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .cap-banner::before {
+    content: "";
+    position: absolute;
+    top: -40px;
+    right: -40px;
+    width: 120px;
+    height: 120px;
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 50%;
+  }
+
+  .cap-banner::after {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    left: -30px;
+    width: 80px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.06);
+    border-radius: 50%;
+  }
+
+  .cap-banner-icon {
+    font-size: 2.5em;
+    margin-bottom: 0.3em;
+  }
+
+  .cap-banner h2 {
+    color: #fff;
+    font-size: 1.6em;
+    margin: 0 0 0.4em 0;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+  }
+
+  .cap-banner p {
+    color: rgba(255, 255, 255, 0.92);
+    font-size: 1.1em;
+    line-height: 1.5;
+    margin: 0 0 1.2em 0;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .cap-banner-cta {
+    display: inline-block;
+    background: #fff;
+    color: #007aab;
+    font-size: 1.15em;
+    font-weight: 700;
+    padding: 0.8em 2em;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: transform 0.2s, box-shadow 0.2s;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  .cap-banner-cta:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    color: #005f80;
+    text-decoration: none;
+  }
+
+  .cap-banner-hint {
+    color: rgba(255, 255, 255, 0.7);
+    font-size: 0.85em;
+    margin-top: 1em;
+    margin-bottom: 0;
+    font-style: italic;
+  }
+
+  @media (max-width: 600px) {
+    .cap-banner {
+      padding: 1.5em 1.2em;
+      margin: 1.5em 0.5em;
+    }
+
+    .cap-banner h2 {
+      font-size: 1.3em;
+    }
+
+    .cap-banner p {
+      font-size: 1em;
+    }
+
+    .cap-banner-cta {
+      font-size: 1.05em;
+      padding: 0.7em 1.5em;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  }
+</style>
+
+<section class="cap-banner">
+  <div class="cap-banner-icon">🔦</div>
+  <h2>Comparez les programmes, posez vos questions</h2>
+  <p>
+    Notre assistant citoyen analyse les 4 programmes en lice et vous répond avec des sources vérifiables. Logement, école, santé, environnement — demandez ce qui compte pour vous.
+  </p>
+  <a href="https://cap.audierne2026.fr" class="cap-banner-cta" target="_blank" rel="noopener">
+    Poser une question →
+  </a>
+  <p class="cap-banner-hint">Gratuit, sans inscription, réponses sourcées</p>
+</section>

@@ -1,7 +1,7 @@
 # Site Settings
 title: "Participons — Audierne-Esquibien 2026"
 title_separator: "|"
-subtitle: "Ensemble, écoutons et co-construisons"
+subtitle: "Le phare est allumé — éclairez votre vote"
 name: "Liste citoyenne Audierne-Esquibien"
 description: "Plateforme participative pour la campagne municipale Audierne-Esquibien 2026. Transparence, écoute citoyenne, co-construction du programme."
 url: "https://audierne2026.fr" # ← pour les push enligne
@@ -47,6 +47,9 @@ analytics:
 # Site Footer
 footer:
   links:
+    - label: "Poser une question"
+      icon: "fas fa-fw fa-comments"
+      url: "https://cap.audierne2026.fr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/audierne2026/participons"
