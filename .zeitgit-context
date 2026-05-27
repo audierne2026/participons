@@ -1,0 +1,12 @@
+project: audierne2026
+agent: lifprasir
+model: claude-opus-4-7
+domain: jekyll-citizen-platform, municipal-elections, rag-content-pipeline
+tracker:
+  type: github
+  url: https://github.com/audierne2026/participons
+  api_auth_env: GITHUB_API
+  visibility: public
+born: 2025-12-14
+last-session: 2026-05-27
+last-thread: article/le-phare-est-allume

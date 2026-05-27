@@ -12,6 +12,9 @@ _site/
 #node internal linting
 node_modules/
 
+#scripts py cache
+scripts/__pycache__/
+
 # Ruby/Bundler
 .bundle/
 vendor/
@@ -43,6 +46,9 @@ Thumbs.db
 # claude instructions
 CLAUDE.md
 .claude/
+
+# vaettir airlock symlink (operator-local helper visualization)
+locki
 
 # Local reviewer instructions
 docs/help/REVIEWER_INSTRUCTIONS.md

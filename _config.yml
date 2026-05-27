@@ -81,6 +81,7 @@ exclude:
   - "*.log"
   - .gitignore
   - .github
+  - locki
 
 # Collections
 collections:
