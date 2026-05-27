@@ -44,6 +44,9 @@ Thumbs.db
 CLAUDE.md
 .claude/
 
+# vaettir airlock symlink (operator-local helper visualization)
+locki
+
 # Local reviewer instructions
 docs/help/REVIEWER_INSTRUCTIONS.md
 docs/help/SETUP_COMPLETE.md
