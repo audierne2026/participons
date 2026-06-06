@@ -50,6 +50,13 @@ CLAUDE.md
 # vaettir airlock symlink (operator-local helper visualization)
 locki
 
+# Forseti0 sovereign zones — never committed
+.forseti/
+docs/sovereignty/
+
+# internal project governance — gitignored (public repo: project/ stays off the remote)
+project/
+
 # Local reviewer instructions
 docs/help/REVIEWER_INSTRUCTIONS.md
 docs/help/SETUP_COMPLETE.md
