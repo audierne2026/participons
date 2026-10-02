@@ -52,6 +52,7 @@ locki
 
 # Forseti0 sovereign zones — never committed
 .forseti/
+.forsethi/
 docs/sovereignty/
 
 # internal project governance — gitignored (public repo: project/ stays off the remote)
