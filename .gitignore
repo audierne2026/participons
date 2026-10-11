@@ -41,7 +41,7 @@ Thumbs.db
 .env.private
 .env.local
 .env
-.env.claude
+.env.*
 
 # claude instructions
 CLAUDE.md
