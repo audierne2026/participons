@@ -2,39 +2,38 @@
 
 Templates for the sovereign `.env` files, split by **concern** (blast radius), not by
 environment. App class: **free electron** — a static Jekyll site (`audierne2026.fr`) with a
-Python content pipeline. It binds **no slot, no port, no Redis**. Only the **one concern that
-genuinely applies** is templated here.
+Python content pipeline. It binds **no slot, no port, no Redis**. Only the concerns the
+pipeline genuinely consumes are templated here.
 
 ## The Ordnung
 
 **dotenv-radius-only policy:** every file follows `.env.<concern>`. No bare `.env`. Local dev
-variants follow `.env.<concern>.dev` (loaded with `override=True` — dev wins).
+variants follow `.env.<concern>.dev` (loaded after the base — dev wins).
 
 | File | Template | Concern | Rotation trigger |
 |------|----------|---------|------------------|
-| `.env.claude` | `env.claude.example` | Pipeline + platform tokens (`GITHUB_API`, `OCAP_LOCKI_TOKEN`) | GitHub / bot compromise |
+| `.env.config` | `env.config.example` | Identifiers only (`GITHUB_REPOSITORY`, `EMAIL_USER`) | never |
+| `.env.claude` | `env.claude.example` | LLM keys (`ANTHROPIC_API_KEY`, `MISTRAL_OCR_API_KEY`) | IDE/context breach, seasonal |
+| `.env.infra` | `env.infra.example` | Mail password, the participonsmobile connector | service breach, seasonal |
+| `.env.platforms` | `env.platforms.example` | GitHub: the ocapistaine bot (`OCAPISTAINE_GITHUB_TOKEN`), the project PAT (`AUDIERNE_GITHUB_PAT_TOKEN`) | expiry, GitHub/bot compromise |
 
-> **Omitted by design (free electron).** `.env.config` · `.env.infra` · `.env.platforms` ·
-> `.env.webhooks` · `.env.apps` · `.env.agents` are N/A — no app runtime, no observability
-> stack, no Discord channel, no per-agent forge token consumed by this repo. Add a template the
-> day a concern becomes real, never before.
+> **Omitted by design (free electron).** `.env.webhooks` · `.env.apps` · `.env.agents` are N/A —
+> no Discord channel, no app runtime, no per-agent forge token consumed by this repo. Add a
+> template the day a concern becomes real, never before.
 
-> **CONFIG vs SECRET (Forseti0).** Secrets carry a suffix (`_PASSWORD`, `_KEY`, `_TOKEN`,
-> `_SECRET`) and live only in their rotation-matched radius. Lifecycle wins: a key belongs in
-> the file whose blast radius matches its rotation trigger. The two tokens here are PLATFORM-class
-> (canonical home `.env.platforms`); they sit in `.env.claude` for convenience until the next
-> rotation window — see the note in `env.claude.example`.
+> **CI reads none of these files.** GitHub Actions reads the repository's own secrets
+> (`OCAPISTAINE_GITHUB_TOKEN`, `ANTHROPIC_API_KEY`, `MISTRAL_API_KEY`, `EMAIL_USER`,
+> `EMAIL_PASS`) and the built-in `GITHUB_TOKEN`. A rotation is done in both places.
 
 ## Setup
 
 ```bash
-cp env-templates/env.claude.example .env.claude
-# fill each <forseti - ok> with the real value, then:
-set -a && source .env.claude && set +a
+cp env-templates/env.config.example    .env.config
+cp env-templates/env.claude.example    .env.claude
+cp env-templates/env.infra.example     .env.infra
+cp env-templates/env.platforms.example .env.platforms
+# fill each <forseti - ok> with the real value, then run a script through the loader:
+bash scripts/dev-env.sh python3 scripts/export_contributions_to_md.py
 ```
 
-## Migration note
-
-The legacy root `.env.example` is superseded by this directory (realm canon: templates ship as
-`env-templates/env.<concern>.example`, never a root-scattered bare `.env.example`). Remove the
-old root template once this is in place.
+`scripts/dev-env.sh` loads the four layers in order and stops on a missing one.
