@@ -15,6 +15,11 @@ on:
 jobs:
   feed-rag:
     runs-on: ubuntu-latest
+    # GITHUB_TOKEN: read the repo + discussions (export), write the #24 comment (notify)
+    permissions:
+      contents: read
+      issues: write
+      discussions: read
 
     steps:
       - name: Checkout repository
@@ -67,10 +72,10 @@ jobs:
       - name: Push RAG dataset to ocapistaine dev branch
         if: ${{ inputs.sync_to_ocapistaine == true }}
         env:
-          OCAP_LOCKI_TOKEN: ${{ secrets.OCAP_LOCKI_TOKEN }}
+          OCAPISTAINE_GITHUB_TOKEN: ${{ secrets.OCAPISTAINE_GITHUB_TOKEN }}
         run: |
-          if [ -z "$OCAP_LOCKI_TOKEN" ]; then
-            echo "❌ OCAP_LOCKI_TOKEN not set"
+          if [ -z "$OCAPISTAINE_GITHUB_TOKEN" ]; then
+            echo "❌ OCAPISTAINE_GITHUB_TOKEN not set"
             exit 1
           fi
 
@@ -78,7 +83,7 @@ jobs:
 
           # Clone ocapistaine dev branch (shallow)
           git clone --depth 1 --branch dev \
-            "https://ocapistaine:${OCAP_LOCKI_TOKEN}@github.com/locki-io/ocapistaine.git" \
+            "https://ocapistaine:${OCAPISTAINE_GITHUB_TOKEN}@github.com/locki-io/ocapistaine.git" \
             /tmp/ocapistaine
 
           # Copy RAG dataset
@@ -109,7 +114,7 @@ jobs:
       - name: Notify RAG update
         if: ${{ inputs.sync_to_ocapistaine == true }}
         env:
-          OCAP_LOCKI_TOKEN: ${{ secrets.OCAP_LOCKI_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           # Read stats for notification
           DOCS=$(python3 -c "import json;d=json.load(open('data/rag/documents_metadata.json'));print(d.get('total_documents',0))" 2>/dev/null || echo "?")
@@ -128,8 +133,8 @@ jobs:
           > Merge dev → main when ready."
 
           # Post comment on participons discussion #24 (Toutes les contributions)
-          curl -s -X POST \
-            -H "Authorization: token $OCAP_LOCKI_TOKEN" \
+          curl -sf -X POST \
+            -H "Authorization: token $GITHUB_TOKEN" \
             -H "Accept: application/vnd.github.v3+json" \
             "https://api.github.com/repos/audierne2026/participons/issues/24/comments" \
             -d "$(python3 -c "import json;print(json.dumps({'body': '''${BODY}'''}))")" \
