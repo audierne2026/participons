@@ -20,7 +20,7 @@ EMAIL_PASS = os.getenv("EMAIL_PASS")
 GITHUB_REPO = os.getenv(
     "GITHUB_REPO", os.getenv("GITHUB_REPOSITORY")
 )  # Automatique dans Actions
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")  # Token automatique fourni par GitHub Actions
+GITHUB_TOKEN = os.getenv("AUDIERNE_GITHUB_PAT_TOKEN") or os.getenv("GITHUB_TOKEN")  # Token automatique fourni par GitHub Actions
 
 # Mapping des catégories
 CATEGORY_MAPPING = {

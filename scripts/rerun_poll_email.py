@@ -21,7 +21,7 @@ EMAIL_PASS = os.getenv("EMAIL_PASS")
 GITHUB_REPO = os.getenv(
     "GITHUB_REPO", os.getenv("GITHUB_REPOSITORY")
 )
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("AUDIERNE_GITHUB_PAT_TOKEN") or os.getenv("GITHUB_TOKEN")
 
 # Mapping des catégories
 CATEGORY_MAPPING = {

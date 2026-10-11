@@ -37,7 +37,7 @@ except ImportError:
 
 # ====================== CONFIGURATION ======================
 GITHUB_REPO = os.getenv("GITHUB_REPO", os.getenv("GITHUB_REPOSITORY", "audierne2026/participons"))
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = os.getenv("AUDIERNE_GITHUB_PAT_TOKEN") or os.getenv("GITHUB_TOKEN")
 
 # Category mappings (GitHub label -> docs folder)
 CATEGORIES = {

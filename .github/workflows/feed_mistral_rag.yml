@@ -72,10 +72,10 @@ jobs:
       - name: Push RAG dataset to ocapistaine dev branch
         if: ${{ inputs.sync_to_ocapistaine == true }}
         env:
-          AUDIERNE_GITHUB_PAT_TOKEN: ${{ secrets.AUDIERNE_GITHUB_PAT_TOKEN }}
+          OCAP_LOCKI_TOKEN: ${{ secrets.OCAP_LOCKI_TOKEN }}
         run: |
-          if [ -z "$AUDIERNE_GITHUB_PAT_TOKEN" ]; then
-            echo "❌ AUDIERNE_GITHUB_PAT_TOKEN not set"
+          if [ -z "$OCAP_LOCKI_TOKEN" ]; then
+            echo "❌ OCAP_LOCKI_TOKEN not set"
             exit 1
           fi
 
@@ -83,7 +83,7 @@ jobs:
 
           # Clone ocapistaine dev branch (shallow)
           git clone --depth 1 --branch dev \
-            "https://ocapistaine:${AUDIERNE_GITHUB_PAT_TOKEN}@github.com/locki-io/ocapistaine.git" \
+            "https://ocapistaine:${OCAP_LOCKI_TOKEN}@github.com/locki-io/ocapistaine.git" \
             /tmp/ocapistaine
 
           # Copy RAG dataset
