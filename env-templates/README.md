@@ -16,10 +16,10 @@ variants follow `.env.<concern>.dev` (loaded after the base — dev wins).
 | `.env.claude` | `env.claude.example` | LLM keys (`ANTHROPIC_API_KEY`, `MISTRAL_OCR_API_KEY`) | IDE/context breach, seasonal |
 | `.env.infra` | `env.infra.example` | Mail password, the participonsmobile connector | service breach, seasonal |
 | `.env.platforms` | `env.platforms.example` | GitHub: the ocapistaine bot (`OCAPISTAINE_GITHUB_TOKEN`), the project PAT (`AUDIERNE_GITHUB_PAT_TOKEN`) | expiry, GitHub/bot compromise |
+| `.env.agents` | `env.agents.example` | Per-agent forge seats, census-named (see the template) | agent credential rotation |
 
-> **Omitted by design (free electron).** `.env.webhooks` · `.env.apps` · `.env.agents` are N/A —
-> no Discord channel, no app runtime, no per-agent forge token consumed by this repo. Add a
-> template the day a concern becomes real, never before.
+> **Omitted by design (free electron).** `.env.webhooks` · `.env.apps` are N/A — no Discord
+> channel, no app runtime. Add a template the day a concern becomes real, never before.
 
 > **CI reads none of these files.** GitHub Actions reads the repository's own secrets
 > (`ANTHROPIC_API_KEY`, `EMAIL_USER`, `EMAIL_PASS`) and the built-in `GITHUB_TOKEN`.
