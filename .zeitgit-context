@@ -1,14 +1,22 @@
 schema-version: 3
 project: audierne2026
 agent: lifprasir
-model: claude-opus-4-7
+model: claude-opus-5-5
 domain: jekyll-citizen-platform, municipal-elections, rag-content-pipeline
+# Two planes: issues on the forge (a pull mirror of GitHub, read-only code),
+# commits and the Pages deploy on GitHub. A push goes to origin; the mirror follows.
 tracker:
-  type: github
-  url: https://github.com/audierne2026/participons
-  api_auth_env: GITHUB_API
-  visibility: public
+  type: forgejo
+  url: https://forge.lockilabs.com/jnxmas/audierne
+  api_auth_env: LIFPRASIR_FORGE_TOKEN
+  visibility: private
+operator: jnxmas
+trail_remote: origin
+deploy_remote: origin
+operators:
+  jnxmas:
+    slug: -Users-jnxmas-dev-audierne
 born: 2025-12-14
-last-session: 2026-06-06
-last-thread: forge-vaettir-109:birth-process
-threads: manual:2026-06-05, forge-vaettir-109:birth-process
+last-session: 2026-10-11
+last-thread: 206b6f1e-1304-4377-a27a-5b5c4905ef5c
+threads: 206b6f1e-1304-4377-a27a-5b5c4905ef5c, manual:2026-06-05, forge-vaettir-109:birth-process
