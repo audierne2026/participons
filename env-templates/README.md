@@ -22,8 +22,8 @@ variants follow `.env.<concern>.dev` (loaded after the base — dev wins).
 > template the day a concern becomes real, never before.
 
 > **CI reads none of these files.** GitHub Actions reads the repository's own secrets
-> (`OCAPISTAINE_GITHUB_TOKEN`, `ANTHROPIC_API_KEY`, `MISTRAL_API_KEY`, `EMAIL_USER`,
-> `EMAIL_PASS`) and the built-in `GITHUB_TOKEN`. A rotation is done in both places.
+> (`ANTHROPIC_API_KEY`, `EMAIL_USER`, `EMAIL_PASS`) and the built-in `GITHUB_TOKEN`.
+> A rotation is done in both places.
 
 ## Setup
 
