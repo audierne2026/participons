@@ -15,12 +15,7 @@ plaud_url: "https://web.plaud.ai/s/pub_3d6f766f-9227-4c79-80bc-5aaf52aa71e4::7DA
 
 En ce début janvier 2026, la cérémonie des vœux du maire de **Audierne** (Finistère) a pris une tournure particulière : **Gurvan Kerloc’h** a confirmé qu’il ne briguerait pas un nouveau mandat aux municipales de mars 2026. Quatre listes sont déjà déclarées, avec peut-être deux autres à venir. Attaché à la commune (où il a acheté une maison et élevé ses enfants, dans une famille ancrée depuis des générations), le maire explique son choix non par un départ ou une déception, mais par une dégradation du débat public : postures partisanes, violence verbale accrue, intérêts individuels qui priment sur le collectif. Il appelle à un « nouveau paradigme » d’union pour l’avenir.
 
-<video controls width="100%" poster="/assets/images/new-year-speech.jpg">
-  <source src="/assets/videos/wishes-2026.mp4" type="video/mp4">
-  Votre navigateur ne supporte pas la lecture vidéo.
-</video>
-
-*Image d'affiche de la vidéo : caricature dessinée, générée par IA et vérifiée par l'équipe. Ce n'est pas une photographie.*
+{% include ia.html video="assets/videos/wishes-2026.mp4" poster="assets/images/new-year-speech.jpg" alt="Vidéo des vœux 2026 ; image d'affiche : caricature du maire" label="Image d'affiche : caricature générée par IA" %}
 
 Le discours a aussi dressé un bilan 2025 riche et un état des lieux multi-niveaux :
 
