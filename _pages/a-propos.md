@@ -113,6 +113,11 @@ Au contraire. La transparence est une force :
 
 ---
 
+
+### Les illustrations sont-elles générées par IA ?
+
+Oui, pour les caricatures de personnalités publiques (têtes de liste, élus) qui illustrent les comptes rendus de réunions publiques. Elles sont **dessinées, générées par IA et vérifiées par l'équipe**, et toujours signalées comme telles sous l'image : ce ne sont jamais des photographies, et elles ne représentent les personnes que dans leur rôle public. Une personne représentée qui souhaite une correction ou un retrait peut nous écrire (voir ci-dessous).
+
 ## Contact
 
 - **Email** : [{{ site.email }}](mailto:{{ site.email }})

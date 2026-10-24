@@ -3,4 +3,22 @@
 <link rel="shortcut icon" href="{{ "/assets/images/favicon.ico" | relative_url
 }}">
 
+<style>
+  /* AI-generated image label, drawn over the image (_includes/ia.html, audierne#2).
+     Top-left so it never covers a video's controls; black and white, no hue. */
+  .ia-figure { position: relative; display: block; margin: 1.5em 0; }
+  .ia-figure img, .ia-figure video { display: block; width: 100%; height: auto; margin: 0; }
+  .ia-figure .ia-badge {
+    position: absolute; top: .6em; left: .6em; width: auto; margin: 0;
+    padding: .15em .7em .15em .2em; border-radius: .3em;
+    background: rgba(0, 0, 0, .75); color: #fff;
+    font-family: -apple-system, BlinkMacSystemFont, "Roboto", "Segoe UI", "Helvetica Neue", "Lucida Grande", Arial, sans-serif;
+    font-size: .8rem; line-height: 1.3;
+    display: inline-flex; align-items: center; gap: .15em;
+  }
+  /* EU "Basic" AI icon, unmodified (white disc, dark "AI"). The disc fills ~64% of the SVG frame,
+     so the frame is sized for a clearly visible disc (~1.4em), as the Commission asks. */
+  .ia-figure .ia-eu-icon { width: 2.2em; height: 2.2em; margin: 0; flex: none; }
+</style>
+
 <!-- end custom head snippets -->

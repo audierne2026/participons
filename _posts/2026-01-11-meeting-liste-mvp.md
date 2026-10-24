@@ -18,6 +18,8 @@ plaud_url_2: "https://web.plaud.ai/s/pub_0545c947-9190-48da-be98-dd7267ce3bac::O
 
 [![Le projet de la nouvelle école]({{ "assets/images/reunion_van_praet_1101.png" | relative_url }} "Michel Van Praët présente les plans")](https://www.facebook.com/share/p/1DbzV6eE3U/?mibextid=wwXIfr)
 
+*Photo : jnxmas*
+
 La liste **En 2026, s’unir pour Audierne-Esquibien**, menée par Michel Van Praët (adjoint sortant à la culture), s'est réunie le 11 janvier 2026 dans la salle polyvalente d'Esquibien. Accompagné de colistiers comme Christian Cosquer (économie/patrimoine), Cyril Lessenne (santé/social), Christian Neuveu (écologie/mobilités) et Marie Soler (jeunesse), l'événement a porté sur trois axes majeurs : le projet scolaire, les finances communales et la gouvernance.
 
 ## Résumé Global

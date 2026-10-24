@@ -17,7 +17,7 @@ header:
 
 Voici l'analyse consolidée et détaillée de la réunion publique tenue par Didier Guillon à Audierne en février 2026, basée sur l'ensemble des transcriptions et le notes prises lors de la réunion publique.
 
-[![Passons à l'action]({{ "assets/images/didier-guillon-onstage.png" | relative_url }} "Didier Guillon")]
+{% include ia.html src="assets/images/didier-guillon-onstage.png" alt="Caricature de Didier Guillon sur scène, liste Passons à l'action" %}
 
 # Synthèse Globale
 

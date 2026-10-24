@@ -1,0 +1,22 @@
+{%- comment -%}
+  Overlay label for an AI-generated image (audierne#2, arc42 §8 « AI transparency »).
+  The file is never modified: the badge is drawn over it when the page renders.
+  Image:        {% include ia.html src="assets/images/x.png" alt="Caricature de …" %}
+  Video poster: {% include ia.html video="assets/videos/x.mp4" poster="assets/images/x.jpg" alt="…" %}
+  Optional:     label="…" replaces the badge text.
+  The icon is the European Commission's "Basic" AI label (white variant), used unmodified;
+  free to use, no attribution required (digital-strategy.ec.europa.eu, EU icons for labelling
+  AI-generated content). Basic is the variant for a custom text label, which is ours.
+{%- endcomment -%}
+{%- assign ia_label = include.label | default: "Caricature générée par IA" -%}
+<figure class="ia-figure">
+{%- if include.video %}
+  <video controls width="100%" poster="{{ include.poster | relative_url }}" aria-label="{{ include.alt }}">
+    <source src="{{ include.video | relative_url }}" type="video/mp4">
+    Votre navigateur ne supporte pas la lecture vidéo.
+  </video>
+{%- else %}
+  <img src="{{ include.src | relative_url }}" alt="{{ include.alt }}">
+{%- endif %}
+  <figcaption class="ia-badge" title="Caricature dessinée, générée par IA et vérifiée par l'équipe. Ce n'est pas une photographie."><img class="ia-eu-icon" src="{{ '/assets/images/eu-ai-label-white.svg' | relative_url }}" alt="" width="18" height="18">{{ ia_label }}</figcaption>
+</figure>
