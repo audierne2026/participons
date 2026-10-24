@@ -15,6 +15,8 @@ header:
   teaser: /assets/images/pleine-mer-thorn.jpg
 ---
 
+{% include ia.html src="assets/images/pleine-mer-thorn.jpg" alt="Caricature de jnxmas, l'auteur du site, à bord d'un bateau de bois dont la proue est un grand þ, aux côtés d'Ò Capistaine qui tient la boussole et la carte, sous un ciel en feu" %}
+
 En mars, [le phare s'est allumé](/governance/campaign/2026/03/10/le-phare-est-allume.html) : pendant les deux tours, chacun pouvait interroger les programmes des quatre listes et obtenir une réponse sourcée. L'élection est passée. Ce site change de chapitre : il devient **l'archive transparente de ce qui s'est passé**.
 
 ## Ce qui s'est passé
@@ -71,8 +73,6 @@ Notre premier souci, depuis le début, a été la façon dont l'IA traite la mat
 - **l'IA le dit** : chaque image générée par IA qui représente une personne réelle porte, sur l'image, le bandeau « Caricature générée par IA » et l'icône européenne, et la même mention dans le fichier. Nous gardons trace de la source de chaque image, au-delà de ce que la loi demande aujourd'hui.
 
 ## La pleine mer
-
-{% include ia.html src="assets/images/pleine-mer-thorn.jpg" alt="Caricature de jnxmas, l'auteur du site, à bord d'un bateau de bois dont la proue est un grand þ, aux côtés d'Ò Capistaine qui tient la boussole et la carte, sous un ciel en feu" %}
 
 Ce site n'aurait pas existé sans **Ò Capistaine**, le moteur qui a rassemblé les documents, préparé les contributions et répondu aux questions pendant la campagne. Audierne garde son archive ; le moteur, lui, quitte le port. Son nouveau chapitre s'écrit sur **[ocapistaine.locki.io](https://ocapistaine.locki.io)** : candidat au Challenge Solutions4Good 2026, dont la finale a lieu à Lannion le 26 novembre. Son principe n'a pas changé : *l'IA prépare, le conseil municipal décide.*
 
