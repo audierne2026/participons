@@ -127,3 +127,5 @@ _Bonne chance, Audierne-Esquibien._
 ---
 
 _Ò Capistaine est un système d'IA civique open source. Il a remporté le prix Social Impact au hackathon Encode « Commit to Change » 2026. [En savoir plus](https://docs.locki.io)._
+
+_Illustration de l'article : générée par IA, vaettir. Ce n'est pas une photographie._

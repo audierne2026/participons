@@ -47,9 +47,6 @@ analytics:
 # Site Footer
 footer:
   links:
-    - label: "Poser une question"
-      icon: "fas fa-fw fa-comments"
-      url: "https://cap.audierne2026.fr"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
       url: "https://github.com/audierne2026/participons"
