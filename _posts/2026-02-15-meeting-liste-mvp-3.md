@@ -18,6 +18,8 @@ header:
 
 [![S’unir pour Audierne-Esquibien]({{ "assets/images/reunion_van_praet_1101.png" | relative_url }} "Réunion publique MVP 3")]
 
+*Photo : jnxmas*
+
 # Analyse Stratégique de la Réunion Publique : Audierne (Février 2026)
 
 ## Synthèse Globale
