@@ -12,7 +12,7 @@ tags:
   - ia
 excerpt: "L'élection est passée. Ce site devient l'archive ouverte de la campagne, à la disposition de la mairie. Et Ò Capistaine, le moteur qui l'a rendu possible, prend la pleine mer."
 header:
-  teaser: /assets/images/lighthouse_audierne.jpg
+  teaser: /assets/images/pleine-mer-thorn.jpg
 ---
 
 En mars, [le phare s'est allumé](/governance/campaign/2026/03/10/le-phare-est-allume.html) : pendant les deux tours, chacun pouvait interroger les programmes des quatre listes et obtenir une réponse sourcée. L'élection est passée. Ce site change de chapitre : il devient **l'archive transparente de ce qui s'est passé**.
@@ -72,6 +72,8 @@ Notre premier souci, depuis le début, a été la façon dont l'IA traite la mat
 
 ## La pleine mer
 
+{% include ia.html src="assets/images/pleine-mer-thorn.jpg" alt="Caricature de jnxmas, l'auteur du site, à bord d'un bateau de bois dont la proue est un grand þ, aux côtés d'Ò Capistaine qui tient la boussole et la carte, sous un ciel en feu" %}
+
 Ce site n'aurait pas existé sans **Ò Capistaine**, le moteur qui a rassemblé les documents, préparé les contributions et répondu aux questions pendant la campagne. Audierne garde son archive ; le moteur, lui, quitte le port. Son nouveau chapitre s'écrit sur **[ocapistaine.locki.io](https://ocapistaine.locki.io)** : candidat au Challenge Solutions4Good 2026, dont la finale a lieu à Lannion le 26 novembre. Son principe n'a pas changé : *l'IA prépare, le conseil municipal décide.*
 
 Le code reste ouvert : [github.com/locki-io/ocapistaine](https://github.com/locki-io/ocapistaine).
@@ -80,6 +82,6 @@ Le phare a éclairé les deux tours. Il veille désormais sur l'archive, jusqu'�
 
 ---
 
-*Illustration de l'article : générée par IA, vaettir. Ce n'est pas une photographie.*
+*Illustration de l'article : caricature générée par IA (Grok Imagine) à partir d'une caricature de l'auteur, elle aussi générée par IA, avec son accord ; le fichier porte la signature C2PA de son générateur. Ce n'est pas une photographie.*
 
 *Sources des résultats : [franceinfo](https://www.franceinfo.fr/elections/resultats/finistere_29/audierne_29770), [mesinfos.fr](https://mesinfos.fr/elections/municipales-2026/29770-audierne-29003) et [datan.fr](https://datan.fr/elections/resultats/finistere-29/ville_audierne) (premier et second tours, listes du second tour) ; [datarespublica.com](https://www.datarespublica.com/elu/florent-lardic-31b83fc5-0c50-48fd-83d1-58526abf9d86), d'après le Répertoire national des élus (mandat de maire).*
