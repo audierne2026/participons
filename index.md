@@ -6,27 +6,27 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/Blason_fr_Audierne.svg.png
   actions:
-    - label: "Découvrir notre programme"
-      url: /programme/
+    - label: "Ce que devient ce site"
+      url: /annonce/transparence/2026/10/24/apres-le-phare-la-pleine-mer.html
     - label: "Bilan participatif"
       url: /contribuer/
-excerpt: "Premier tour terminé. Second tour le 22 mars 2026.<br/>Quatre listes qualifiées — les alliances se dessinent."
+excerpt: "L'élection est passée.<br/>Ce site est désormais l'archive ouverte de la campagne."
 intro:
-  - excerpt: "Le premier tour des élections municipales d'Audierne-Esquibien s'est tenu le 15 mars 2026. Aucune liste n'a obtenu la majorité absolue. Un second tour est organisé le dimanche 22 mars. Les listes qualifiées disposent jusqu'au mardi 18 mars à 18 h pour déposer leur candidature, éventuellement modifiée."
+  - excerpt: "Les élections municipales d'Audierne-Esquibien se sont tenues les 15 et 22 mars 2026. Au second tour, la liste « Construire l'avenir » l'a emporté avec dix-sept voix d'écart, et Florent Lardic a été élu maire. Ce site reste en ligne comme l'archive ouverte de la campagne, à la disposition de la mairie : [ce que devient ce site](/annonce/transparence/2026/10/24/apres-le-phare-la-pleine-mer.html)."
 feature_row:
   - image_path: /assets/images/audierne_lobster.jpg
     alt: "Programme citoyen"
-    title: "Le programme"
-    excerpt: "Logement, école, santé, environnement, économie — un programme forgé par 36 contributions citoyennes. Lisez-le, comparez-le."
+    title: "Le programme citoyen"
+    excerpt: "Logement, école, santé, environnement, économie : le programme forgé par 36 contributions citoyennes, conservé tel qu'il a été publié."
     url: /programme/
     btn_label: "Lire le programme"
     btn_class: "btn--primary"
   - image_path: /assets/images/drop_audierne.jpg
-    alt: "Règles de l'entre-deux-tours"
-    title: "Entre-deux-tours"
-    excerpt: "Quelles sont les règles entre le premier et le second tour ? Fusions, délais, dépôt des listes — le cadre légal expliqué."
-    url: /entre-deux-tours/
-    btn_label: "Lire les règles"
+    alt: "L'archive ouverte"
+    title: "L'archive ouverte"
+    excerpt: "Comptes rendus, programmes des quatre listes, contributions et sources : tout reste lisible. Corriger, compléter, demander un retrait ou la fermeture : une seule porte, les issues GitHub."
+    url: https://github.com/audierne2026/participons/issues
+    btn_label: "Ouvrir une issue"
     btn_class: "btn--primary"
   - image_path: /assets/images/anchor_intergeneration.jpg
     alt: "Transparence totale"
@@ -43,19 +43,20 @@ feature_row:
 
 {% include feature_row %}
 
-## Ce qui nous distingue
+## Ce que l'archive garde
 
-- **Vous avez parlé, nous avons écouté** : 36 contributions citoyennes intégrées dans le programme
-- **Tout est vérifiable** : Code source ouvert, chaque modification traçable, chaque source citée
-- **Pas de promesses creuses** : Des propositions ancrées dans les réalités locales, sourcées et chiffrées
+- **Vos 36 contributions** : intégrées au programme citoyen, et conservées ici avec leurs sources
+- **Tout reste vérifiable** : code source ouvert, chaque modification traçable, chaque source citée
+- **L'IA le dit** : chaque image générée par IA qui représente une personne porte le bandeau « générée par IA » et l'icône européenne
 
 ## Le chemin parcouru
 
 1. **Décembre 2025** : Lancement — vous nous avez dit ce qui compte
 2. **Janvier 2026** : Vos 36 contributions contextualisées et débattues
 3. **Février 2026** : Programme finalisé avec vos priorités
-4. **Mars 2026** : Le phare a éclairé le premier tour — place au second
+4. **Mars 2026** : Le phare a éclairé les deux tours ([les règles de l'entre-deux-tours]({{ "/entre-deux-tours/" | relative_url }}))
+5. **Octobre 2026** : Le site devient l'archive ouverte de la campagne
 
 ---
 
-[Lire le programme]({{ "/programme/" | relative_url }}){: .btn .btn--primary} [Règles de l'entre-deux-tours]({{ "/entre-deux-tours/" | relative_url }}){: .btn .btn--primary} [Nous contacter]({{ "/contact/" | relative_url }}){: .btn .btn--inverse}
+[Lire le programme]({{ "/programme/" | relative_url }}){: .btn .btn--primary} [Proposer une correction](https://github.com/audierne2026/participons/issues){: .btn .btn--primary} [Nous contacter]({{ "/contact/" | relative_url }}){: .btn .btn--inverse}
