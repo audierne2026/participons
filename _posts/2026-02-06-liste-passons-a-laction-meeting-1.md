@@ -19,6 +19,8 @@ Voici l'analyse consolidée et détaillée de la réunion publique tenue par Did
 
 [![Passons à l'action]({{ "assets/images/didier-guillon-onstage.png" | relative_url }} "Didier Guillon")]
 
+*Illustration : caricature dessinée, générée par IA et vérifiée par l'équipe. Ce n'est pas une photographie.*
+
 # Synthèse Globale
 
 Cette réunion publique s'inscrit dans un contexte pré-électoral tendu à l'approche des élections municipales de mars 2026.

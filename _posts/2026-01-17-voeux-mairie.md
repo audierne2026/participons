@@ -20,6 +20,8 @@ En ce début janvier 2026, la cérémonie des vœux du maire de **Audierne** (Fi
   Votre navigateur ne supporte pas la lecture vidéo.
 </video>
 
+*Image d'affiche de la vidéo : caricature dessinée, générée par IA et vérifiée par l'équipe. Ce n'est pas une photographie.*
+
 Le discours a aussi dressé un bilan 2025 riche et un état des lieux multi-niveaux :
 
 - **Enjeux extérieurs** : mobilisation contre le Mercosur et critique du centralisme (Bruxelles/Paris) ; victoire juridique locale contre le Comité régional des pêches sur la pêche aux 4 panneaux (soutien à la pêche artisanale du port d’Audierne) ; attente toujours sans réponse sur le changement de nom en **Audierne-Esquibien** (plébiscité à 69,5 % lors de la consultation citoyenne 2025).

@@ -18,6 +18,8 @@ header:
 
 [![Éric Bosser]({{ "assets/images/bosser-eric.png)" | relative_url }} "Réunion publique Éric Bosser")]
 
+*Illustration : caricature dessinée, générée par IA et vérifiée par l'équipe. Ce n'est pas une photographie.*
+
 # Réunion publique de campagne — Liste menée par Éric Bosser
 
 ## 1. Synthèse de la réunion
