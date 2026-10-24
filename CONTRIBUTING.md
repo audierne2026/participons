@@ -23,7 +23,7 @@ Ces règles ont tenu pendant la campagne ; elles tiennent pour chaque correction
 1. **Les quatre listes à égalité.** Une correction ne favorise ni ne dessert une liste ; l'ordre de présentation n'est pas un choix éditorial.
 2. **Une source, ou rien.** Chaque affirmation de l'archive renvoie à un document public ou à une contribution citoyenne.
 3. **Les images disent d'où elles viennent.** Une photo est créditée ; une source tierce est nommée ; une image générée par IA qui représente une personne réelle porte, sur l'image, le bandeau « Caricature générée par IA » et l'icône européenne, et la même mention dans le fichier. Nous gardons trace de la source de chaque image générée.
-4. **Les personnes privées sont protégées.** Aucune donnée personnelle d'un particulier ; une personne qui n'est ni élue ni candidate n'apparaît pas sans son accord.
+4. **Les personnes privées sont protégées.** Aucune donnée personnelle d'un particulier (adresse, téléphone, situation privée). Une personne qui n'est ni élue ni candidate n'est nommée que dans le récit d'un événement public auquel elle a pris part, n'est jamais représentée en image sans son accord, et peut demander à tout moment le retrait de son nom.
 5. **Une personne décide.** Chaque demande est lue par un membre de l'équipe ; l'IA aide à préparer, elle ne décide pas. Un refus est toujours expliqué.
 
 ## Corriger vous-même (pull request)
