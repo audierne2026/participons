@@ -1,81 +1,50 @@
-# Contribuer à audierne2026
+# audierne2026 : une archive ouverte
 
-Merci de vouloir améliorer [audierne2026.fr](https://audierne2026.fr). Tout se passe ici, sur ce dépôt GitHub : c'est la seule porte, ouverte à toutes et à tous.
+La campagne municipale de mars 2026 est terminée. Il n'y a plus de programme à co-construire : [audierne2026.fr](https://audierne2026.fr) est désormais **l'archive transparente de ce qui s'est passé pendant l'élection** — les réunions publiques, les programmes des quatre listes, les contributions citoyennes, et la façon dont tout cela a été rassemblé.
 
-| Vous voulez… | Ouvrez |
+Tout y est **à la disposition de la mairie en place**, pour s'en servir ou pour demander que tout ou partie soit retiré. Une seule porte pour cela, ouverte à toutes et à tous : **les [issues](https://github.com/audierne2026/participons/issues) de ce dépôt GitHub**.
+
+## Ce que vous pouvez demander
+
+| Vous voulez… | Ouvrez une issue et dites-nous |
 |---|---|
-| signaler une erreur, une source manquante, une formulation injuste | une **[issue](https://github.com/audierne2026/participons/issues)** |
-| discuter d'une idée avant d'en faire un changement | une **[discussion](https://github.com/audierne2026/participons/discussions)** |
-| modifier une page vous-même | une **[pull request](https://github.com/audierne2026/participons/pulls)** (voir plus bas) |
+| **corriger** une erreur, une citation, une date | ce qui est faux, et la source qui le montre |
+| **compléter** une source manquante | le lien vers le document public |
+| **retirer** une image, un passage ou une page qui vous concerne | ce qui doit être retiré, et en quoi vous êtes concerné·e |
+| **fermer** le site, ou une partie (pour la mairie) | ce qui doit être fermé ; une demande de la mairie est appliquée |
+| **utiliser** un contenu (pour la mairie, les associations, chacun) | ce que vous voulez reprendre : nous vous indiquons l'origine de chaque texte et de chaque image (voir *Licence*) |
 
-Pas besoin de savoir coder : une issue bien sourcée vaut autant qu'une pull request.
+Une **demande de retrait passe avant tout le reste**. Les caricatures générées par IA de personnalités publiques sont corrigées ou retirées sur demande de la personne représentée, comme l'annonce la page [À propos](https://audierne2026.fr/a-propos/).
 
-## Ce que nous vous demandons
+## Ce que l'archive garantit
 
-Depuis le début, notre premier souci est la façon dont l'IA et l'équipe traitent la matière démocratique d'une commune. Ces règles valent pour chaque proposition, la nôtre comprise.
+Ces règles ont tenu pendant la campagne ; elles tiennent pour chaque correction de l'archive, la nôtre comprise. Notre premier souci, depuis le début, est la façon dont l'IA et l'équipe traitent la matière démocratique d'une commune.
 
-### 1. Les quatre listes à égalité
+1. **Les quatre listes à égalité.** Une correction ne favorise ni ne dessert une liste ; l'ordre de présentation n'est pas un choix éditorial.
+2. **Une source, ou rien.** Chaque affirmation de l'archive renvoie à un document public ou à une contribution citoyenne.
+3. **Les images disent d'où elles viennent.** Une photo est créditée ; une source tierce est nommée ; une image générée par IA qui représente une personne réelle porte, sur l'image, le bandeau « Caricature générée par IA » et l'icône européenne, et la même mention dans le fichier. Nous gardons trace de la source de chaque image générée.
+4. **Les personnes privées sont protégées.** Aucune donnée personnelle d'un particulier ; une personne qui n'est ni élue ni candidate n'apparaît pas sans son accord.
+5. **Une personne décide.** Chaque demande est lue par un membre de l'équipe ; l'IA aide à préparer, elle ne décide pas. Un refus est toujours expliqué.
 
-- Aucune formulation ne favorise ni ne dessert une liste.
-- Quand vous comparez les listes sur un point, citez-les toutes sur ce point, ou dites pourquoi l'une manque (par exemple : « pas de position publique trouvée »).
-- L'ordre de présentation n'est pas un choix éditorial : gardez celui du site.
+## Corriger vous-même (pull request)
 
-### 2. Une source, ou rien
-
-- Chaque affirmation renvoie à un **document public** (délibération, programme, compte rendu, article) ou à une **contribution citoyenne** de ce dépôt, avec un lien.
-- Pas de capture de message privé, pas de propos rapporté sans source.
-
-### 3. Les images disent d'où elles viennent
-
-| Votre image est… | Dites-nous |
-|---|---|
-| une **photo que vous avez prise** | que vous en êtes l'auteur, et le nom à créditer (« Photo : … ») |
-| une **photo de quelqu'un d'autre** | sa source (lien) et son auteur s'il est connu : nous vérifions qu'elle peut être publiée |
-| une **image générée par IA** | l'outil, et l'image ou la photo dont elle part, s'il y en a une |
-
-Une image générée par IA qui représente une personne réelle est toujours signalée : sur la page, elle passe par `{% include ia.html src="…" alt="…" %}`, qui pose le bandeau « Caricature générée par IA » et l'icône européenne. N'incrustez pas de filigrane dans l'image : nous ne modifions jamais les pixels. Nous ajoutons nous-mêmes la mention « généré par IA » dans le fichier.
-
-Une image générée qui pourrait passer pour une vraie photo d'une personne ou d'un lieu n'est jamais publiée sans cette déclaration.
-
-### 4. Les personnes privées sont protégées
-
-- Aucune donnée personnelle d'un particulier (adresse, téléphone, courriel, situation privée).
-- Une personne qui n'est ni élue ni candidate n'apparaît pas, en image ou par son nom, sans son accord.
-
-### 5. L'IA dans votre texte
-
-Vous avez utilisé une IA pour rédiger ou traduire ? Dites-le dans la description. Ce n'est pas un défaut, c'est une information pour la relecture.
-
-### 6. La charte de contribution
-
-Les contributions citoyennes suivent la [charte de contribution](https://audierne2026.fr/contribuer/#charte-de-contribution).
-
-## Ce que fait l'équipe ensuite
-
-- **Une personne lit chaque proposition** avant qu'elle n'atteigne le site. L'IA aide à trier et à préparer, elle ne décide pas.
-- Nous vérifions l'égalité des listes, les sources et l'origine des images ; nous ajoutons la mention dans le fichier des images générées et nous gardons trace de leur source.
-- Nous répondons sous votre issue ou votre pull request. Un refus est toujours expliqué.
-- Une pull request fusionnée dans `main` republie [audierne2026.fr](https://audierne2026.fr) automatiquement.
-
-## Proposer une pull request
+Pour une correction précise, vous pouvez aussi proposer la modification directement :
 
 1. *Forkez* le dépôt et créez une branche.
-2. Modifiez :
-   - un article : `_posts/AAAA-MM-JJ-titre.md` (le format est celui des articles existants) ;
-   - une page : `_pages/` ;
-   - une synthèse thématique : `docs/<catégorie>/README.md`.
+2. Corrigez la page concernée : un compte rendu dans `_posts/`, une page dans `_pages/`, une synthèse dans `docs/<catégorie>/`.
 3. Si vous le pouvez, prévisualisez : `bundle install` puis `bundle exec jekyll serve`, et ouvrez http://127.0.0.1:4000/.
-4. Ouvrez la pull request vers `main` et recopiez cette liste dans sa description :
+4. Ouvrez la pull request vers `main`, en recopiant cette liste dans sa description :
 
 ```markdown
-- [ ] les quatre listes sont traitées à égalité
-- [ ] chaque affirmation a sa source (lien)
-- [ ] chaque image : photo créditée, ou source et auteur donnés, ou IA déclarée (outil + image de départ)
+- [ ] les quatre listes restent traitées à égalité
+- [ ] la correction a sa source (lien)
+- [ ] toute image ajoutée ou changée dit d'où elle vient (photo créditée, source tierce nommée, ou IA déclarée avec son outil et son image de départ)
 - [ ] aucune donnée personnelle d'un particulier ; aucune personne privée sans son accord
 - [ ] l'usage d'une IA pour le texte est indiqué, s'il y en a eu
-- [ ] aperçu local vérifié (si possible)
 ```
+
+Une pull request fusionnée dans `main` republie le site automatiquement.
 
 ## Licence
 
-Ce dépôt est publié sous [licence MIT](LICENSE.md) : votre contribution l'est aussi.
+Le code et les textes écrits par l'équipe sont sous [licence MIT](LICENSE.md). Les documents de tiers gardent leurs auteurs : programmes des listes, documents et délibérations municipaux, articles de presse cités. Les images ont chacune leur origine : photo de l'équipe, source tierce, image générée. Demandez-nous l'origine d'un contenu avant de le reprendre.
