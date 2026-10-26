@@ -4,6 +4,8 @@ La campagne municipale de mars 2026 est terminée. Il n'y a plus de programme à
 
 Tout y est **à la disposition de la mairie en place**, pour s'en servir ou pour demander que tout ou partie soit retiré. Une seule porte pour cela, ouverte à toutes et à tous : **les [issues](https://github.com/audierne2026/participons/issues) de ce dépôt GitHub**.
 
+Une demande qui vous concerne personnellement (votre nom, une image de vous, une contribution que vous avez déposée) peut aussi se faire **par email, sans rien publier** : audierne2026@gmail.com (voir la [politique de confidentialité](https://audierne2026.fr/privacy/)).
+
 ## Ce que vous pouvez demander
 
 | Vous voulez… | Ouvrez une issue et dites-nous |

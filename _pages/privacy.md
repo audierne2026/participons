@@ -5,36 +5,21 @@ permalink: /privacy/
 classes: wide
 ---
 
-Dernière mise à jour : 17 décembre 2025
+Dernière mise à jour : 26 octobre 2026
 
-Ce site est hébergé sur **GitHub Pages** et ne collecte **aucune donnée personnelle identifiable** de manière directe.
+Ce site est l'archive de la campagne municipale 2026. Il est hébergé sur **GitHub Pages** et ne collecte **aucune donnée personnelle** de ses visiteurs.
 
-## 1. Données collectées
+## 1. Mesure d'audience
 
-Le site n’utilise **aucun cookie de suivi tiers** ni de stockage local persistant pour identifier les visiteurs.
+Le site **ne mesure plus son audience**, depuis octobre 2026 : aucun cookie, aucun script tiers de mesure. Une archive n'a pas besoin de compter ses visiteurs.
 
-La seule analyse effectuée concerne **l’audience anonyme** via **Google Analytics** (GA4) dans le respect des recommandations de la CNIL et du RGPD :
+## 2. Ce qui est publié sur le site
 
-- **Adresse IP anonymisée** (fonction `anonymize_ip` activée)
-- **Consent Mode v2** de Google activé : les données d’analyse ne sont envoyées qu’**après votre consentement explicite** via le bandeau cookie
-- Aucune donnée personnelle (nom, email, etc.) n’est collectée par le site lui-même
-
-## 2. Bandeau de consentement
-
-Un bandeau de consentement léger (CookieConsent) vous informe de l’utilisation de Google Analytics.
-
-- Si vous **refusez**, aucune donnée d’analyse n’est transmise à Google.
-- Si vous **acceptez**, les données anonymisées sont envoyées pour améliorer le contenu du site.
-
-Vous pouvez changer d’avis à tout moment en rafraîchissant la page (le bandeau réapparaît après suppression des cookies locaux).
+Le site publie les comptes rendus des réunions publiques, les programmes des quatre listes et les contributions citoyennes. Une personne qui n'est ni élue ni candidate n'y est nommée que dans le récit d'un événement public auquel elle a pris part, et n'y est jamais représentée en image sans son accord.
 
 ## 3. Formulaires de contribution
 
-Les formulaires thématiques (logement, associations, école/jeunesse, économie, environnement, culture & patrimoine) sont hébergés sur **Framaforms** (service associatif français de Framasoft).
-
-- Framaforms est **100 % RGPD-compliant** : aucune publicité, aucun tracking tiers, données hébergées en France.
-- Les réponses sont envoyées uniquement à l’équipe de la liste citoyenne (audierne2026@gmail.com) pour traitement interne.
-- Aucune donnée n’est revendue ou transmise à des tiers.
+Pendant la phase de contribution (décembre 2025 – février 2026), des formulaires thématiques étaient hébergés sur **Framaforms** (service associatif français de Framasoft). Ils sont fermés. Les réponses ont été reçues par l'équipe (audierne2026@gmail.com), n'ont été ni revendues ni transmises à des tiers, et vous pouvez demander à y accéder ou à les faire supprimer (section 5).
 
 ## 4. Hébergement
 
@@ -42,9 +27,9 @@ Le site est hébergé par **GitHub Pages** (Microsoft/GitHub Inc.). GitHub peut 
 
 ## 5. Vos droits
 
-Conformément au RGPD, vous disposez d’un droit d’accès, de rectification et de suppression des données vous concernant.
+Conformément au RGPD, vous disposez d’un droit d’accès, de rectification et de suppression des données vous concernant : votre nom dans un compte rendu, une image de vous, une contribution que vous avez déposée.
 
-Pour toute demande, contactez-nous à : **audierne2026@gmail.com**
+Une telle demande se fait **par email, sans rien publier** : **audierne2026@gmail.com**. Elle passe avant toute autre.
 
 ## 6. Contact
 
