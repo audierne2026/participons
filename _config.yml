@@ -38,12 +38,6 @@ social:
   links:
     - "https://github.com/audierne2026/participons"
 
-# Analytics (optional - add when ready)
-analytics:
-  provider: "google-gtag"
-  google:
-    tracking_id: "G-DTQDSYMKL5"
-
 # Site Footer
 footer:
   links:

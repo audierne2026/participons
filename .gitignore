@@ -45,7 +45,11 @@ Thumbs.db
 
 # claude instructions
 CLAUDE.md
+# public repo: the whole folder stays local, an exception to althing#339
+# (its settings name the internal paths)
 .claude/
+# the realm's context file names the private tracker: local only
+.zeitgit-context
 
 # vaettir airlock symlink (operator-local helper visualization)
 locki
