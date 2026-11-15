@@ -12,8 +12,10 @@ header:
   teaser: /assets/images/lancement_fb_2.jpg
 ---
 
+*Note d'archive : la page Facebook audierne2026 a été fermée en novembre 2026, une fois la campagne terminée. L'article est conservé tel qu'il a été publié ; les liens vers la page ont été retirés. Ce que nous avons construit reste sur ce site : [ce que devient ce site](/annonce/transparence/2026/10/24/apres-le-phare-la-pleine-mer.html).*
+
 🌊 **Audierne 2026 : Un nouvel élan pour notre commune !** 🌊
-[![Page Facebook](/assets/images/lancement_fb_2.jpg "Lancement FB")](https://www.facebook.com/audierne2026/)
+![Page Facebook](/assets/images/lancement_fb_2.jpg "Lancement FB")
 
 Chers Audiernais et Esquibiens,
 
@@ -27,7 +29,7 @@ Audierne-Esquibien mérite un avenir ambitieux :
 
 Nous croyons en un renouveau collectif, loin des conflits passés, pour bâtir ensemble la commune que nous aimons.
 
-👉 [Suivez cette page](https://www.facebook.com/audierne2026/) **pour découvrir notre vision, nos idées !**  
+👉 Suivez cette page **pour découvrir notre vision, nos idées !**  
 Actualités, échanges... Tout commence ici !
 
 #Audierne2026 #Municipales2026 #AudierneEsquibien #CapSizun #Renouveau
